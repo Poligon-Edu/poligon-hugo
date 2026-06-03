@@ -13,7 +13,7 @@ fișierelor), serverul trebuie relansat. În rest, modificările de conținut
 și de aspect se sincronizează în timp real.
 
 ## Fișiere și directoare importante
-- `hugo.yaml`: fișierul de descriere și configurare principală;
+- `hugo.toml`: fișierul de descriere și configurare principală;
 - `assets/_custom.scss`: fișierul principal de configurare a aspectului;
 - `layouts/partials/docs/inject/{head,menu-after}.html`: conținut HTML de injectat (**modificarea lor necesită repornirea serverului**);
 
