@@ -4,7 +4,8 @@ folosind [Hugo](https://gohugo.io/), tema [Book](https://book.alxs.dev/docs/gett
 
 ## Instalare și test local
 - instalează `hugo`;
-- din directorul proiectului, lansează `hugo server`;
+- clonează repository-ul: `git clone https://github.com/Poligon-Edu/poligon-hugo.git`;
+- din directorul proiectului (`cd poligon-hugo`), lansează `hugo server`;
 - deschide în browser `http://localhost:1313`.
 
 **Important:** La schimbări majore (e.g. conținutul folderelor sau numele
