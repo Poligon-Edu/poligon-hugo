@@ -1,0 +1,47 @@
+baseURL = "https://poligon-edu.ro/"
+title = "Poligon Educational"
+theme = "hugo-book"
+
+disableKinds = ["taxonomy"]
+
+# Language Inversion Defaults
+defaultContentLanguage = "ro"
+defaultContentLanguageInSubdir = false
+
+# ==========================================
+# GLOBAL LAYOUT SETTINGS
+# ==========================================
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookSearch = true
+  BookLogo = "images/logo.png"
+
+# ==========================================
+# SPLIT CONTENT ARCHITECTURE
+# ==========================================
+[languages]
+  [languages.ro]
+    languageName = "Română"
+    contentDir = "content/ro"
+    weight = 1
+
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+
+# ==========================================
+# MARKUP PARSER ENGINE
+# ==========================================
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# ==========================================
+# THIRD-PARTY SERVICES
+# ==========================================
+[services]
+  [services.googleAnalytics]
+    id = "G-2SJLNGNK0T"
