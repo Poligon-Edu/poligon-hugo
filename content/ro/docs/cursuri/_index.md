@@ -114,7 +114,7 @@ Dacă ai între 13 și 17 ani și locuiești în București, înscrie-te în clu
 ---
 
 ## Curios?
-Programează o ședință de consultanță gratuită prin [email](mailto:adrianmanea@poligon-edu.ro) sau 
-[WhatsApp](https://wa.me/40750408128) și hai să alcătuim împreună cursul pe care ți-l dorești!
+Programează o ședință de consultanță gratuită prin pagina de **[contact]({{< ref path="contact.md" lang="ro" >}})**
+și hai să alcătuim împreună cursul pe care ți-l dorești!
 
 Scrie-ne și dacă ai întrebări, neclarități sau propuneri!

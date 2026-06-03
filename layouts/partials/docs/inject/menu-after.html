@@ -3,17 +3,17 @@
     <div class="language-toggle-container" style="flex: 1;">
         {{ if .IsTranslated }}
             {{ range .Translations }}
-            <a href="{{ .Permalink }}" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--body-font-color); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
+            <a href="{{ .Permalink }}" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--navy); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
                 {{ if eq .Lang "en" }}🇬🇧 English{{ else }}🇷🇴 Română{{ end }}
             </a>
             {{ end }}
         {{ else }}
             {{ if eq .Lang "ro" }}
-            <a href="/en/" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--body-font-color); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
+            <a href="/en/" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--navy); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
                 🇬🇧 English
             </a>
             {{ else }}
-            <a href="/" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--body-font-color); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
+            <a href="/" style="display: flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid var(--gray-200); color: var(--navy); border-radius: 4px; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; box-sizing: border-box;">
                 🇷🇴 Română
             </a>
             {{ end }}
@@ -21,7 +21,7 @@
     </div>
 
     <div class="theme-toggle-container" style="flex: 1;">
-        <button id="theme-toggle" style="background: none; border: 1px solid var(--gray-200); color: var(--body-font-color); height: 2.5rem; border-radius: 4px; cursor: pointer; font-family: inherit; font-size: 0.9rem; font-weight: 500; width: 100%; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; box-sizing: border-box;">
+        <button id="theme-toggle" style="background: none; border: 1px solid var(--gray-200); color: var(--navy); height: 2.5rem; border-radius: 4px; cursor: pointer; font-family: inherit; font-size: 0.9rem; font-weight: 500; width: 100%; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; box-sizing: border-box;">
             🌙 Mod întunecat
         </button>
     </div>

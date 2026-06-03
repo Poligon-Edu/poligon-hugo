@@ -11,6 +11,7 @@ params:
   BookTheme: "auto"
   BookToC: true
   BookSearch: true
+  BookLogo: "images/logo.png"
 
 # Split Content Architecture
 languages:

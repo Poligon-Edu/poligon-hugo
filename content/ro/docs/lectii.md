@@ -2,17 +2,6 @@
 title: Lecții private
 weight: 1
 ---
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
 ![Lecții private](/images/tutoring.avif)
 
 # Lecții private
@@ -34,7 +23,7 @@ dar și didactică sînt: **matematică, informatică, fizică**.
 ori ai emoții pentru o testare națională (evaluare, bacalaureat) sau internațională (SAT, IB, GRE), sau ai 
 probleme în sesiunea de examen (sau de restanțe) avem experiența și pregătirea necesară ca să te ajutăm.
 
-* Învățăm în *română*, *engleză* sau *franceză*. Yes, we work with [international students](english.html)!
+* Învățăm în *română*, *engleză* sau *franceză*. Yes, we work with [international students]({{< ref path="_index.md" lang="en" >}})!
 Mai mult, dacă nivelul tău al unei limbi străine nu este la capacitatea dorită, îți putem oferi 
 lecții complementare care să te familiarizeze mai întîi cu termenii de specialitate. 
 Duolingo nu prea te învață ce înseamnă *manifold*, *eigenvalue* sau *série entière*, nu-i așa? Noi te ajutăm!
@@ -54,7 +43,7 @@ Oricum, grupele nu vor depăși 3-4 elevi sau studenți și le vom alcătui numa
 Dar, dacă nu ești confortabil într-un grup, spune-ne și lucrăm individual.
 
 ## Înscrie-te
-Scrie-ne un [email](mailto:adrianmanea@poligon-edu.ro) sau un
-mesaj pe [WhatsApp](https://wa.me/40750408128) și hai să învățăm împreună! 
+Folosește pagina de **[contact]({{< ref path="contact.md" lang="ro" >}})** și programează o discuție
+inițială pentru consultanță.
 
 Scrie-ne și dacă ai întrebări, neclarități sau propuneri!

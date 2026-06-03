@@ -3,28 +3,28 @@
 
 // 2. LIGHT THEME CONFIGURATION (Your exact tokens)
 :root, html[data-theme="light"] {
-  --body-background: #fffdf0;       // Warm Cream Base
-  --body-font-color: #3b4758;       // Deep Slate text
-  --color-visited-link: #aa424e;            // Crimson Accent
-  --color-link: #008e80;    // Emerald Accent
+  --ivory: #fffdf0;       // Warm Cream Base
+  --navy: #3b4758;       // Deep Slate text
+  --burgundy: #aa424e;            // Crimson Accent
+  --teal: #008e80;        // Emerald Accent
   --gray-100: #f7f4e6;              // Soft tinted elements (Code backings)
   --gray-200: #e8e4d3;              // Muted guidelines
 }
 
 // 3. DARK THEME CONFIGURATION (Elegant inverted equivalents)
 html[data-theme="dark"] {
-  --body-background: #3b4758;       // Dark variant of your Slate color
-  --body-font-color: #fffdf0;       // Cream text
-  --color-link: #e56a77;            // Brightened Crimson for readability
-  --color-visited-link: #26bdae;    // Brightened Emerald for readability
+  --ivory: #3b4758;       // Dark variant of your Slate color
+  --navy: #fffdf0;       // Cream text
+  --teal: #e56a77;            // Brightened Crimson for readability
+  --burgundy: #26bdae;    // Brightened Emerald for readability
   --gray-100: #242b37;              // Deep inset code block backgrounds
   --gray-200: #2d3748;              // Dark borders
 }
 
 // 4. UNIFY GLOBAL LAYOUT BACKGROUNDS (Fixes Sidebar Color Mismatch)
 body, html, .book-menu, .book-page, .book-navigation, .book-header {
-  background-color: var(--body-background) !important;
-  color: var(--body-font-color) !important;
+  background-color: var(--ivory) !important;
+  color: var(--navy) !important;
 }
 
 // 5. STRUCTURE GENERAL DESIGN
@@ -37,12 +37,24 @@ body, html, button, input {
   font-family: 'Literata', serif;
   font-size: 17px;
   line-height: 1.7;
-  color: var(--body-font-color);
+  color: var(--navy);
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Finlandica', sans-serif;
-    color: var(--body-font-color);
+    color: var(--navy);
     font-weight: 700;
+  }
+
+  h1 {
+    margin-bottom: 5rem !important;
+  }
+
+  a {
+    color: var(--teal) !important;
+    &:hover, &.active {
+      color: var(--burgundy) !important;
+      opacity: 1.0 !important;
+    }
   }
 }
 
@@ -51,10 +63,11 @@ body, html, button, input {
   border-right: 1px solid var(--gray-200);
 
   nav a {
-    color: var(--body-font-color) !important;
-    
+    color: var(--navy) !important;
+
     &:hover, &.active {
-      color: var(--color-link) !important;
+      color: var(--burgundy) !important;
+      opacity: 1.0 !important;
     }
   }
 }
@@ -62,7 +75,7 @@ body, html, button, input {
 // Tables and Search Input elements mapping
 .book-search input {
   background-color: var(--gray-100) !important;
-  color: var(--body-font-color) !important;
+  color: var(--navy) !important;
   border: 1px solid var(--gray-200) !important;
 }
 
@@ -70,17 +83,17 @@ body, html, button, input {
 code, pre, kbd, samp {
   font-family: 'IBM Plex Mono', monospace !important;
   background-color: var(--gray-100) !important;
-  color: var(--body-font-color);
+  color: var(--navy);
 }
 
 // Highlights blockquotes
 blockquote {
-  border-left: 4px solid var(--color-link) !important;
+  border-left: 4px solid var(--teal) !important;
   background-color: var(--gray-100);
-  color: var(--body-font-color);
+  color: var(--navy);
   padding: 0.75rem 1rem;
   margin: 1.5rem 0;
-  
+
   p { font-style: italic; }
 }
 
@@ -90,7 +103,7 @@ blockquote {
 
 // We remove the strict ">" after .book-menu so it finds the nav wherever it is
 .book-menu nav > ul > li {
-  
+
   // 1. Targets Top-Level Items Only (Standalone links & expandable folder labels)
   > a, > label, > span {
     font-size: 1.3rem !important;  
@@ -98,7 +111,7 @@ blockquote {
     display: inline-block !important;
     margin-top: 0.6rem !important;   
     letter-spacing: -0.01em;
-    color: var(--color-link) !important;
+    color: var(--teal) !important;
   }
 
   // 2. Targets All Sub-Items Nested Inside Folders
@@ -114,7 +127,8 @@ blockquote {
 // 9. BRAND SITE TITLE CUSTOMIZATION
 // ==========================================
 .book-brand {
-  margin-bottom: 1rem !important; // Controls spacing above search bar
+  margin-bottom: 2rem !important; // Controls spacing above search bar
+  margin-top: 2rem !important;
 
   a {
     font-family: 'Finlandica', sans-serif; // Your primary signature UI font
@@ -123,10 +137,10 @@ blockquote {
     color: #3b4758 !important;             // Your exact Deep Slate Blue token
     letter-spacing: -0.03em;               // Clean, tight kerning for a logo feel
     text-decoration: none !important;
-    
+
     // Optional transition effect
     &:hover {
-      color: #aa424e !important;           // Shifts to Crimson Red on hover
+      color: var(--burgundy) !important;
     }
   }
 }
@@ -161,7 +175,7 @@ blockquote {
 // small privacy & cookies
 .book-menu nav a[href*="privacy"],
 .book-menu nav a[href*="cookies"] {
-  color: var(--body-font-color) !important;
+  color: var(--navy) !important;
   font-weight: 500 !important;
   font-size: small !important;
 }
@@ -171,18 +185,18 @@ blockquote {
 // ==========================================
 
 .book-toc {
-  // 1. Unify the column environment
-  border-left: 1px solid var(--gray-200); // Subtle dividing line on the left side
-  padding: 1rem;
+  // 1. Structural Column Layout & Symmetric Margins
+  border-left: 1px solid var(--gray-200);
+  padding: 0.1rem 0.1rem !important; // Perfectly balances the left and right breathing room
 
   nav {
-    font-family: 'Finlandica', sans-serif; // Matches your primary UI navigation font
+    font-family: 'Finlandica', sans-serif;
   }
 
-  // 2. Style the "On this page" column header text (if visible)
+  // 2. Style the "On this page" Title Header (if your theme displays it)
   strong, h5 {
     font-family: 'Finlandica', sans-serif;
-    color: var(--body-font-color);
+    color: var(--navy);
     font-size: 0.9rem !important;
     font-weight: 700 !important;
     text-transform: uppercase;
@@ -191,36 +205,82 @@ blockquote {
     margin-bottom: 0.75rem;
   }
 
-  // 3. Style the main outline links (Matches your H2 headings in text)
-  #TableOfContents a {
-    color: var(--body-font-color) !important;
-    font-size: 0.95rem !important; // Sleek, slightly smaller reading size
-    font-weight: 400;
-    line-height: 1.4;
-    display: inline-block;
-    padding: 0.25rem 0;
-    transition: all 0.2s ease;
+  // 3. Centralized Table of Contents Element Target
+  #TableOfContents {
 
-    &:hover {
-      color: var(--color-link) !important; // Highlights Crimson Red on mouse hover
-      text-decoration: none !important;
+    // Obliterates the massive default browser list shifting for the main level
+    > ul {
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+      list-style: none !important;
     }
-  }
 
-  // 4. Style deeply nested items (Matches H3, H4 subheadings inside your lesson)
-  #TableOfContents ul ul {
-    padding-left: 0.8rem;                  // Indents sub-headers nicely to the right
-    border-left: 1px solid var(--gray-200); // Adds a vertical alignment guide line
-    margin-left: 0.2rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
+    // Completely flattens list items to stay square with the container boundaries
+    li {
+      list-style: none !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
 
+    // Styles Main Level Headings (H2 equivalent links)
     a {
-      font-size: 0.85rem !important;       // Makes sub-headings smaller than main headers
-      color: var(--body-font-color);
-      opacity: 0.85;                       // Slightly softens sub-items so they don't crowd the eye
+      color: var(--navy) !important;
+      font-size: 1.0rem !important;
+      font-weight: 400;
+      line-height: 1.4;
+      display: inline-block;
+      padding: 0.25rem 0;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: var(--teal) !important; // Highlights smooth custom teal color on hover
+        text-decoration: none !important;
+      }
+    }
+
+    // Styles Nested Subheadings (H3, H4 equivalent deeper levels)
+    ul ul {
+      padding-left: 0.8rem !important;       // Clean, intentional, tight indentation
+      margin-left: 0 !important;
+      margin-top: 0.1rem;
+      margin-bottom: 0.1rem;
+      border-left: 1px solid var(--gray-200); // Visual depth line separating sub-items
+
+      a {
+        font-size: 0.9rem !important;
+        color: var(--navy) !important;
+        opacity: 0.85;                       // Slightly softer focus so top headers stand out
+      }
     }
   }
+}
+
+// ==========================================
+// BRAND LOGO & TEXT PERFECT ALIGNMENT
+// ==========================================
+
+.book-brand {
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important; 
+
+  // Targets the link containing both the image and text
+  a {
+    display: flex !important;
+    align-items: center !important;    // PERFECTLY CENTERS LOGO AND TEXT VERTICALLY
+    gap: 0.75rem !important;           // Clean horizontal spacing between icon and text
+    text-decoration: none !important;
+  }
+}
+
+.book-brand img {
+  max-height: 48px !important;       // Slightly adjusted for a balanced side-by-side look
+  width: auto !important;
+  margin-bottom: 0 !important;       // RESET THIS so it doesn't push the icon up!
+  margin-top: 0 !important;
+
+  // Smooth circular look
+  border-radius: 50%;             
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); 
 }
 
 // ==========================================
@@ -231,3 +291,4 @@ blockquote {
   flex-direction: column !important;
   height: 100vh !important; // Forces container to match 100% of the screen height
 }
+
