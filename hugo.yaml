@@ -1,0 +1,35 @@
+baseURL: https://poligon-edu.ro/
+title: Poligon Educational
+theme: hugo-book
+
+# Language Inversion Defaults
+defaultContentLanguage: ro
+defaultContentLanguageInSubdir: true 
+
+# Global layout settings applied to both spaces
+params:
+  BookTheme: "auto"
+  BookToC: true
+  BookSearch: true
+
+# Split Content Architecture
+languages:
+  ro:
+    languageName: "Română"
+    contentDir: content/ro
+    weight: 1
+  en:
+    languageName: "English"
+    contentDir: content/en
+    weight: 2
+
+disableKinds: ["taxonomy"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+services:
+  googleAnalytics:
+    id: G-2SJLNGNK0T

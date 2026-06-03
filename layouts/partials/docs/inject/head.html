@@ -1,0 +1,9 @@
+<script>
+  // Instantly apply dark/light preference before the page paints
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+</script>
+
+<link rel="icon" href="/favicon.png" type="image/png">
+
+{{ template "_internal/google_analytics.html" . }}

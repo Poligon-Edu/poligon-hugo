@@ -1,0 +1,8 @@
+# Hugo default output environments
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Operating System junk
+.DS_Store
+Thumbs.db
