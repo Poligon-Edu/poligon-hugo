@@ -1,7 +1,11 @@
----
-title: Home
-weight: 0
----
++++
+title = ""
+weight = 0
+type = "docs"
+
+description = "Science and Mathematics education hub, with modern methods and appllications"
+images = ["/images/logo.png"]
++++
 
 # Welcome!
 
