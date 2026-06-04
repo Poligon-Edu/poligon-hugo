@@ -94,15 +94,23 @@ body, html, button, input {
     font-weight: 700;
   }
 
-  h1 {
-    margin-bottom: 5rem !important;
-  }
+  // h1 {
+  //   margin-bottom: 5rem !important;
+  // }
 
   a {
     color: var(--teal) !important;
     &:hover, &.active {
       color: var(--burgundy) !important;
       opacity: 1.0 !important;
+    }
+    &[href*="gradient"] {
+      background: linear-gradient(90deg, #008e80, #aa424e) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      font-weight: 700 !important;
+      font-family: 'Finlandica', sans-serif !important;
+      font-size: 1.3rem !important;
     }
   }
 }
@@ -402,4 +410,94 @@ blockquote {
       }
     }
   }
+}
+
+// ==========================================
+// 17. NATIVE PRIVACY-FIRST IMAGE LIGHTBOX
+// ==========================================
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(23, 28, 36, 0.92); // Deep premium slate/black velvet shade
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999; // Ensures it floats completely above sidebars and headers
+  cursor: zoom-out;
+  
+  // Start hidden and smooth-fade into view
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+
+  // The focused high-res image container
+  img {
+    max-width: 92%;
+    max-height: 92%;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+    
+    // Start slightly shrunk for a beautiful pop-forward effect
+    transform: scale(0.96);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  // Active state triggered by our JavaScript engine
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+
+    img {
+      transform: scale(1); // Springs smoothly to full-size scale
+    }
+  }
+}
+
+// Add a delicate hover reaction to your reading articles so readers know they can click
+.book-page article img:not(.sidebar-profile-box img) {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  
+  &:hover {
+    opacity: 0.95;
+    transform: translateY(-1px);
+  }
+}
+
+// ==========================================
+// 18. TARGETED IMAGE CENTERING
+// ==========================================
+
+img[src*="#center"] {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+  // Optional: Add a clean breathing cushion above and below the centered image
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important; 
+}
+
+// ==========================================
+// 19. ACCORDION SUMMARY TYPOGRAPHY RESET
+// ==========================================
+
+.book-page summary, article summary {
+  // 1. Force font characteristics to match standard body text
+  font-family: inherit;                      // Inherits your main reading font
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  color: var(--body-font-color) !important;  // Binds explicitly to your theme's text color variable
+  
+  // 2. Erase layout treatments
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  
+  // 3. Keep it feeling clickable without changing its color
+  cursor: pointer;
+  padding: 0.25rem 0;
 }

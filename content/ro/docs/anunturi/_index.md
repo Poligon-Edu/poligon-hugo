@@ -14,18 +14,61 @@ Participarea este gratuită și nu se limitează la elevi de clasa a douăspreze
 Completează formularul Google de **[aici](https://forms.gle/F1h27sP8xBQRZ5RMA)** ca să primești
 invitația pe email.
 
-<img src="/images/webinar_ioana.png" alt="Webinar Ioana Enache, Adrian Manea" style="max-width=25%;align=center;" />
+![Webinar Ioana](/images/webinar_ioana.png)
+
+## DataMathLab @ Aspire Teachers
+🗓️ **3-4 iulie 2026**: Adrian Manea va participa la [festivalul DataMathLab 2026](https://www.aspireteachers.ro/datamathlab-festival2026),
+organizat de Aspire Teachers la Brașov. Tema festivalului este matematica în lumea inteligenței
+artificiale, iar Adrian va susține două ateliere de utilizare a uneltelor moderne
+ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul virtual.
+
+![DataMathLab](/images/datamathlab_2026.webp)
 
 
-## Unelte moderne pentru lecțiile de matematică
-⏪ **20 mai 2026:** am organizat un [atelier interactiv](https://www.gradientul.xyz/atelier-interactiv-poligon-educational/)
+## Arhivă
+<details>
+
+<summary>
+Apasă aici ca să vezi evenimentele anterioare.
+</summary>
+
+<h3>Unelte moderne pentru lecțiile de matematică</h3>
+
+⏪ **20 mai 2026**: am organizat un [atelier interactiv](https://www.gradientul.xyz/atelier-interactiv-poligon-educational/)
 cu titlul *Unelte moderne pentru lecțiile de matematică*, atît pentru profesori,
 cît și pentru elevi sau studenți. Am vorbit despre inteligența
 artificială, neuroștiințe, *storytelling*, LaTeX și Markdown.
 
-<img src="/images/afis_workshop_mai26.png" alt="Workshop mai 2026" style="max-width=25%;align=center;" />
+Citește un rezumat în [Gradient](https://www.gradientul.xyz/ce-am-discutat-la-atelierul-poligon-educational-si-ce-urmeaza/).
 
+![Workshop mai](/images/afis_workshop_mai26.png)
 
----
+<h3>Lansarea traducerii „Algebra”</h3>
 
-Urmărește-ne pe [Facebook](https://www.facebook.com/PoligonEducational) ca să fii la curent cu toate noutățile.
+⏪ **16 mai 2026**: Adrian Manea a vorbit la lansarea traducerii din engleză
+a cărții de benzi desenate *Algebra*, de Larry Gonick, la editura Humanitas Junior.
+Traducerea îi aparține lui Mircea Andrei Florea.
+
+![Lansare Humanitas](/images/algebra_humanitas.jpg)
+
+<h3>Atelier GeoGebra la Aspire Teachers</h3>
+
+⏪ **31 martie 2026**: Adrian Manea a susținut un atelier găzduit de Aspire Teachers
+și comunitatea DataMathLab, unde a arătat cum pot folosi profesorii de matematică
+unelte digitale precum GeoGebra ca să contribuie la o învățare interactivă,
+bazată pe vizualizare.
+
+![Workshop GeoGebra Aspire](/images/aspire_seminar.jpg)
+
+<h3>Comunicarea științei pentru elevii de liceu</h3>
+
+⏪ **26-28 noiembrie 2025**: Adrian Manea a vorbit elevilor de la C. N. „B. P. Hasdeu”
+din Buzău despre comunicarea și popularizarea științei, oportunități de publicare,
+scriere jurnalistică și documentare. Au participat 17 clase de liceu pe durata
+celor trei zile.
+
+Citește cîteva reflecții în [Gradient](https://www.gradientul.xyz/experienta-unui-dialog/).
+
+![Hasdeu 2025](/images/comunicare_hasdeu.jpg)
+
+</details>

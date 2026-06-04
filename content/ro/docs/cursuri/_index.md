@@ -1,7 +1,9 @@
----
-title: Cursuri personalizate
-weight: 2
----
++++
+title = "Cursuri personalizate"
+weight = 3
+type = "docs"
++++
+
 ![Courses](/images/courses.avif)
 
 # Cursuri personalizate
@@ -10,7 +12,7 @@ adaptate cerințelor și nivelului tău de pregătire, pe care le ajustăm exact
 ai nevoie ca să înțelegi ceea ce îți dorești.
 
 ## Cum funcționează?
-Una dintre valorile importante ale activității noastre este personalizarea: vrem să alcătuim 
+Una dintre valorile importante ale activității noastre este *personalizarea*: vrem să alcătuim 
 exact cursul care ți se potrivește. Fiecare capitol va fi adaptat cerințelor, așteptărilor 
 și nivelului cursanților, iar întreaga structură se poate modifica în colaborare cu voi, 
 astfel încît fiecare cursant să învețe cît mai eficient și să (vă) puteți răspunde la cît 
@@ -19,28 +21,52 @@ mai multe întrebări.
 Programul este flexibil, întîlnirile se desfășoară online — dar, la cerere, ne putem întîlni 
 și față în față, în București —, iar discuțiile și colaborările sînt încurajate, (aproape) obligatorii.
 
-## Cît costă?
-Cursurile se oferă în trei variante:
+---
 
-✅ *pachetul esențial*, care conține 5 întîlniri (aproximativ 10 ore) și costă 700 lei;
+În funcție de conținut și discuțiile de consultanță cu participanții,
+alegem împreună una dintre aceste variante:
 
-✅ *pachetul detaliat*, cu 10 întîlniri (aproximativ 20 ore) și costă 1200 lei.
+✅ *pachetul esențial*, care conține 5 întîlniri (aproximativ 10 ore);
 
-✅ *pachetul premium*: Pentru încă 50% din valoarea cursurilor, vei primi înregistrările întîlnirilor, bibliografia recomandată și slide-urile de la toate prezentările.
+✅ *pachetul detaliat*, cu 10 întîlniri (aproximativ 20 ore);
 
-Indiferent de pachet, vei beneficia de acces gratuit la un grup de WhatsApp, unde putem continua discuțiile și distribui materiale.
+✅ *pachetul premium*, care se poate adăuga la oricare dintre variantele anterioare
+ca să primești înregistrările tuturor întîlnirilor, bibliografia și materialele recomandate,
+precum și slide-urile și notițele lectorului de la fiecare întîlnire.
+
+Indiferent de pachet, vei beneficia de acces gratuit la un grup de 
+WhatsApp, unde putem continua discuțiile și distribui materiale.
 
 ---
 
 ## Portofoliul curent
-### Istoria și filosofia matematicii sau Mulțimea numerelor reale
+Lucrăm intensiv la cursurile pe care ți le vom oferi începînd cu toamna
+lui 2026, așa că urmărește pagina aceasta ca să afli noutățile.
+
+Ne poți scrie folosind una dintre variantele de [contact]({{< ref "contact.md" >}})
+dacă ai o propunere sau întrebări.
+
+![WIP](/images/wip.png#center)
+
+---
+
+## Arhivă
+<details>
+
+<summary>
+Apasă aici ca să vezi cîteva dintre cursurile anterioare.
+Ele pot să revină în portofoliu la cerere, așa că, dacă te pasionează
+un subiect, scrie-ne!
+</summary>
+
+<h3>Istoria și filosofia matematicii sau Mulțimea numerelor reale</h3>
 Am ales să ne concentrăm pe un obiect matematic pe cît de simplu în aparență, 
 pe atît de profund, dificil și cu o istorie fascinantă: *mulțimea numerelor reale*. Vom vorbi pe rînd 
 despre mulțimi, despre numere și vom răspunde la întrebarea *Ce face ca numere precum e, π sau să fie... reale?*
 
 Accesează pagina cursului [aici]({{< ref "istorie_mate.md" >}}).
 
-### Știința din carte: Detalii matematice în literatură
+<h3>Știința din carte: Detalii matematice în literatură</h3>
 A citi literatură cu un ochi pentru matematica din ea înseamnă să 
 fii pregătit să te întîlnești cu spații multidimensionale, cu arbori 
 care ți se ramifică sub ochi.
@@ -50,7 +76,7 @@ la o descoperire a detaliilor matematice care întregesc spațiile și lumile di
 
 Află mai multe pe [pagina cursului]({{<ref "literatura.md" >}}).
 
-### Despre simetrie: estetică, matematică, științe ale naturii
+<h3>Despre simetrie: estetică, matematică, științe ale naturii</h3>
 Simetria ne înconjoară, avem o înțelegere intuitivă a ei, încît ne este greu să 
 o definim riguros și ne surprinde să aflăm că este un concept de bază în matematică, 
 chimie, fizică și nu numai.
@@ -62,7 +88,7 @@ Cum a ajuns să fie un concept de bază în științe, în artă și în filosof
 
 Detalii pe [pagina cursului]({{< ref "simetrie.md" >}}).
 
-### Muzica: limbaj, matematică, fizică
+<h3>Muzica: limbaj, matematică, fizică</h3>
 Prin faptul că are un mesaj și ne vorbește fiecăruia, muzica este un limbaj. 
 Este, însă, și cel mai abstract: cuvintele sînt scrise cu semne pe care puțini 
 le înțeleg, iar mesajul nu este mereu transparent.
@@ -79,7 +105,7 @@ Leonard Bernstein despre rolul muzicii în viețile noastre? Ce înseamnă
 
 Află mai multe pe [pagina cursului]({{< ref "muzica.md" >}}).
 
-### Gamification și concepte de game design în educație
+<h3>Gamification și concepte de game design în educație</h3>
 Utilizarea uneltelor digitale, dar și dorința de a învăța prin descoperire, 
 într-un mediu relaxat și care să distreze au condus la o intersecție tot mai 
 mare între jocuri și educație. Este vorba atît despre jocurile video, 
@@ -95,7 +121,7 @@ de tehnologia și industria jocurilor video, vino să alcătuim împreună acest
 
 Accesează [pagina cursului]({{< ref "gamification.md" >}}), află mai multe și înscrie-te!
 
-### Level up!
+<h3>Level up!</h3>
 Transformă pasiunea pentru jocuri într-o experiență de socializare și învățare!
 
 Jocurile, sub toate formele lor, oferă mult mai mult decît distracție, ochi obosiți 
@@ -111,10 +137,4 @@ Dacă ai între 13 și 17 ani și locuiești în București, înscrie-te în clu
 
 [Află mai multe]({{< ref "level_up.html" >}})!
 
----
-
-## Curios?
-Programează o ședință de consultanță gratuită prin pagina de **[contact]({{< ref path="contact.md" lang="ro" >}})**
-și hai să alcătuim împreună cursul pe care ți-l dorești!
-
-Scrie-ne și dacă ai întrebări, neclarități sau propuneri!
+</details>

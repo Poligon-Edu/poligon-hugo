@@ -1,42 +1,55 @@
----
-title: Private Tutoring
-weight: 1
----
++++
+title = "Private Tutoring"
+type = "docs"
+weight = 1
++++
+
 ![Tutoring](/images/tutoring.avif)
 
 # Private Tutoring
-If you find it hard to adapt to your school's demands, you're swamped by homework
-and tests, or exams frighten you, let's work together into easing your tasks and
-giving you peace of mind!
+If you're struggling to adapt to a new school or you simply want to learn
+more than what you're taught in class, we're here to help!
 
-Here's what you should know:
+Feeling anxious about that exam that's closing in? Get in touch and
+let our teachers guide you to that grade you wish for!
 
-* [Adrian Manea](https://adrianmanea.xyz/english.html) is our founder and head teacher, who collaborates with
-like-minded teachers and academics to offer the optimal learning experience for all students.
+## What You Should Know
+* The subjects of our expertise are *Mathematics* and *Physics*, both for K-12 level
+and for college.
 
-* We teach **mathematics, computer science, and physics**. Our professors have
-years of academic and teaching experience, as well as a passion for education.
+* We usually work in individual sessions, just you and the teacher. Sometimes,
+we will propose the organization of a small group (at most 5 students), but only
+if you agree and if we judge that all students in the group have a similar academic
+level and can collaborate efficiently.
 
-* Any goal is within reach! If you're preparing for national or international exams
-(such as the baccalaureate, SAT, IB, GRE), or you have difficulties with your college or faculty, we're here to help!
+* You can choose whether to study face to face or online. Our approach will be the same.
+In the online format, you are strongly encouraged (though not mandatory!) to have and 
+use a tablet (such as an iPad) or a graphics tablet. Our teachers have all the
+necessary tools and will make available all their notes, homework assignments,
+and exercise sheets in PDF format, free of cost.
 
-* We speak Romanian (natively), English, and French. *International students, vous êtes les bienvenu(e)s!*
+* Currently, face-to-face tutoring is only available in Romania, in
+**Bucharest, Cluj**, and **Oradea**.
 
-* **No purchase of teaching materials!** We will work with your manuals, lecture notes,
-exercise sheets, past or mock exams, plus our solid digital and physical library.
-Any materials we have ― PDFs or physical books ―, you can use for free while studying with us!
-Plus, we will send homework, exercise sheets, lecture notes and everything you need right to your
-inbox or push it to a shared cloud folder of ours. Just focus on your learning.
+* Your level or targets could be any of (but not limited to) the following:
+improving your grades, passing a national or international exam (SAT, GRE, IB,
+any kind of baccalaureate or graduate exam).
 
-* The lessons will take place either in Bucharest (Titan, Sector 3), or online (on our Teams classes). Your choice. 
-If you're away and don't want to miss your class, we can combine in-person with online teaching, no problem. Just focus on your learning.
+* We can teach in Romanian, English, or French.
 
-* We usually work one-on-one, but if you have friends who want to join you, bring them in and you'll both get discounts.
-No group will exceed 3-4 students, however, and we promise to match you strictly with similar students.
-Don't like group work? No problem: let us know and we'll arrange individual teaching for no extra costs. Just focus on your learning.
+* **You don't have to buy any learning material!** We do sell some of those,
+but they will *never* be a prerequisite for any tutoring session. We do our
+best to write our own exercise sheets, course notes, or other digital resource
+you may need, which will be given to all enrolled students *for free*.
+Furthermore, all software we'll be recommending will be free, open source,
+and available for all operating systems, sometimes even on mobile.
 
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
+* In terms of management and paperwork, we sell a **trial package of 6 hours of tutoring**,
+which will be organized as you wish (e.g., 3 meetings of 2 hours each). After the trial ends,
+we propose an extension, which entails a services contract and you will be invoiced
+every 10 hours (or every other interval we agree upon). You can pay via transfer to
+our Romanian bank account (IBAN).
 
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.
+## Sign Up or Learn More
+Use the [contact]({{< relref path="/docs/contact.md" lang="en" >}}) section to schedule
+a free appointment for more details.

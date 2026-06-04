@@ -1,7 +1,9 @@
----
-title: Lecții private
-weight: 1
----
++++
+title = "Lecții private"
+weight = 1
+type = "docs"
++++
+
 ![Lecții private](/images/tutoring.avif)
 
 # Lecții private
@@ -11,13 +13,19 @@ Dacă ai dificultăți în a te adapta la materia școlară sau pur și simplu v
 să înveți mai mult, te ajutăm! La fel și dacă te pregătești pentru un examen 
 important, național sau internațional. 
 
-Iată tot ce trebuie să știi înainte să începem să colaborăm:
-
-* [Adrian Manea](https://adrianmanea.xyz) este profesorul și fondatorul Poligon Educational,
-care lucrează cu colaboratori tineri, pasionați de educație și cu o pregătire academică solidă;
-
+## Ce trebuie să știi
 * Domeniile în care avem pregătire academică, pedagogică și experiență profesională, 
-dar și didactică sînt: **matematică, informatică, fizică**.
+dar și didactică sînt **matematica** și **fizica**, la nivel preuniversitar și universitar.
+
+* Lucrăm individual sau alcătuim grupuri foarte mici (< 5 elevi), însă numai cu acordul
+tău și dacă toți elevii din grup au un nivel de pregătire similar și pot colabora.
+
+* Poți alege dacă lecțiile se desfășoară față în față sau online, fără vreo diferență
+în modul de abordare sau în calitatea procesului educațional. În format online,
+este recomandabil ca elevul să aibă o tabletă sau o tabletă grafică. Profesorii
+noștri au toate uneltele necesare și-ți pun la dispoziție materialele și notițele în format digital (PDF).
+
+* În format fizic, sîntem disponibili (deocamdată) în **București, Cluj** și **Oradea**.
 
 * Aspirațiile sau obiectivele tale educaționale pot fi diverse! Fie că vrei să-ți îndrepți o notă proastă luată la clasă 
 ori ai emoții pentru o testare națională (evaluare, bacalaureat) sau internațională (SAT, IB, GRE), sau ai 
@@ -34,15 +42,13 @@ folosești la școală, vom porni de la ele. Dacă nu, baza noastră materială 
 și culegeri pe care le vom folosi împreună. În plus, susținem digitalizarea materialelor educaționale, 
 astfel că îți vom putea transmite temele în format PDF și chiar unele manuale ori liste de exerciții 
 le vei putea salva pe computer. De asemenea, toate produsele software pe care le vom folosi vor fi 
-gratuite și disponibile pe toate sistemele de operare, unele dintre ele, chiar și pe mobil.
+gratuite și disponibile pe toate sistemele de operare, iar unele dintre ele, chiar și pe mobil.
 
-* Lecțiile se desfășoară față în față, în București (în Titan) sau online (pe clasele noastre de Teams).
+* Administrativ, îți oferim un **pachet inițial de 6 ore** pentru acomodare, după care,
+de comun acord, semnăm un contract și emitem facturi la fiecare 10 ore (sau alt interval,
+decis de comun acord).
 
-* Lucrăm, de obicei, individual, dar dacă ai colegi cu care vrei să te grupezi, adu-i și primiți reduceri împreună! 
-Oricum, grupele nu vor depăși 3-4 elevi sau studenți și le vom alcătui numai dacă participanții au aproape același nivel de pregătire și obiective.
-Dar, dacă nu ești confortabil într-un grup, spune-ne și lucrăm individual.
-
-## Înscrie-te
+## Înscrie-te sau află mai multe
 Folosește pagina de **[contact]({{< ref path="contact.md" lang="ro" >}})** și programează o discuție
 inițială pentru consultanță.
 

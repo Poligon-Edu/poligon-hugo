@@ -1,6 +1,9 @@
----
-title: Game design educațional
----
++++
+title = "Game design educațional"
+type = "docs"
+bookHidden = true
++++
+
 ![Gamification](/images/gamification.jpg)
 
 # Gamification și concepte de game design în educație

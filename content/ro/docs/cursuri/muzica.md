@@ -1,6 +1,9 @@
----
-title: Muzică
----
++++
+title = "Muzică: Limbaj, matematică, fizică"
+type = "docs"
+bookHidden = true
++++
+
 ![Muzică](/images/music.jpg)
 
 # Muzica: Limbaj, matematică, fizică

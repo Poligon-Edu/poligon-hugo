@@ -1,0 +1,49 @@
+<!-- 1. The Full-Screen Floating Overlay Container -->
+<div id="global-lightbox" class="lightbox-overlay">
+  <img id="lightbox-target-img" src="" alt="Enlarged view">
+</div>
+
+<!-- 2. The Lightweight Engine -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const lightbox = document.getElementById("global-lightbox");
+  const lightboxImg = document.getElementById("lightbox-target-img");
+  
+  // Scans for images inside your main reading/article boundaries
+  const contentImages = document.querySelectorAll(".book-page img, article img, .markdown img");
+  
+  contentImages.forEach(img => {
+    // Escape Hatch: Do not activate on your profile box picture or brand logo
+    if (img.closest(".sidebar-profile-box") || img.closest(".book-brand")) {
+      return;
+    }
+    
+    // Change cursor to indicate clickability
+    img.style.cursor = "zoom-in";
+    
+    // Open on Click
+    img.addEventListener("click", function () {
+      lightboxImg.src = this.src;
+      lightboxImg.alt = this.alt;
+      lightbox.classList.add("active");
+      document.body.style.overflow = "hidden"; // Prevents background page scrolling
+    });
+  });
+  
+  // Close on clicking anywhere on the dark overlay
+  lightbox.addEventListener("click", function () {
+    lightbox.classList.remove("active");
+    document.body.style.overflow = ""; // Restores standard page scrolling
+    setTimeout(() => { lightboxImg.src = ""; }, 300); // Clear image cache after fade-out
+  });
+
+  // Close on hitting the Physical 'Escape' Key
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && lightbox.classList.contains("active")) {
+      lightbox.classList.remove("active");
+      document.body.style.overflow = "";
+      setTimeout(() => { lightboxImg.src = ""; }, 300);
+    }
+  });
+});
+</script>

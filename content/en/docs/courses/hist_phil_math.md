@@ -1,19 +1,9 @@
----
-title: History and Philosophy of Mathematics
----
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
-![History of Mathematics](assets/real_set.jpg)
-
++++
+title = "History and Philosophy of Mathematics"
+type = "docs"
+bookHidden = true
++++
+![History of Mathematics](/images/real_set.jpg)
 
 # History and Philosophy of Mathematics
 
@@ -65,7 +55,7 @@ evolution of the concept? Forward about 2500 years, what do we mean by infinity 
 And to be honest, there's an infinite number of infinite sets, so why focus on the set of
 real numbers? Or any set, for that matter? These are also good questions we'll explore.
 
-![Limit](assets/limit.jpg)
+![Limit](/images/limit.jpg)
 
 ## (Of) Real
 How could numbers such as *e* or π be called "real"? Looking around, one could at most
@@ -109,9 +99,3 @@ They are clearly infinite, but is infinity a number? Why (not)?
 
 And did you know that, regardless of infinity being a number or not, there are multiple
 types of infinity, ones larger than the others? Now you do and we will tell you more about it.
-
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
-
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.

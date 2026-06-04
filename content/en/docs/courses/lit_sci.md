@@ -1,18 +1,10 @@
----
-title: Literary Science
----
++++
+title = "Literary Science"
+type = "docs"
+bookHidden = true
++++
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
-![Fiction](assets/fiction.jpg)
+![Fiction](/images/fiction.jpg)
 
 # Literary Science
 Science, with their history and philosophy, is the main building block
@@ -39,9 +31,3 @@ Here are the topics and works we propose:
 
 All presentations will contain detailed explanations of scientific and mathematical concepts,
 as well as further suggested reading *personalized for each member of the audience*.
-
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
-
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.

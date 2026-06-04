@@ -17,6 +17,7 @@ defaultContentLanguageInSubdir = false
   BookSearch = true
   BookLogo = "images/logo.png"
   BookKatex = true
+  BookFavicon = "images/favicon.png"
 
 # ==========================================
 # SPLIT CONTENT ARCHITECTURE

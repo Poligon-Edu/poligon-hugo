@@ -1,6 +1,9 @@
----
-title: Level up!
----
++++
+title = "Level up!"
+type = "docs"
+bookHidden = true
++++
+
 ![Level up](/images/mario.avif)
 
 # Level up!

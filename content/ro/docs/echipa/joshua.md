@@ -1,22 +1,19 @@
----
-title: Joshua P. Biro
----
-<img src="/images/joshua.jpg" alt="Joshua P. Biro" style="max-width=25%"/>
++++
+title = "Joshua P. Biro"
+type = "docs"
++++
+
+![Joshua](/images/joshua.jpg)
 
 # Joshua P. Biro
 
 Salut!
  
-Sunt Patrick-Joshua Biro - cercetător în formare și pedagog. 
+Sunt Patrick-Joshua Biro - fizician, cercetător în formare și pedagog. 
 
-Interesele mele includ predarea științelor, promovarea relevanței educației în comunitate,
-dar și popularizarea de concepte științifice.
-
-Am susținut mereu valoarea de a adresa 
-întrebări faine despre diverse aspecte ale lumii în care trăim.
+Am susținut mereu valoarea de a adresa întrebări faine despre 
+diverse aspecte ale lumii în care trăim.
  
-## Traseu educațional
-
 Am absolvit Colegiul Național „Mihai Eminescu” Oradea, specializarea științe
 ale naturii, în anul 2019. Din toamna aceluiași an până în 2022 am urmat 
 studiile la Universitatea din Oradea - specializările Fizică Medicală și 
@@ -29,8 +26,6 @@ care trăiesc cu dizabilitate, precum și comunicarea științifică.
  
 În 2024 am absolvit un curs intensiv de formare de formatori (Training of Trainers).
  
-## Realizări profesionale
-
 Îmi place să îi ridic pe alții și să îi ajut să înțeleagă că eforturile 
 lor nu sunt în zadar. Pentru a putea pune și în practică acest principiu, 
 m-am familiarizat cu disciplina acestui efort încă din liceu. Prima olimpiadă 
@@ -54,9 +49,4 @@ pe cei din jurul meu. Nu sunt străin de burnout și de îndoiala care
 mai apare din timp în timp, ceea ce mă motivează să aduc claritate 
 în predarea științelor și nu numai.
 
----
-
-Sunt bucuros să fiu parte a echipei Poligon Educational din ianuarie 2026,
-iar pentru colaborări sau alte întrebări, îmi puteți scrie la
-[`contact@poligon-edu.ro`](mailto:contact@poligon-edu.ro).
- 
+[`joshuabiro@poligon-edu.ro`](mailto:joshuabiro@poligon-edu.ro)

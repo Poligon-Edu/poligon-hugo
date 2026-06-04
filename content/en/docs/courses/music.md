@@ -1,18 +1,9 @@
----
-title: Music
----
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
-![Music](assets/music.jpg)
++++
+title = "Music: Language, Math, Physics"
+type = "docs"
+bookHidden = true
++++
+![Music](/images/music.jpg)
 
 # Music: Language, Mathematics, Physics
 Music is communication, relaxation, entertainment, emotion.
@@ -34,7 +25,7 @@ However, knowledge about the mathematical and physical properties of sounds (and
 will be useful to understand part of its history, starting with Pythagoras and all the
 way to modern and experimental music.
 
-![Polyrhythm](assets/polyrhythm.webp)
+![Polyrhythm](/images/polyrhythm.webp)
 
 ## Time Signatures, Rhythm, and Polyrhythm
 The *beat* is what makes most of the music. It's what separates a relaxing song
@@ -73,9 +64,3 @@ language are processed similarly?
 Two books will help us answer such questions:
 * *Musicophilia*, by the esteemed neurologist Oliver Sacks and
 * *This Is Your Brain on Music*, by the psychologist and neuroscientist Daniel Levitin.
-
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
-
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.

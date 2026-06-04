@@ -1,7 +1,8 @@
----
-title: Politica de confidențialitate
-weight: 99
----
++++
+title = "Politica de confidențialitate"
+weight = 99
++++
+
 # Politica de confidențialitate
 
 ## Informații generale
@@ -47,8 +48,8 @@ Datele cu caracter personal furnizate către Poligon Educational pot fi transfer
 * Administrare domeniu online: Romarg. [Politică de confidențialitate](https://www.romarg.ro/politica-de-confidentialitate.html).
 * Administrare website: GitHub. [Politică de confidențialitate](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 * Analiză trafic: Google Analytics. [Politică de confidențialitate](https://policies.google.com/privacy?hl=en-US)
-* Administrare email: Microsoft. [Politică de confidențialitate](https://www.microsoft.com/en-us/privacy/privacystatement?msockid=2395bff90cb16af006bba9ad0d4b6bb0).
-* Transfer de fișiere: Microsoft.
+* Administrare email: Google Workspace. [Politică de confidențialitate](https://policies.google.com/privacy?hl=en-US)
+* Transfer de fișiere: Google Drive.
 * Pagină Facebook Poligon Educational. [Politică de confidențialitate](https://www.facebook.com/privacy/policy/?entry_point=comet_dropdown).
 * Pagină YouTube Poligon Educational. [Politică de confidențialitate Google](https://policies.google.com/privacy?hl=en).
 

@@ -1,18 +1,10 @@
----
-title: Educational Game Design
----
++++
+title = "Educational Game Design"
+type = "docs"
+bookHidden = true
++++
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
-![Game Design](assets/gamification.jpg)
+![Game Design](/images/gamification.jpg)
 
 # Gamification and Game Design Concepts for Education
 Games have a surprisingly rich history in education and research.
@@ -53,7 +45,7 @@ but by becoming them, showing empathy.
 Given the vast overlap of games and learning, how can teachers and students use
 game design and game analysis concepts to improve their experience?
 
-![Gamification](assets/gamification.avif)
+![Gamification](/images/gamification.avif)
 
 Here are some topics we propose:
 
@@ -76,9 +68,3 @@ Here are some topics we propose:
   + Design a game to learn: (1) relativity theory, (2) modular arithmetic, (3) derivatives and differentials.
 
 All study materials are offered free of charge. The games we will present may be non-free, but their purchase is not a requirement.
-
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
-
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.

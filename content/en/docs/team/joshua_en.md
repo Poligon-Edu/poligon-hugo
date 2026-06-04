@@ -1,11 +1,13 @@
----
-title: Joshua P. Biro
----
-<img src="/images/joshua.jpg" style="max-width=25%;" />
++++
+title = "Joshua P. Biro"
+type = "docs"
++++
+
+![Joshua](/images/joshua.jpg)
 
 # Joshua P. Biro
 
-Hey there!
+Hey everybody!
 
 I'm Patrick-Joshua Biro, researcher in training and teacher.
 
@@ -15,7 +17,6 @@ for community welfare, as well as presenting scientific concepts in popular ways
 I've always valued highly the curiosity to ask interesting questions about
 various aspects of the world we live in.
 
-## Education
 I graduated from the "Mihai Eminescu" high school in Oradea in 2019, specializing
 in natural science. Then I went to the University of Oradea, where I studied until
 2022, graduating with a BSc. degree in Medical Physics and History. Then I continued
@@ -28,7 +29,6 @@ with disabilities, and took part at events of the scientific community.
 
 In 2024, I graduated an intensive special Training of Trainers Course.
 
-## Professional Achievements
 I like assisting others reach their potential and helping them see
 that their efforts amount to something. For this, I became more disciplined
 myself since high school. In the tenth grade, I competed in the History Olympiad in 2017,
@@ -49,8 +49,4 @@ people around me. I am no stranger to burnout and doubts that creep in from
 time to time, but they motivate me to bring more clarity in science teaching
 and all my activity.
 
-----
-
-I'm happy to be part of the Poligon Educational team starting January 2026,
-so feel free to reach out to me for questions or proposals
-at [`contact@poligon-edu.ro`](mailto:contact@poligon-edu.ro).
+`joshuabiro@poligon-edu.ro`

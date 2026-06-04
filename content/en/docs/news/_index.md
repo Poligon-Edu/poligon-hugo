@@ -1,8 +1,10 @@
----
-title: News and Updates
-weight: 1
----
++++
+title = "News and Updates"
+weight = 1
++++
 
 # News and Updates
 
-# #TBA
+Check back soon.
+
+![WIP](/images/wip.png#center)

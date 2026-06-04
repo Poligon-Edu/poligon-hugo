@@ -1,6 +1,9 @@
----
-title: Simetrie
----
++++
+title = "Despre simetrie"
+type = "docs"
+bookHidden = true
++++
+
 ![Simetrie](/images/symmetry.avif)
 
 # Despre simetrie: estetică, matematică, științe ale naturii

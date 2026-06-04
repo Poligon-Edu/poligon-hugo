@@ -1,6 +1,7 @@
 +++
 title = "Istoria și filosofia matematicii"
 type = "docs"
+bookHidden = true
 +++
 
 ![Mulțimea numerelor reale](/images/real_set.jpg)

@@ -1,18 +1,10 @@
----
-title: On Symmetry
----
++++
+title = "On Symmetry"
+type = "docs"
+bookHidden = true
++++
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SJLNGNK0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2SJLNGNK0T');
-</script>
-
-![Symmetry](assets/symmetry.avif)
+![Symmetry](/images/symmetry.avif)
 
 # On Symmetry: Aesthetics, Mathematics, Natural Science
 Symmetry is a feature we all recognize and think we understand. We are so used
@@ -43,7 +35,7 @@ of symmetry. It did start in Ancient Greece, but the modern approach
 sees it in *crystallography*, the science that studies the geometric properties
 of crystal substances such as salt, sugar, and more.
 
-![Salt Crystal](assets/salt_crystal.jpg)
+![Salt Crystal](/images/salt_crystal.jpg)
 
 Then, nineteenth century modern algebra used even more abstract tools to
 refer to symmetry, making *symmetry groups*. These concepts still kept elements
@@ -67,9 +59,3 @@ everything we see and understand, since it cannot grasp its full complexity?
 
 Clearly, symmetry helps us understand the world, gives us comfort in exploring it.
 But could we imagine a world that is *completely asymmetric*?
-
-## Enroll Now
-Ready to learn? Write us an [email](mailto:adrianmanea@poligon-edu.ro) or a [WhatsApp message](https://wa.me/40750408128) to get in touch.
-We offer a free one-on-one consultation to get to know each other and help you decide.
-
-Undecided? Write us your questions, concerns or proposals. We reply to *all* messages straight away.

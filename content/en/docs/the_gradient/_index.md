@@ -1,5 +1,5 @@
 ---
 title: "The Gradient"
-weight: 9
+weight: 7
 bookHref: "https://thegradient.xyz"
 ---

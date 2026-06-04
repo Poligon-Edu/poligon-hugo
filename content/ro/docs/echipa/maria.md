@@ -1,15 +1,19 @@
----
-title: Maria Kaproș
----
-<img src="/images/maria.jpeg" style="max-width=25%" />
++++
+title = "Maria Kaproș"
+type = "docs"
++++
+
+![Maria](/images/maria.jpeg)
 
 # Maria Kaproș
 
 Servus!
 
-Eu sunt Maria și în echipa Poligon mă ocup cu meditațiile de matematică pentru gimnaziu.
+Eu sunt Maria, matematiciană cu interes deosebit în aplicațiile
+matematicii în neuroștiințe.
 
-Lucrez și la articole de popularizarea științei, cu teme aplicate, surprinzătoare sau pur și simplu frumoase din domeniile mele de interes: 
+Pe lângă lecții private de matematică, lucrez și la articole de popularizarea științei, 
+cu teme aplicate, surprinzătoare sau pur și simplu frumoase din domeniile mele de interes: 
 
 - Intersecția dintre matematica si științe ale naturii;
 - Neuroștiințe și aplicații;
@@ -21,10 +25,11 @@ Puțin despre experiența mea academică și profesională:
 - Am lucrat ca asistent cercetare in FinTech, dezvoltând un [prototip de sistem CBDC](https://www.notion.so/13876ffeff4d80ebaa35f18883e865e5?pvs=21) (Central Bank Digital Currency).
 - În prezent, mă concentrez pe matematică în educație și cercetare. 
 
-Acum studiez Matematici Avansate la Universitatea Babeș-Bolyai din Cluj.  
+Din 2025 studiez Matematici Avansate la Universitatea Babeș-Bolyai din Cluj.  
 
 Mă gândesc să urmez o carieră academică în matematică aplicată, în special pentru neuroștiință.  
 
-În același timp, vreau să contribui la îmbunătățirea educației și a cercetării din România cu accent pe alfabetizare științifică și matematică.. 
+În același timp, vreau să contribui la îmbunătățirea educației și a cercetării 
+din România cu accent pe alfabetizare științifică și matematică.
 
-Pentru colaborare și alte subiecte, îmi puteți scrie la [`contact@poligon-edu.ro`](mailto:contact@poligon-edu.ro).
+[`mariakapros@poligon-edu.ro`](mailto:mariakapros@poligon-edu.ro)

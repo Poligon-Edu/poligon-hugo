@@ -1,7 +1,10 @@
----
-title: Contact
-weight: 10
----
++++
+title = "Contact"
+type = "docs"
+weight = 10
++++
+
+![Contact](/images/contact.jpg)
 
 
 # Contact

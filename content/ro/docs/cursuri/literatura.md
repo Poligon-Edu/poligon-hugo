@@ -1,6 +1,9 @@
----
-title: Știința din carte
----
++++
+title = "Știința din carte"
+type = "docs"
+bookHidden = true
++++
+
 ![Matematica și literatura](/images/fiction.jpg)
 
 # Știința din carte: Detalii matematice în literatură
