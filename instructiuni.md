@@ -1,5 +1,5 @@
 # Site-ul Poligon Educational
-Refacere a [site-ului vechi](https://poligon-edu.ro),
+Refacere a site-ului Poligon Educational
 folosind [Hugo](https://gohugo.io/), tema [Book](https://book.alxs.dev/docs/getting-started/introduction/).
 
 ## Instalare și test local
