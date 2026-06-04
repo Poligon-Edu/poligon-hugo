@@ -1,6 +1,8 @@
----
-title: Istoria și filosofia matematicii
----
++++
+title = "Istoria și filosofia matematicii"
+type = "docs"
++++
+
 ![Mulțimea numerelor reale](/images/real_set.jpg)
 
 # Istoria și filosofia matematicii: Mulțimea numerelor reale
@@ -87,7 +89,7 @@ au avut, la rîndul lor, istorii complicate. Nu în ultimul rînd, o legătură 
 Lesne de înțeles că o paletă atît de bogată de aplicații, dar și de 
 dificultăți, vine însoțită de una corespunzătoare, din punct de vedere filosofic.
 
-![Limită](assets/limit.jpg)
+![Limită](/images/limit.jpg)
 
 ## Reale
 De ce ar fi numere precum π, e și radical din 2 „reale“, din moment ce în jurul nostru, 

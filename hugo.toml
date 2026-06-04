@@ -16,6 +16,7 @@ defaultContentLanguageInSubdir = false
   BookToC = true
   BookSearch = true
   BookLogo = "images/logo.png"
+  BookKatex = true
 
 # ==========================================
 # SPLIT CONTENT ARCHITECTURE
@@ -38,7 +39,12 @@ defaultContentLanguageInSubdir = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\\[', '\\]']]
+          inline = [['$', '$'], ['\\(', '\\)']]
 # ==========================================
 # THIRD-PARTY SERVICES
 # ==========================================
