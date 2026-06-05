@@ -347,6 +347,12 @@ blockquote {
   display: flex !important;
   flex-direction: column !important;
   height: 100vh !important; // Forces container to match 100% of the screen height
+  overflow-y: auto !important;
+
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
 }
 
 
