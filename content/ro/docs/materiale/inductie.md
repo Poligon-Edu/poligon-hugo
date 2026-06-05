@@ -5,7 +5,7 @@ type = "docs"
 
 # Inducția matematică
 
-Prof. Maria Kaproș, `mariakapros@poligon-edu.ro`
+Maria Kaproș, `mariakapros@poligon-edu.ro`
 
 ## Motivație
 Concluziile generale pe care le tragi după doar câteva situații particulare
@@ -80,5 +80,5 @@ la ceva general valabil, așa că o să-ți arăt cum faci asta în situații de
 
 
 ## Descarcă lecția
-[Aici](/documents/inductie_maria_poligon.pdf) găsești lecția întreagă în format PDF,
+**[Aici](/documents/inductie_maria_poligon.pdf)** găsești lecția întreagă în format PDF,
 gratuit pentru studiu și descărcare.
