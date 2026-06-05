@@ -34,7 +34,7 @@ Apasă aici ca să vezi evenimentele anterioare.
 
 <h3>Unelte moderne pentru lecțiile de matematică</h3>
 
-⏪ **20 mai 2026**: am organizat un [atelier interactiv](https://www.gradientul.xyz/atelier-interactiv-poligon-educational/)
+⏪ **20 mai 2026**: am organizat un atelier interactiv
 cu titlul *Unelte moderne pentru lecțiile de matematică*, atît pentru profesori,
 cît și pentru elevi sau studenți. Am vorbit despre inteligența
 artificială, neuroștiințe, *storytelling*, LaTeX și Markdown.
