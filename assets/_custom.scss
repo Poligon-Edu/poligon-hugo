@@ -428,7 +428,7 @@ blockquote {
   justify-content: center;
   z-index: 999999; // Ensures it floats completely above sidebars and headers
   cursor: zoom-out;
-  
+
   // Start hidden and smooth-fade into view
   opacity: 0;
   pointer-events: none;
@@ -441,7 +441,7 @@ blockquote {
     object-fit: contain;
     border-radius: 6px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
-    
+
     // Start slightly shrunk for a beautiful pop-forward effect
     transform: scale(0.96);
     transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -461,7 +461,7 @@ blockquote {
 // Add a delicate hover reaction to your reading articles so readers know they can click
 .book-page article .markdown img:not(.book-icon) {
   transition: transform 0.2s ease, opacity 0.2s ease;
-  
+
   &:hover {
     cursor: zoom-in; /* Shows a clear zoom-in intent instead of standard pointers */
     opacity: 0.95;
@@ -477,7 +477,7 @@ img[src*="#center"] {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  
+
   // Optional: Add a clean breathing cushion above and below the centered image
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important; 
@@ -493,12 +493,38 @@ img[src*="#center"] {
   font-size: 17px !important;
   line-height: 1.7 !important;
   color: var(--body-font-color) !important;  // Binds explicitly to your theme's text color variable
-  
+
   // 2. Erase layout treatments
   text-transform: none !important;
   letter-spacing: normal !important;
-  
+
   // 3. Keep it feeling clickable without changing its color
   cursor: pointer;
   padding: 0.25rem 0;
+}
+
+// ==========================================
+// 20. CUSTOM HIGHLIGHT BOXES (THEOREMS, EXERCISES)
+// ==========================================
+.custom-block {
+  border-left: 4px solid var(--navy) !important;
+  background-color: var(--gray-100) !important;
+  color: var(--navy) !important;
+  padding: 0.85rem 1.15rem !important;
+  margin: 1.5rem 0 !important;
+
+  // FLOATING CARD AESTHETICS
+  border-radius: 4px !important;                                    // Softens corners for a modern look
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05),                       // Smooth ambient spread
+  0 1px 3px rgba(0, 0, 0, 0.1) !important;             // Sharp edge definition shadow
+
+  // Ensures font characteristics match your core article prose
+  font-family: 'Finlandica', sans-serif;
+  font-size: 17px;
+  line-height: 1.3;
+
+  // Strips out any browser default or theme italics for paragraphs inside this block
+  p { 
+    font-style: normal !important; 
+  }
 }

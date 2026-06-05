@@ -32,8 +32,7 @@ Elevii români sînt, în general, obișnuiți cu formulări abstracte.
 Dar, cînd te uiți pe un subiect de SAT din 2025, de exemplu, poți să găsești
 așa ceva:
 
----
-
+{{% box %}}
 Funcția $f$, definită prin $f(t) = 14t + 9$, estimează înălțimea, în centimetri,
 a unui arbust de viță de vie la $t$ luni după ce a fost plantată de un fermier.
 
@@ -47,7 +46,7 @@ Care este cea mai potrivită interpretare a termenului $9$ în acest context?
 
 (D) Înălțimea aproximativă a arbustrului la cumpărare a fost de 9 centimetri.
 
----
+{{% /box %}}
 
 Contextualizarea, interpretarea noțiunilor abstracte într-un format cu o legătură
 chiar și vagă cu realitatea îi pune în dificultate pe elevii noștri.
