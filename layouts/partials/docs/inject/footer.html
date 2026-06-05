@@ -9,12 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const lightbox = document.getElementById("global-lightbox");
   const lightboxImg = document.getElementById("lightbox-target-img");
   
-  // Scans for images inside your main reading/article boundaries
-  const contentImages = document.querySelectorAll(".book-page img, article img, .markdown img");
+  // FIX: Scans strictly inside your main markdown text body, ignoring outer layout frames
+  const contentImages = document.querySelectorAll(".markdown img");
   
   contentImages.forEach(img => {
-    // Escape Hatch: Do not activate on your profile box picture or brand logo
-    if (img.closest(".sidebar-profile-box") || img.closest(".book-brand")) {
+    // FIX & ESCAPE HATCH: Completely ignore UI icons, headers, profiles, and logos
+    if (
+      img.classList.contains("book-icon") || 
+      img.closest(".book-header") || 
+      img.closest(".sidebar-profile-box") || 
+      img.closest(".book-brand")
+    ) {
       return;
     }
     

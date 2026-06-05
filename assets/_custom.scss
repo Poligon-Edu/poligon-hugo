@@ -459,10 +459,11 @@ blockquote {
 }
 
 // Add a delicate hover reaction to your reading articles so readers know they can click
-.book-page article img:not(.sidebar-profile-box img) {
+.book-page article .markdown img:not(.book-icon) {
   transition: transform 0.2s ease, opacity 0.2s ease;
   
   &:hover {
+    cursor: zoom-in; /* Shows a clear zoom-in intent instead of standard pointers */
     opacity: 0.95;
     transform: translateY(-1px);
   }
