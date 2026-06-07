@@ -1,0 +1,120 @@
+<div class="review-carousel-container">
+  <button class="carousel-arrow left-arrow" id="carousel-prev" aria-label="Previous review">&#10094;</button>
+  <button class="carousel-arrow right-arrow" id="carousel-next" aria-label="Next review">&#10095;</button>
+
+  <div class="review-carousel-track">
+    {{ range hugo.Data.reviews }}
+    <div class="review-card">
+      <div class="review-profile">
+        <img src="{{ .avatar }}" alt="{{ .author }}" class="review-avatar no-lightbox">
+        <div class="review-meta-block">
+          <strong class="review-author">{{ .author }}</strong>
+          {{ if .date }}<span class="review-date">{{ .date }}</span>{{ end }}
+        </div>
+      </div>
+      <p class="review-text">“{{ .text }}”</p>
+    </div>
+    {{ end }}
+  </div>
+  <div class="carousel-dots"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const track = document.querySelector('.review-carousel-track');
+  const cards = document.querySelectorAll('.review-card');
+  const dotsContainer = document.querySelector('.carousel-dots');
+  const prevBtn = document.getElementById('carousel-prev');
+  const nextBtn = document.getElementById('carousel-next');
+  if (!track || cards.length === 0) return;
+
+  let currentIndex = 0;
+  let timer = null;
+
+  // Generate Navigation Dots
+  cards.forEach((_, index) => {
+    const dot = document.createElement('span');
+    dot.classList.add('carousel-dot');
+    if (index === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => {
+      goToSlide(index);
+      startTimer(); 
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = document.querySelectorAll('.carousel-dot');
+
+  function updateCarousel() {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+  }
+
+  function goToSlide(index) {
+    currentIndex = index;
+    updateCarousel();
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % cards.length;
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    updateCarousel();
+  }
+
+  // FIX: Clear interval to lock in a strict, un-stacked 5-second viewing window
+  function startTimer() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(nextSlide, 5000); 
+  }
+
+  startTimer();
+
+  // Manual Click Management
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    startTimer();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    startTimer();
+  });
+
+  // Mobile Touch Swiping Controls
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  track.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    if (timer) clearInterval(timer); 
+  }, { passive: true });
+
+  track.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+    startTimer(); 
+  }, { passive: true });
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    if (touchStartX - touchEndX > swipeThreshold) {
+      nextSlide();
+    } else if (touchEndX - touchStartX > swipeThreshold) {
+      prevSlide();
+    }
+  }
+
+  // Desktop Hover Controls
+  const container = document.querySelector('.review-carousel-container');
+  container.addEventListener('mouseenter', () => {
+    if (timer) clearInterval(timer); 
+  });
+  container.addEventListener('mouseleave', startTimer);
+});
+</script>

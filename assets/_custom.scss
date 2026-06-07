@@ -534,3 +534,134 @@ img[src*="#center"] {
     font-style: normal !important; 
   }
 }
+
+// ==========================================
+// 21. NATIVE REVIEW CAROUSEL ARCHITECTURE
+// ==========================================
+.review-carousel-container {
+  position: relative;
+  width: 100%;
+  // max-width: 720px;
+  margin: 2rem auto;
+  overflow: hidden; 
+  background-color: var(--gray-100) !important;
+  border-left: 4px solid var(--teal) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 
+              0 1px 3px rgba(0, 0, 0, 0.03) !important;
+  padding: 1.5rem 0 !important; 
+  box-sizing: border-box;
+}
+
+.review-carousel-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  width: 100%;
+}
+
+.review-card {
+  flex: 0 0 100%; 
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 0 2.75rem !important; 
+
+  justify-content: center !important;
+}
+
+.review-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+// Aligns name and date in a tight vertical stack
+.review-meta-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.review-avatar {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  margin: 0 !important; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  pointer-events: none; 
+}
+
+.review-author {
+  font-family: 'Finlandica', sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: var(--navy) !important;
+  line-height: 1.2 !important;
+}
+
+// Facebook-style muted timestamp layout decoration
+.review-date {
+  font-family: 'Finlandica', sans-serif !important;
+  font-size: 0.82rem !important;
+  font-weight: 400 !important;
+  color: var(--navy) !important;
+  opacity: 0.55; // Muted display output accent
+}
+
+.review-text {
+  font-family: 'Literata', serif !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: var(--navy) !important;
+  margin: 0 !important;
+  font-style: italic; 
+  white-space: pre-line !important; 
+}
+
+// MANUAL OVERLAY NAVIGATION ARROWS
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none !important;
+  border: none !important;
+  color: var(--navy) !important;
+  font-size: 1.35rem !important;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.35;
+  padding: 0.5rem !important;
+  transition: opacity 0.2s ease, color 0.2s ease !important;
+
+  &:hover {
+    opacity: 1;
+    color: var(--teal) !important;
+  }
+}
+
+.left-arrow { left: 0.5rem !important; }
+.right-arrow { right: 0.5rem !important; }
+
+// Slideway Indicator Tracking Dots
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--gray-200);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &.active {
+    background-color: var(--teal) !important;
+  }
+}

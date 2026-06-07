@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   contentImages.forEach(img => {
     // FIX & ESCAPE HATCH: Completely ignore UI icons, headers, profiles, and logos
     if (
-      img.classList.contains("book-icon") || 
+      img.classList.contains("no-lightbox") || 
       img.closest(".book-header") || 
       img.closest(".sidebar-profile-box") || 
       img.closest(".book-brand")

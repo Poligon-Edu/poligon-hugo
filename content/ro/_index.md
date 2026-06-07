@@ -135,3 +135,6 @@ Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la 
 
 * Întreabă-ne sau scrie-ne gîndurile și sugestiile tale prin email sau WhatsApp,
 accesînd secțiunea de [contact]({{< ref "contact.md" >}}).
+
+## Ce spun clienții și colaboratorii
+{{< carousel >}}
