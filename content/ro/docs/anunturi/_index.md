@@ -1,9 +1,10 @@
----
-title: "Anunțuri și noutăți"
-weight: 1
----
++++
+title = "Evenimente"
+weight = 1
+slug = "evenimente"
++++
 
-# Anunțuri și noutăți
+# Evenimente
 
 ## Partea nescrisă a bacalaureatului
 🗓️ **17 iunie 2026**: discutăm despre bacalaureatul la română și matematică. Cum să te pregătești,

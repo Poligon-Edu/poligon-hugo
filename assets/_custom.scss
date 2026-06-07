@@ -224,8 +224,8 @@ blockquote {
 }
 
 // inject emoji
-.book-menu nav a[href*="anun"]::before,
-.book-menu nav a[href*="news"]::before {
+.book-menu nav a[href*="evenimente"]::before,
+.book-menu nav a[href*="events"]::before {
   content: "📌 ";
 }
 

@@ -1,9 +1,10 @@
 +++
-title = "News and Updates"
+title = "Our Events"
 weight = 1
+slug = "events"
 +++
 
-# News and Updates
+# Our Events
 
 Check back soon.
 
