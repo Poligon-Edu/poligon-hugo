@@ -1,3 +1,22 @@
+<style>
+  /* 1. HIDES THE DUMMY HEADING from the actual text flow of the page */
+  h2#cuprins { display: none !important; }
+
+  /* 2. BULLETPROOF MOBILE TITLE FIX: Hides any text in the top bar, leaving only the menu icons */
+  @media screen and (max-width: 56rem) {
+    .book-header .flex > :not(label) { display: none !important; }
+  }
+
+  /* 3. FADES OUT DESKTOP TOC ONLY in single-view (Leaves the mobile drawer perfectly intact!) */
+  @media screen and (min-width: 56.01rem) {
+    body.facts-single-view-active .book-toc {
+      opacity: 0 !important;
+      pointer-events: none !important;
+      transition: opacity 0.2s ease;
+    }
+  }
+</style>
+
 <div id="facts-engine-wrapper">
   <div class="facts-control-hub">
     <button id="btn-random" class="fact-btn primary-btn">{{ .Get "random" | default "🎲 Random Fact" }}</button>
@@ -16,45 +35,48 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  document.body.classList.add('facts-page-active');
+
   const wrapper = document.getElementById('facts-engine-wrapper');
   const cards = document.querySelectorAll('.fact-card');
   if (!wrapper || cards.length === 0) return;
 
-  const outerTocContent = document.querySelector('.book-toc-content');
-  let customToc = null;
-
-  if (outerTocContent) {
-    customToc = document.getElementById('custom-facts-toc');
-    if (!customToc) {
-      customToc = document.createElement('ul');
-      customToc.id = 'custom-facts-toc';
-      outerTocContent.appendChild(customToc);
+  // 1. Assign IDs to all cards first
+  cards.forEach((card, index) => {
+    card.setAttribute('data-fact-id', index);
+    const h3 = card.querySelector('h3');
+    if (h3 && !h3.id) {
+      h3.id = `scroll-fact-${index}`;
     }
-    customToc.innerHTML = ''; 
+  });
 
-    cards.forEach((card, index) => {
-      card.setAttribute('data-fact-id', index);
-      const h3 = card.querySelector('h3');
-      if (h3) {
-        const scrollId = `punct-${index}`;
-        h3.id = scrollId;
-        
-        // FIX: Clone the heading and strip out the theme's default anchor link (#) 
-        // to prevent extra hash characters from cluttering up the ToC sidebar
-        const cleanHeading = h3.cloneNode(true);
-        const themeAnchor = cleanHeading.querySelector('a');
-        if (themeAnchor) themeAnchor.remove();
-        
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `#${scrollId}`;
-        a.textContent = cleanHeading.textContent.trim();
-        li.appendChild(a);
-        customToc.appendChild(li);
-      }
+  // 2. HIJACK ALL NATIVE TOCS (Solves the Desktop vs Mobile duplicate theme element issue)
+  const nativeTocs = document.querySelectorAll('#TableOfContents');
+
+  if (nativeTocs.length > 0) {
+    nativeTocs.forEach(nativeToc => {
+      nativeToc.innerHTML = ''; // Instantly destroys the dummy "Cuprins" link in both desktop and mobile
+      
+      const ul = document.createElement('ul');
+      cards.forEach((card, index) => {
+        const h3 = card.querySelector('h3');
+        if (h3) {
+          const cleanHeading = h3.cloneNode(true);
+          const themeAnchor = cleanHeading.querySelector('a');
+          if (themeAnchor) themeAnchor.remove();
+          
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `#scroll-fact-${index}`;
+          a.textContent = cleanHeading.textContent.trim();
+          li.appendChild(a);
+          ul.appendChild(li);
+        }
+      });
+      
+      // Inject our generated links directly into the native containers
+      nativeToc.appendChild(ul);
     });
-  } else {
-    cards.forEach((card, index) => card.setAttribute('data-fact-id', index));
   }
 
   const btnRandom = document.getElementById('btn-random');
@@ -65,15 +87,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let newIndex;
     do {
       newIndex = Math.floor(Math.random() * cards.length);
-    } while (cards.length > 1 && `#fact-${newIndex}` === window.location.hash);
-    window.location.hash = `fact-${newIndex}`;
+    } while (cards.length > 1 && `#scroll-fact-${newIndex}` === window.location.hash);
+    window.location.hash = `scroll-fact-${newIndex}`;
   }
 
   function renderViewRoute() {
     const hash = window.location.hash;
     
-    if (hash.startsWith('#fact-')) {
-      const targetId = hash.replace('#fact-', '');
+    if (hash.startsWith('#scroll-fact-')) {
+      const targetId = hash.replace('#scroll-fact-', '');
       const targetCard = document.querySelector(`[data-fact-id="${targetId}"]`);
       
       if (targetCard) {

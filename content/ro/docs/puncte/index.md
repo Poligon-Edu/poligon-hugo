@@ -11,8 +11,10 @@ slug = "puncte-de-acumulare"
 
 ---
 
-<h2 id="sidebar-trigger" style="position: absolute !important; width: 0 !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; opacity: 0 !important; pointer-events: none !important;">Sidebar Trigger</h2>
+## Cuprins
 
+<!-- <h2 id="sidebar-trigger" style="position: absolute !important; width: 0 !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; opacity: 0 !important; pointer-events: none !important;">Sidebar Trigger</h2> -->
+<!---->
 
 {{< facts-engine random="🎲 Arată-mi doar unul" another="🎲 Încă unul" back="🔙 Înapoi la listă" >}}
 
