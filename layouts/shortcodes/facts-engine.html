@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
           
           const li = document.createElement('li');
           const a = document.createElement('a');
-          a.href = `#scroll-fact-${index}`;
+          a.href = `#pt-${index}`;
           a.textContent = cleanHeading.textContent.trim();
           li.appendChild(a);
           ul.appendChild(li);
@@ -87,15 +87,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let newIndex;
     do {
       newIndex = Math.floor(Math.random() * cards.length);
-    } while (cards.length > 1 && `#scroll-fact-${newIndex}` === window.location.hash);
-    window.location.hash = `scroll-fact-${newIndex}`;
+    } while (cards.length > 1 && `#pt-${newIndex}` === window.location.hash);
+    window.location.hash = `pt-${newIndex}`;
   }
 
   function renderViewRoute() {
     const hash = window.location.hash;
     
-    if (hash.startsWith('#scroll-fact-')) {
-      const targetId = hash.replace('#scroll-fact-', '');
+    if (hash.startsWith('#pt-')) {
+      const targetId = hash.replace('#pt-', '');
       const targetCard = document.querySelector(`[data-fact-id="${targetId}"]`);
       
       if (targetCard) {
