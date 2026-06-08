@@ -31,7 +31,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.159.0'
           extended: true # The Book theme utilizes Sass/SCSS, which requires Hugo Extended
 
       - name: Build with Hugo
