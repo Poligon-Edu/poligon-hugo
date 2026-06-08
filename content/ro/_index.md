@@ -128,7 +128,7 @@ concepte pe care ți le propunem.
 
 * Fii la curent cu evenimentele, cursurile și atelierele pe care le organizăm
 sau află cum a fost la cele anterioare din secțiunea de 
-[anunțuri și noutăți]({{< relref path="/anunturi/_index.md" lang="ro" >}}).
+[anunțuri și noutăți]({{< relref path="/evenimente/_index.md" lang="ro" >}}).
 
 * Vrei doar să citești articole de popularizare a științei?
 Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la newsletter.
