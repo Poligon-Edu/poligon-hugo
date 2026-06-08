@@ -86,7 +86,7 @@ look through [our portfolio]({{< relref path="/courses/_index.md" lang="en" >}})
 and download the worksheets or lecture notes if you want to learn on your own.
 
 * Stay in the loop with our events, courses, talks, and workshop or
-read a summary of the previous ones, all listed in the [news and updates]({{< relref path="/news/_index.md" lang="en">}}) section.
+read a summary of the previous ones, all listed in the [news and updates]({{< relref path="/events/_index.md" lang="en">}}) section.
 
 * Read popular science and science education articles we publish in
 [The Gradient](https://thegradient.xyz). Make sure you subscribe to the newsletter
