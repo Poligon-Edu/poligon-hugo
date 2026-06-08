@@ -1,5 +1,5 @@
----
-title: "Gradient"
-weight: 9
-bookHref: "https://gradientul.xyz"
----
++++
+title = "Gradient"
+weight = 8
+bookHref = "https://gradientul.xyz"
++++

@@ -1,0 +1,104 @@
+<div id="facts-engine-wrapper">
+  <div class="facts-control-hub">
+    <button id="btn-random" class="fact-btn primary-btn">{{ .Get "random" | default "🎲 Random Fact" }}</button>
+    <button id="btn-another" class="fact-btn primary-btn">{{ .Get "another" | default "🔄 Another One!" }}</button>
+    <button id="btn-back-list" class="fact-btn">{{ .Get "back" | default "📋 Back to List" }}</button>
+  </div>
+
+  <div class="facts-list-container">
+    {{ range .Page.Resources.ByType "page" }}
+    <div class="fact-card">
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const wrapper = document.getElementById('facts-engine-wrapper');
+  const cards = document.querySelectorAll('.fact-card');
+  if (!wrapper || cards.length === 0) return;
+
+  const outerTocContent = document.querySelector('.book-toc-content');
+  let customToc = null;
+
+  if (outerTocContent) {
+    customToc = document.getElementById('custom-facts-toc');
+    if (!customToc) {
+      customToc = document.createElement('ul');
+      customToc.id = 'custom-facts-toc';
+      outerTocContent.appendChild(customToc);
+    }
+    customToc.innerHTML = ''; 
+
+    cards.forEach((card, index) => {
+      card.setAttribute('data-fact-id', index);
+      const h3 = card.querySelector('h3');
+      if (h3) {
+        const scrollId = `punct-${index}`;
+        h3.id = scrollId;
+        
+        // FIX: Clone the heading and strip out the theme's default anchor link (#) 
+        // to prevent extra hash characters from cluttering up the ToC sidebar
+        const cleanHeading = h3.cloneNode(true);
+        const themeAnchor = cleanHeading.querySelector('a');
+        if (themeAnchor) themeAnchor.remove();
+        
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `#${scrollId}`;
+        a.textContent = cleanHeading.textContent.trim();
+        li.appendChild(a);
+        customToc.appendChild(li);
+      }
+    });
+  } else {
+    cards.forEach((card, index) => card.setAttribute('data-fact-id', index));
+  }
+
+  const btnRandom = document.getElementById('btn-random');
+  const btnAnother = document.getElementById('btn-another');
+  const btnBackList = document.getElementById('btn-back-list');
+
+  function pickRandomFact() {
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * cards.length);
+    } while (cards.length > 1 && `#fact-${newIndex}` === window.location.hash);
+    window.location.hash = `fact-${newIndex}`;
+  }
+
+  function renderViewRoute() {
+    const hash = window.location.hash;
+    
+    if (hash.startsWith('#fact-')) {
+      const targetId = hash.replace('#fact-', '');
+      const targetCard = document.querySelector(`[data-fact-id="${targetId}"]`);
+      
+      if (targetCard) {
+        cards.forEach(c => c.classList.remove('active-random-card'));
+        wrapper.classList.add('single-view-active');
+        targetCard.classList.add('active-random-card');
+        
+        document.body.classList.add('facts-single-view-active');
+        window.scrollTo({ top: 0, behavior: 'instant' });
+        return;
+      }
+    }
+    
+    wrapper.classList.remove('single-view-active');
+    cards.forEach(c => c.classList.remove('active-random-card'));
+    document.body.classList.remove('facts-single-view-active');
+  }
+
+  btnRandom.addEventListener('click', pickRandomFact);
+  btnAnother.addEventListener('click', pickRandomFact);
+  btnBackList.addEventListener('click', () => {
+    window.location.hash = ''; 
+  });
+
+  window.addEventListener('hashchange', renderViewRoute);
+  renderViewRoute(); 
+});
+</script>

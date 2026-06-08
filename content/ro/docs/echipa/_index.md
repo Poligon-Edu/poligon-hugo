@@ -1,4 +1,4 @@
----
-title: Echipa
-weight: 9
----
++++
+title = "Echipa"
+weight = 8
++++

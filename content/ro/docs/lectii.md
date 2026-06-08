@@ -1,6 +1,6 @@
 +++
 title = "Lecții private"
-weight = 1
+weight = 4
 type = "docs"
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 type = "docs"
-weight = 10
+weight = 9
 +++
 
 ![Contact](/images/contact.jpg)
