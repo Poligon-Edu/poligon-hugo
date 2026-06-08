@@ -88,7 +88,7 @@ Acest experiment a ajuns și la Televiziunea Română, unde am fost invitați la
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hOQHOVi-xkQ?si=cZd-hpMAau0Itzwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Materiale moderne și accesibile
-În plus, [materialele noastre de studiu]({{< relref path="/docs/materiale/_index.md" lang="ro" >}}) conțin elemente de istoria
+În plus, [materialele noastre de studiu]({{< relref path="/materiale/_index.md" lang="ro" >}}) conțin elemente de istoria
 și filosofia științei, aplicații ale matematicii în științele naturii
 și tehnologie și sînt redactate atent, astfel încît să nu pară încă
 o pagină de manual sau culegere de exerciții.
@@ -119,16 +119,16 @@ toate nivelurile de studii: primar, gimnazial, liceal sau chiar pentru studenți
 
 * Dacă vrei să alcătuim împreună un curs personalizat, potrivit curiozităților
 tale, nivelului de cunoștințe, dar și obiectivelor, uită-te în
-[portofoliul nostru]({{< relref path="/docs/cursuri/_index.md" lang="ro" >}})
+[portofoliul nostru]({{< relref path="/cursuri/_index.md" lang="ro" >}})
 ca să vezi condițiile generale și ce-ți propunem.
 
-* Accesează pagina de [materiale educaționale]({{< relref path="/docs/materiale/_index.md" lang="ro" >}}) 
+* Accesează pagina de [materiale educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}}) 
 și descarcă fișele de teorie și exerciții dacă vrei să înveți singur cîteva
 concepte pe care ți le propunem.
 
 * Fii la curent cu evenimentele, cursurile și atelierele pe care le organizăm
 sau află cum a fost la cele anterioare din secțiunea de 
-[anunțuri și noutăți]({{< relref path="/docs/anunturi/_index.md" lang="ro" >}}).
+[anunțuri și noutăți]({{< relref path="/anunturi/_index.md" lang="ro" >}}).
 
 * Vrei doar să citești articole de popularizare a științei?
 Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la newsletter.

@@ -80,9 +80,9 @@ can collaborate easily). Our teachers are specialized for mathematics and
 physics lessons, for all levels: K-12 or even college.
 
 * If you want to build together a custom course which matches your curiosity,
-look through [our portfolio]({{< relref path="/docs/courses/_index.md" lang="en" >}}).
+look through [our portfolio]({{< relref path="/courses/_index.md" lang="en" >}}).
 
-* Browse our [educational resources]({{< relref path="/docs/materials/_index.md" lang="en" >}})
+* Browse our [educational resources]({{< relref path="/resources/_index.md" lang="en" >}})
 and download the worksheets or lecture notes if you want to learn on your own.
 
 * Stay in the loop with our events, courses, talks, and workshop or
@@ -93,7 +93,7 @@ read a summary of the previous ones, all listed in the [news and updates]({{< re
 to have them delivered to your inbox.
 
 * Ask us anything or send us your thoughts via email or WhatsApp
-using the [contact]({{< relref path="/docs/contact.md" lang="en">}}) section.
+using the [contact]({{< relref path="/contact.md" lang="en">}}) section.
 
 ---
 

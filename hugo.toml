@@ -2,6 +2,7 @@ baseURL = "https://poligon-edu.ro/"
 title = "Poligon Educational"
 theme = "hugo-book"
 
+
 disableKinds = ["taxonomy"]
 
 # Language Inversion Defaults
@@ -12,43 +13,44 @@ defaultContentLanguageInSubdir = false
 # GLOBAL LAYOUT SETTINGS
 # ==========================================
 [params]
-  BookTheme = "auto"
-  BookToC = true
-  BookSearch = true
-  BookLogo = "images/logo.png"
-  BookKatex = true
-  BookFavicon = "images/favicon.png"
+BookTheme = "auto"
+BookToC = true
+BookSearch = true
+BookLogo = "images/logo.png"
+BookKatex = true
+BookFavicon = "images/favicon.png"
+BookSection = "*"
 
 # ==========================================
 # SPLIT CONTENT ARCHITECTURE
 # ==========================================
 [languages]
-  [languages.ro]
-    languageName = "Română"
-    contentDir = "content/ro"
-    weight = 1
+[languages.ro]
+languageName = "Română"
+contentDir = "content/ro"
+weight = 1
 
-  [languages.en]
-    languageName = "English"
-    contentDir = "content/en"
-    weight = 2
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+weight = 2
 
 # ==========================================
 # MARKUP PARSER ENGINE
 # ==========================================
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['$$', '$$'], ['\\[', '\\]']]
-          inline = [['$', '$'], ['\\(', '\\)']]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$'], ['\\[', '\\]']]
+inline = [['$', '$'], ['\\(', '\\)']]
 # ==========================================
 # THIRD-PARTY SERVICES
 # ==========================================
 [services]
-  [services.googleAnalytics]
-    id = "G-2SJLNGNK0T"
+[services.googleAnalytics]
+id = "G-2SJLNGNK0T"
