@@ -1,7 +1,7 @@
 +++
 title = "Custom Courses"
 type = "docs"
-weight = 2
+weight = 5
 +++
 
 ![Courses](/images/courses.avif)

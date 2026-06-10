@@ -1,7 +1,7 @@
 +++
 title = "Private Tutoring"
 type = "docs"
-weight = 1
+weight = 4
 +++
 
 ![Tutoring](/images/tutoring.avif)
