@@ -2,6 +2,7 @@
 title = "Educational Resources"
 type = "docs"
 weight = 4
+bookHidden = true
 +++
 
 # Educational Resources

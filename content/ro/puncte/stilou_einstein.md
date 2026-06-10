@@ -1,6 +1,6 @@
 ### Stiloul de lux al lui Einstein și „consumabilul” lui Gödel
 În 1921, Albert Einstein primește un cadou de la colegul de breaslă Paul Ehrenfest:
-un stilou Waterman Ideal 22, de producție franțuească. Îl poți vedea în imaginea
+un stilou Waterman Ideal 22, de producție franțuzească. Îl poți vedea în imaginea
 de mai jos sau la Muzeul Boerhaave din Leiden, Olanda.
 
 ![Waterman Einstein](/images/puncte/waterman_einstein.jpg)
