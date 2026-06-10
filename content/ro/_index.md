@@ -18,12 +18,11 @@ Credem că educația științifică și matematică are o importanță deosebit�
 mai ales în prezent, cînd inteligența artificială pare că poate să facă
 totul pentru tine.
 
-Experiența ne-a arătat, însă, că școala nu-ți oferă mereu tot ce ai nevoie
+De multe ori, școala nu-ți oferă mereu tot ce ai nevoie
 sau, dacă o face, nu ar trebui să te limitezi la o medie bună sau un
 examen promovat cu brio.
 
-Dacă îl crezi pe Einstein, ar trebui să-ți amintești că
-*educația este ceea ce-ți rămîne după ce ai uitat tot ce ai învățat în școală*,
+Dacă îl crezi pe Einstein, *educația este ce-ți rămîne după ce ai uitat tot ce ai învățat în școală*,
 așa că studiul individual, aplicațiile sau poveștile din istoria descoperirilor
 științifice ajung să însemne mai mult decît o listă de exerciții pe care le
 pregătești pentru un test.
@@ -42,12 +41,15 @@ explica în cuvintele tale.
 
 Avem entuziasmul, răbdarea și interesul necesare ca să-ți explicăm tot
 ce nu ai înțeles, astfel încît conceptele abstracte de matematică sau
-științe ale naturii să-ți fie clare. Efortul este necesar, dar nu trebuie
+științe ale naturii să-ți fie clare. 
+
+Efortul este necesar, dar nu trebuie
 să vină cu forța, prin învățare pe de rost, din teamă sau obligație.
 Pentru că dificultățile educaționale [nu sînt întotdeauna clare](https://www.scoala9.ro/de-ce-se-blocheaza-elevii-la-stiinte/2382)
-și ușor de pus în seama elevului sau a „sistemului”. Uneori pur și simplu trebuie
-să acorzi atenția corespunzătoare, individuală, pe care într-o clasă
-îți este imposibil să o faci.
+și ușor de pus în seama elevului sau a „sistemului”. 
+
+Uneori pur și simplu trebuie să acorzi atenția corespunzătoare, 
+individuală, pe care într-o clasă îți este imposibil să o faci.
 
 ![Joshua științe](/images/joshua_stiinte.png)
 
@@ -59,9 +61,9 @@ să acorzi atenția corespunzătoare, individuală, pe care într-o clasă
 > și prietenoasă, elevul privește învățarea ca pe o experiență de dezvoltare sănătoasă.
 
 ## Colaborăm, nu predăm
-Ne place foarte mult să nu păstrăm o relație rigidă cu elevii și studenții
-cu care lucrăm, așa că ne bucurăm să-i implicăm în proiecte diverse.
-De exemplu:
+Ne place foarte mult să avem o relație amicală, de colaborare, cu elevii 
+și studenții cu care lucrăm, așa că ne bucurăm să-i implicăm 
+în proiecte diverse. De exemplu:
 
 * Într-un [articol publicat de VOCATIV](https://vocativ.ro/sase-elevi-despre-cum-traiesc-ultimele-saptamani-inainte-de-bac-in-fiecare-secunda-in-care-nu-invat-simt-ca-ar-trebui-sa-o-fac/), unul dintre cele mai importante
 newslettere de educație din România, am discutat cu șase elevi de clasa
@@ -88,7 +90,7 @@ Acest experiment a ajuns și la Televiziunea Română, unde am fost invitați la
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hOQHOVi-xkQ?si=cZd-hpMAau0Itzwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Materiale moderne și accesibile
-În plus, [materialele noastre de studiu]({{< relref path="/materiale/_index.md" lang="ro" >}}) conțin elemente de istoria
+[Materialele noastre de studiu]({{< relref path="/materiale/_index.md" lang="ro" >}}) conțin elemente de istoria
 și filosofia științei, aplicații ale matematicii în științele naturii
 și tehnologie și sînt redactate atent, astfel încît să nu pară încă
 o pagină de manual sau culegere de exerciții.
@@ -99,7 +101,7 @@ lecțiile, cursurile și atelierele noastre folosim unelte *open source*
 să nu fie obligați să cumpere manuale, culegeri, abonamente sau alte
 materiale fizice sau digitale.
 
-În acest sens, pregătim și un curs personalizat unde îți arătăm cît
+De aceea, pregătim și un curs personalizat unde îți arătăm cît
 de simplu este să-ți instalezi programe de educație sau productivitate
 generală gratuite, construite cu simț de răspundere și etică, încît
 să eviți ascunzișurile care colectează date sau te obligă să
@@ -128,13 +130,15 @@ concepte pe care ți le propunem.
 
 * Fii la curent cu evenimentele, cursurile și atelierele pe care le organizăm
 sau află cum a fost la cele anterioare din secțiunea de 
-[anunțuri și noutăți]({{< relref path="/evenimente/_index.md" lang="ro" >}}).
+[evenimente]({{< relref path="/evenimente/_index.md" lang="ro" >}}).
 
-* Vrei doar să citești articole de popularizare a științei?
+* Vrei să citești articole de popularizare a științei?
 Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la newsletter.
 
+* Nu ai timp de un articol întreg? Citește rapid [punctele de acumulare]({{< relref path="puncte/index.md" lang="ro" >}}).
+
 * Întreabă-ne sau scrie-ne gîndurile și sugestiile tale prin email sau WhatsApp,
-accesînd secțiunea de [contact]({{< ref "contact.md" >}}).
+accesînd secțiunea de [contact]({{< relref path="contact.md" lang="ro" >}}).
 
 ## Ce spun clienții și colaboratorii
 {{< carousel >}}
