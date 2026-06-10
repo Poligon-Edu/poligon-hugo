@@ -1,5 +1,5 @@
 ### Algebră = Ortopedie
-Matematicianul Muhammad ibn Musa al-Khwarizmi a trăit în secolele XVIII-XIX
+Matematicianul Muhammad ibn Musa al-Khwarizmi a trăit în secolele VIII-IX
 și este primul algebrist al istoriei. El a lucrat cea mai mare parte a vieții 
 la *Casa Înțelepciunii* din Bagdad, care conținea o bibliotecă impresionantă
 și reunea marii gînditori ai vremii. O reprezentare a ei dintr-un manuscris
