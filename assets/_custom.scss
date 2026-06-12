@@ -763,3 +763,90 @@ img[src*="#center"] {
   0% { opacity: 0; transform: scale(0.96) translateY(8px); }
   100% { opacity: 1; transform: scale(1) translateY(0); }
 }
+
+// ==========================================
+// 23. NATIVE COOKIE CONSENT BANNER
+// ==========================================
+.cookie-banner {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  width: 90%;
+  max-width: 620px;
+  background-color: var(--gray-100) !important;
+  border-left: 4px solid var(--teal) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 
+              0 1px 3px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  z-index: 999999; // Stays fully above drawers, navigation bars, and lightbox elements
+  font-family: 'Finlandica', sans-serif;
+  transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+              transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+
+  &.cookie-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(15px);
+  }
+
+  .cookie-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    text-align: center;
+
+    @media screen and (min-width: 42rem) {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      gap: 2rem;
+    }
+  }
+
+  .cookie-text {
+    margin: 0 !important;
+    font-size: 0.925rem;
+    color: var(--navy) !important;
+    line-height: 1.4;
+  }
+
+  .cookie-actions {
+    display: flex;
+    gap: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .cookie-btn {
+    padding: 0.45rem 1.25rem !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    cursor: pointer !important;
+    border: 1px solid transparent !important;
+    transition: all 0.2s ease !important;
+
+    &.primary {
+      background-color: var(--navy) !important;
+      color: var(--ivory) !important;
+      &:hover {
+        background-color: var(--teal) !important;
+        border-color: var(--teal) !important;
+      }
+    }
+
+    &.secondary {
+      background-color: transparent !important;
+      border-color: var(--gray-200) !important;
+      color: var(--navy) !important;
+      opacity: 0.8;
+      &:hover {
+        opacity: 1;
+        background-color: var(--burgundy) !important;
+        color: var(--ivory) !important;
+      }
+    }
+  }
+}

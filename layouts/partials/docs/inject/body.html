@@ -1,0 +1,39 @@
+<div id="cookie-consent-banner" class="cookie-banner cookie-hidden">
+  <div class="cookie-container">
+    <p class="cookie-text">
+      Acest site folosește cookie-uri pentru a vă asigura o experiență de navigare optimă. 🍪
+    </p>
+    <div class="cookie-actions">
+      <button id="btn-accept-cookies" class="cookie-btn primary">Acceptă</button>
+      <button id="btn-decline-cookies" class="cookie-btn secondary">Refuză</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const banner = document.getElementById('cookie-consent-banner');
+  const acceptBtn = document.getElementById('btn-accept-cookies');
+  const declineBtn = document.getElementById('btn-decline-cookies');
+
+  if (!banner || !acceptBtn || !declineBtn) return;
+
+  // Check if the user has already made a selection in the past
+  const consentChoice = localStorage.getItem('cookie-consent-choice');
+
+  if (!consentChoice) {
+    banner.classList.remove('cookie-hidden');
+  }
+
+  acceptBtn.addEventListener('click', function() {
+    localStorage.setItem('cookie-consent-choice', 'accepted');
+    banner.classList.add('cookie-hidden');
+    // Trigger any custom analytical scripts here if needed
+  });
+
+  declineBtn.addEventListener('click', function() {
+    localStorage.setItem('cookie-consent-choice', 'declined');
+    banner.classList.add('cookie-hidden');
+  });
+});
+</script>
