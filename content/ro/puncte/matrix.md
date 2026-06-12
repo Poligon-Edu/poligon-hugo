@@ -19,8 +19,8 @@ $$
 $$
 
 Cu această ocazie, Sylvester numește determinanții *Matrix*,
-cuvînt preluat din latină, care înseamnă *mamă, născătoare*.
-Deși matematicianul nu oferă detalii despre cum a ales cuvîntul,
+cuvânt preluat din latină, care înseamnă *mamă, născătoare*.
+Deși matematicianul nu oferă detalii despre cum a ales cuvântul,
 o interpretare posibilă este că determinantul are proprietatea
 că produce, în timpul calculului, obiecte similare cu el, dar mai
 mici — care au ajuns să se numească *minori*, tot în familia lexicală

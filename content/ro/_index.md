@@ -10,21 +10,21 @@ images = ["/images/logo_small.png"]
 # Bun venit!
 
 ## De ce să studiezi cu noi?
-Avem convingerea că matematica înseamnă mult mai mult decît formule și teoreme
+Avem convingerea că matematica înseamnă mult mai mult decât formule și teoreme
 pe care le memorezi, calcule care nu se mai termină și exerciții șablonate
 din care rezolvi cu sutele ca să fii pregătit pentru examene.
 
 Credem că educația științifică și matematică are o importanță deosebită,
-mai ales în prezent, cînd inteligența artificială pare că poate să facă
+mai ales în prezent, când inteligența artificială pare că poate să facă
 totul pentru tine.
 
 De multe ori, școala nu-ți oferă mereu tot ce ai nevoie
 sau, dacă o face, nu ar trebui să te limitezi la o medie bună sau un
 examen promovat cu brio.
 
-Dacă îl crezi pe Einstein, *educația este ce-ți rămîne după ce ai uitat tot ce ai învățat în școală*,
+Dacă îl crezi pe Einstein, *educația este ce-ți rămâne după ce ai uitat tot ce ai învățat în școală*,
 așa că studiul individual, aplicațiile sau poveștile din istoria descoperirilor
-științifice ajung să însemne mai mult decît o listă de exerciții pe care le
+științifice ajung să însemne mai mult decât o listă de exerciții pe care le
 pregătești pentru un test.
 
 Preocuparea pentru comunicarea și colaborarea între discipline ne motivează
@@ -33,19 +33,19 @@ să discutăm cu [specialiști din diverse domenii](https://www.scoala9.ro/perso
 
 ![Teatru Școala9](/images/teatru_s9.png)
 
-Cu noi ai ocazia să înveți mai mult, mai prietenos și mai divers decît
+Cu noi ai ocazia să înveți mai mult, mai prietenos și mai divers decât
 la clasă sau la o meditație obișnuită. Profesorii noștri au experiență
 didactică și de cercetare, în țară și în străinătate și, în plus,
 știu că e la fel de important și să știi o teoremă, dar și să o poți
 explica în cuvintele tale.
 
 Avem entuziasmul, răbdarea și interesul necesare ca să-ți explicăm tot
-ce nu ai înțeles, astfel încît conceptele abstracte de matematică sau
+ce nu ai înțeles, astfel încât conceptele abstracte de matematică sau
 științe ale naturii să-ți fie clare. 
 
 Efortul este necesar, dar nu trebuie
 să vină cu forța, prin învățare pe de rost, din teamă sau obligație.
-Pentru că dificultățile educaționale [nu sînt întotdeauna clare](https://www.scoala9.ro/de-ce-se-blocheaza-elevii-la-stiinte/2382)
+Pentru că dificultățile educaționale [nu sunt întotdeauna clare](https://www.scoala9.ro/de-ce-se-blocheaza-elevii-la-stiinte/2382)
 și ușor de pus în seama elevului sau a „sistemului”. 
 
 Uneori pur și simplu trebuie să acorzi atenția corespunzătoare, 
@@ -55,8 +55,8 @@ individuală, pe care într-o clasă îți este imposibil să o faci.
 
 > Credem că analfabetismul funcțional, dezinformarea,
 > conspirațiile și alte probleme tot mai pronunțate în țara noastră și în lume
-> sînt în primul rînd combătute printr-o educație de calitate, făcută cu
-> grijă, personalizată și cu pasiune. Cînd profesorul se implică nu doar
+> sunt în primul rând combătute printr-o educație de calitate, făcută cu
+> grijă, personalizată și cu pasiune. Când profesorul se implică nu doar
 > prin cunoștințe de specialitate, ci și prin entuziasm, comunicare simplă
 > și prietenoasă, elevul privește învățarea ca pe o experiență de dezvoltare sănătoasă.
 
@@ -92,22 +92,22 @@ Acest experiment a ajuns și la Televiziunea Română, unde am fost invitați la
 ## Materiale moderne și accesibile
 [Materialele noastre de studiu]({{< relref path="/materiale/_index.md" lang="ro" >}}) conțin elemente de istoria
 și filosofia științei, aplicații ale matematicii în științele naturii
-și tehnologie și sînt redactate atent, astfel încît să nu pară încă
+și tehnologie și sunt redactate atent, astfel încât să nu pară încă
 o pagină de manual sau culegere de exerciții.
 
-Educația trebuie să fie în primul rînd accesibilă, așa că în toate
+Educația trebuie să fie în primul rând accesibilă, așa că în toate
 lecțiile, cursurile și atelierele noastre folosim unelte *open source*
-și gratuite, astfel încît elevii, studenții sau profesorii participanți
+și gratuite, astfel încât elevii, studenții sau profesorii participanți
 să nu fie obligați să cumpere manuale, culegeri, abonamente sau alte
 materiale fizice sau digitale.
 
-De aceea, pregătim și un curs personalizat unde îți arătăm cît
+De aceea, pregătim și un curs personalizat unde îți arătăm cât
 de simplu este să-ți instalezi programe de educație sau productivitate
-generală gratuite, construite cu simț de răspundere și etică, încît
+generală gratuite, construite cu simț de răspundere și etică, încât
 să eviți ascunzișurile care colectează date sau te obligă să
-interacționezi cu inteligența artificială. Sînt disponibile
+interacționezi cu inteligența artificială. sunt disponibile
 și pe Windows sau macOS, însă cursul nostru va fi
-în primul rînd un argument pentru Linux.
+în primul rând un argument pentru Linux.
 
 ![Exemplu Markdown și LaTeX](/images/adrian_vscode.png)
 
@@ -125,7 +125,7 @@ tale, nivelului de cunoștințe, dar și obiectivelor, uită-te în
 ca să vezi condițiile generale și ce-ți propunem.
 
 * Accesează pagina de [materiale educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}}) 
-și descarcă fișele de teorie și exerciții dacă vrei să înveți singur cîteva
+și descarcă fișele de teorie și exerciții dacă vrei să înveți singur câteva
 concepte pe care ți le propunem.
 
 * Fii la curent cu evenimentele, cursurile și atelierele pe care le organizăm
@@ -137,8 +137,8 @@ Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la 
 
 * Nu ai timp de un articol întreg? Citește rapid [punctele de acumulare]({{< relref path="puncte/index.md" lang="ro" >}}).
 
-* Întreabă-ne sau scrie-ne gîndurile și sugestiile tale prin email sau WhatsApp,
-accesînd secțiunea de [contact]({{< relref path="contact.md" lang="ro" >}}).
+* Întreabă-ne sau scrie-ne gândurile și sugestiile tale prin email sau WhatsApp,
+accesând secțiunea de [contact]({{< relref path="contact.md" lang="ro" >}}).
 
 ## Ce spun clienții și colaboratorii
 {{< carousel >}}

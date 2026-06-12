@@ -37,8 +37,8 @@ Apasă aici ca să vezi evenimentele anterioare.
 <h3>Unelte moderne pentru lecțiile de matematică</h3>
 
 ⏪ **20 mai 2026**: am organizat un atelier interactiv
-cu titlul *Unelte moderne pentru lecțiile de matematică*, atît pentru profesori,
-cît și pentru elevi sau studenți. Am vorbit despre inteligența
+cu titlul *Unelte moderne pentru lecțiile de matematică*, atât pentru profesori,
+cât și pentru elevi sau studenți. Am vorbit despre inteligența
 artificială, neuroștiințe, *storytelling*, LaTeX și Markdown.
 
 Citește un rezumat în [Gradient](https://www.gradientul.xyz/ce-am-discutat-la-atelierul-poligon-educational-si-ce-urmeaza/).
@@ -69,7 +69,7 @@ din Buzău despre comunicarea și popularizarea științei, oportunități de pu
 scriere jurnalistică și documentare. Au participat 17 clase de liceu pe durata
 celor trei zile.
 
-Citește cîteva reflecții în [Gradient](https://www.gradientul.xyz/experienta-unui-dialog/).
+Citește câteva reflecții în [Gradient](https://www.gradientul.xyz/experienta-unui-dialog/).
 
 ![Hasdeu 2025](/images/comunicare_hasdeu.jpg)
 

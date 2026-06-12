@@ -10,7 +10,7 @@ Vei găsi aici materiale pe care ți le recomandăm în studiul
 matematicii, cu aplicațiile sale în științe, cu dezvoltarea istorică,
 implicații filosofice și nu numai.
 
-O parte din ele sînt scrise de profesorii noștri, iar altele sînt
+O parte din ele sunt scrise de profesorii noștri, iar altele sunt
 ale unor autori pe care îi apreciem: cercetători, profesori, jurnaliști
 sau specialiști ai diverselor domenii.
 

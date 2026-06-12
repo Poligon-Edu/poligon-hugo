@@ -2,6 +2,7 @@
 title = "Lecții private"
 weight = 4
 type = "docs"
+slug = "lectii-private"
 +++
 
 ![Lecții private](/images/tutoring.avif)
@@ -25,7 +26,7 @@ tău și dacă toți elevii din grup au un nivel de pregătire similar și pot c
 este recomandabil ca elevul să aibă o tabletă sau o tabletă grafică. Profesorii
 noștri au toate uneltele necesare și-ți pun la dispoziție materialele și notițele în format digital (PDF).
 
-* În format fizic, sîntem disponibili (deocamdată) în **București, Cluj** și **Oradea**.
+* În format fizic, suntem disponibili (deocamdată) în **București, Cluj** și **Oradea**.
 
 * Aspirațiile sau obiectivele tale educaționale pot fi diverse! Fie că vrei să-ți îndrepți o notă proastă luată la clasă 
 ori ai emoții pentru o testare națională (evaluare, bacalaureat) sau internațională (SAT, IB, GRE), sau ai 
@@ -33,7 +34,7 @@ probleme în sesiunea de examen (sau de restanțe) avem experiența și pregăti
 
 * Învățăm în *română*, *engleză* sau *franceză*. Yes, we work with [international students]({{< ref path="_index.md" lang="en" >}})!
 Mai mult, dacă nivelul tău al unei limbi străine nu este la capacitatea dorită, îți putem oferi 
-lecții complementare care să te familiarizeze mai întîi cu termenii de specialitate. 
+lecții complementare care să te familiarizeze mai întâi cu termenii de specialitate. 
 Duolingo nu prea te învață ce înseamnă *manifold*, *eigenvalue* sau *série entière*, nu-i așa? Noi te ajutăm!
 
 * **Nu trebuie să cumperi niciun material de studiu!** Ghiozdanul plin de manuale, culegeri, caiete speciale, 

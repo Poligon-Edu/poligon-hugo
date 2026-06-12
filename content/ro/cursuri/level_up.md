@@ -10,10 +10,10 @@ bookHidden = true
 
 Transformă pasiunea pentru jocuri într-o experiență de socializare și învățare!
 
-Jocurile, sub toate formele lor, oferă mult mai mult decît distracție, 
+Jocurile, sub toate formele lor, oferă mult mai mult decât distracție, 
 ochi obosiți și ore care zboară. Strategie, planificare, creativitate, 
-imaginație — toate sînt puse la încercare în provocările pe care le 
-înfrunți. Iar cînd ai și un grup cu care să le faci față, experiența 
+imaginație — toate sunt puse la încercare în provocările pe care le 
+înfrunți. Iar când ai și un grup cu care să le faci față, experiența 
 se schimbă.
 
 Îți propunem, prin clubul LEVEL UP!, un mediu în care să te dezvolți 
@@ -24,20 +24,20 @@ cadru relaxat, dar și competitiv.
 Dacă ai între 13 și 17 ani și locuiești în București, [înscrie-te](#înscrie-te) în clubul nostru!
 
 ## Organizare
-Vom face întîlniri săptămînale, în care ne jucăm și discutăm despre 
+Vom face întâlniri săptămânale, în care ne jucăm și discutăm despre 
 jocuri video, board games, word games și alte asemenea, cu atenție la 
 poveste, strategii și mecanici.
 
 Temele de discuție te vor stimula să privești jocurile ca pe experiențe complexe, care spun povești și te învață să planifici și să alegi strategia potrivită.
 
-Întîlnirile cu discuții vor fi urmate de unele în care descoperim jocuri noi, online multiplayer sau board games fizice, în care colaborăm și concurăm.
+Întâlnirile cu discuții vor fi urmate de unele în care descoperim jocuri noi, online multiplayer sau board games fizice, în care colaborăm și concurăm.
 
 În urma discuțiilor și a rundelor de joc, primești punctaje, iar primii clasați la finalul lunii primesc recompense surpriză!
 
-Ne vom întîlni fizic la una din locațiile noastre din Titan, dar avem și un server de 
+Ne vom întâlni fizic la una din locațiile noastre din Titan, dar avem și un server de 
 Discord la care poți participa pentru alte discuții și sesiuni comune.
 
-Alcătuim grupe de cîte 5-6 participanți și discutăm o ofertă personalizată 
+Alcătuim grupe de câte 5-6 participanți și discutăm o ofertă personalizată 
 în cadrul unei ședințe comune.
 
 ## Jocurile propuse
@@ -79,7 +79,7 @@ Dacă ai deja vreunul dintre jocurile de mai sus, în variantă digitală, pe PC
 
 Dacă nu, poți participa oricum. Jocurile din categoria Board și card games le găsești la noi și le jucăm împreună.
 
-În plus, dacă te plasezi printre primii la activitățile noastre, poți cîștiga unul sau mai multe din jocurile propuse!
+În plus, dacă te plasezi printre primii la activitățile noastre, poți câștiga unul sau mai multe din jocurile propuse!
 
 ## Înscrie-te
 Trimite-ne un [email](mailto:adrianmanea@poligon-edu.ro) sau un mesaj pe [WhatsApp](https://wa.link/279kzl)

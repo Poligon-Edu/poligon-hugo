@@ -10,26 +10,26 @@ slug = "adrian-manea"
 
 Salutare!
 
-Eu sînt Adrian, coordonatorul Poligon Educational.
+Eu sunt Adrian, coordonatorul Poligon Educational.
 
-Sînt doctor în matematică din 2016 și am lucrat pînă în 2026 ca
+Sunt doctor în matematică din 2016 și am lucrat până în 2026 ca
 profesor la Facultatea de Matematică și Informatică a Universității din București,
 precum și la Facultatea de Științe Aplicate a Universității Politehnica din București.
 
 Poligonul a început în 2023, dar a fost o simplă și naturală continuare a
 pasiunii mele pentru educația științifică și matematică. De fapt, ideea mi-a
-venit pentru că îmi place să împărtășesc din cunoștințele mele. Sînt entuziasmat
-oricînd descopăr ceva nou, vreau să povestesc, să pornesc discuții și schimb
+venit pentru că îmi place să împărtășesc din cunoștințele mele. Sunt entuziasmat
+oricând descopăr ceva nou, vreau să povestesc, să pornesc discuții și schimb
 de informații și experiență. Este unul dintre motivele pentru care am devenit profesor.
 
-Totodată, încă de cînd eram student la Facultatea de Matematică, am avut bucuria
+Totodată, încă de când eram student la Facultatea de Matematică, am avut bucuria
 să cunosc și să lucrez cu profesori deosebiți, pasionați și de istoria, filosofia
-și povestea teoremelor și ecuațiilor pe care le studiam. Le sînt recunoscător,
+și povestea teoremelor și ecuațiilor pe care le studiam. Le sunt recunoscător,
 printre alții, profesorilor Sorin Dăscălescu, Dragoș Ștefan, Victor Alexandru,
 Victor Vuletescu și Paltin Ionescu. Cu toții mi-au arătat că poți să înțelegi
-mai bine chiar și cele mai abstracte lucruri atunci cînd le situezi într-un
+mai bine chiar și cele mai abstracte lucruri atunci când le situezi într-un
 context istoric, le discuți interpretările date de filosofi ai științei și,
-nu în ultimul rînd, cînd îți amintești că fiecare cercetător a fost *un curios*.
+nu în ultimul rând, când îți amintești că fiecare cercetător a fost *un curios*.
 
 A venit, apoi, naturală colaborarea mea cu Facultatea de Filosofie din București,
 unde am asistat la cursurile ținute de Dana Jalobeanu, apoi am avut chiar
@@ -47,7 +47,7 @@ După care au urmat și alte publicații, editoriale, cronici de carte
 
 Poligonul a crescut și acum mă bucur să îi am în echipă pe Maria, Răzvan
 și Joshua, alături de care încercăm să contribuim la educația matematică
-și științifică pentru toate vîrstele.
+și științifică pentru toate vârstele.
 
 Mai multe despre activitatea mea din afara Poligonului
 poți să afli de pe [site-ul personal](https://adrianmanea.xyz).

@@ -8,7 +8,7 @@ bookHidden = true
 
 # Muzica: Limbaj, matematică, fizică
 
-Ce asocieri faci cînd te gîndești la muzică? 
+Ce asocieri faci când te gândești la muzică? 
 *Emoție, senzație, ritm, pulsație, sunetul muzicii, limbajul muzicii...*
 
 Muzica este o formă de comunicare, o metodă de relaxare, o 
@@ -16,18 +16,18 @@ formă de divertisment, o cale de a transmite și a induce bună
 dispoziție, teamă, suspans și, în general, un spectru larg de 
 emoții și idei. Nu trebuie să ai o pregătire muzicală, nici chiar 
 așa-zisa ureche muzicală ca să fii emoționat de o piesă, uneori chiar 
-și de cîteva note numai. Îți simți pulsul sincronizat cu ritmul melodiei, 
+și de câteva note numai. Îți simți pulsul sincronizat cu ritmul melodiei, 
 capul și picioarele încep să se miște incontrolabil.
 
 Chiar dacă muzica este o formă artistică, putem să o discutăm și științific.
 
-Iată cîteva puncte de pornire.
+Iată câteva puncte de pornire.
 
 ## Matematică și fizică
 Muzica se bazează fundamental pe sunet, care, spus prozaic, 
 este o mișcare ordonată și repetată a aerului, sub forma unor unde — *unde sonore*. 
 Fizic, ele au proprietăți comune cu lumina, dar și cu valurile. 
-Matematic, sînt reprezentate prin ecuații complicate, dar nu 
+Matematic, sunt reprezentate prin ecuații complicate, dar nu 
 ne împedică astfel de detalii pentru a aprecia muzica.
 
 Trebuie, totuși, să vorbim despre proprietăți științifice esențiale ale undelor (implicit, ale sunetelor), care 
@@ -36,7 +36,7 @@ ne ajută să le înțelegem în contextul muzicii: amplitudinea, frecvența, fa
 lor ne va permite să facem o călătorie istorică și multiculturală în care să explorăm 
 diferențele între muzica orientală și cea occidentală, cel puțin din punctul de 
 vedere al aranjării notelor în game și moduri specifice. Totodată, vom putea 
-explora istoria organizării muzicii, de la ideile lui Pitagora, pînă la structurile moderne.
+explora istoria organizării muzicii, de la ideile lui Pitagora, până la structurile moderne.
 
 ![Poliritm](/images/polyrhythm.webp)
 
@@ -64,7 +64,7 @@ pe care o învățăm în școala primară.
 
 ## Limbaj
 Mai mulți cercetători argumentează că muzica este, printre altele, un limbaj. 
-Pînă la urmă, are un mesaj, deci un conținut informațional, precum și o sintaxă — reguli de 
+Până la urmă, are un mesaj, deci un conținut informațional, precum și o sintaxă — reguli de 
 formare a cuvintelor — dintr-un vocabular alcătuit din note muzicale și pauze. 
 
 Una dintre 
@@ -82,6 +82,6 @@ britanic Oliver Sacks și *This Is Your Brain On Music*, a psihologului și cerc
 
 ## Curios?
 Scrie-ne prin [email](mailto:adrianmanea@poligon-edu.ro) sau 
-[WhatsApp](https://wa.me/40750408128) și hai să stabilim împreună planificarea întîlnirilor!
+[WhatsApp](https://wa.me/40750408128) și hai să stabilim împreună planificarea întâlnirilor!
 
 Scrie-ne și dacă ai întrebări, neclarități sau propuneri!
