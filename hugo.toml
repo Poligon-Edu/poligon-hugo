@@ -41,6 +41,13 @@ weight = 2
 # MARKUP PARSER ENGINE
 # ==========================================
 [markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+style = "gruvbox"
+noClasses = true
+
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
