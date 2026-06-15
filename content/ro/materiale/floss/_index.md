@@ -1,18 +1,18 @@
 +++
-title = "Gratuite și open source"
+title = "Ghiduri software"
 type = "docs"
 slug = "floss"
 weight = 9
 +++
 
-# Gratuite și open source
+# Ghiduri software
 
 {{< material-author >}}
 Adrian Manea, `adrianmanea@poligon-edu.ro`
 {{< /material-author >}}
 
-În multe din prezentările recente (și cele care mai urmează), am vorbit despre
-resurse educaționale gratuite și open source pentru elevi și profesori.
+În multe din [prezentările recente]({{< relref path="evenimente/_index.md" lang="ro" >}}), am vorbit despre
+**software educațional gratuit și open source** pentru elevi și profesori.
 
 Nu neg utilitatea AI-ului, pe care îl folosesc aproape zilnic
 (mare parte din site-ul acesta a fost creat cu ajutorul lui Gemini, strict
