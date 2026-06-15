@@ -98,7 +98,7 @@ Asta pentru că
 Acest website, de exemplu, se bazează pe platforma [Hugo](https://gohugo.io/),
 iar textul pe care îl citești acum este scris cu Markdown, dar într-o variantă
 îmbogățită față de cea propusă de Gruber. În continuare 
-[sursa este lizibilă](https://github.com/Poligon-Edu/poligon-hugo/blob/main/content/ro/materiale/materiale_floss.md),
+[sursa este lizibilă](https://github.com/Poligon-Edu/poligon-hugo/blob/main/content/ro/materiale/floss/markdown.md)
 dar pot adăuga și matematică:
 
 $$
