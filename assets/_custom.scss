@@ -378,9 +378,16 @@ blockquote {
 
   // Forces mobile top header to adapt background cleanly
   .book-header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999 !important;
     background-color: var(--body-background) !important;
     color: var(--body-font-color) !important;
     // border-bottom: 1px solid var(--gray-200) !important;
+
+    // Adds a very subtle crisp border shadow beneath it 
+    // so it cleanly separates from the text rolling under it
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
 
     strong {
       color: var(--body-font-color) !important;
