@@ -850,3 +850,39 @@ img[src*="#center"] {
     }
   }
 }
+
+// ==========================================
+// 24. EDU MATERIAL AUTHOR
+// ==========================================
+p.custom-author-paragraph {
+  font-family: 'Finlandica', sans-serif !important; // Keeps the native reading prose style
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  color: var(--navy) !important;             // Transitions the text color to your custom brand teal
+  margin: 1.5rem 0 !important;               // Perfectly mirrors the vertical spacing of normal text
+
+  // Ensures any bold markdown (**text**) inside this paragraph pops out cleanly
+  strong {
+    font-family: 'Finlandica', sans-serif !important; // Shifts bold words to your clean accent UI font
+    font-weight: 700 !important;
+    color: var(--burgundy) !important;        // Highlights key names/terms in rich burgundy
+    font-style: normal !important;            // Un-italics just the bolded text for maximum impact
+  }
+
+  // Ensures links inside this special paragraph match the design layout
+  a {
+    color: var(--burgundy) !important;
+    text-decoration: underline !important;
+    &:hover {
+      color: var(--navy) !important;
+    }
+  }
+
+  code {
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-weight: 400 !important;
+    color: var(--navy) !important;
+  }
+
+
+}
