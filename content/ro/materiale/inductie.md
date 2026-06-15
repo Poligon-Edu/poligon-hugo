@@ -2,11 +2,14 @@
 title = "Inducția matematică"
 type = "docs"
 slug = "inductia-matematica"
+weight = 2
 +++
 
 # Inducția matematică
 
+{{< material-author >}}
 Maria Kaproș, `mariakapros@poligon-edu.ro`
+{{< /material-author >}}
 
 ## Motivație
 Concluziile generale pe care le tragi după doar câteva situații particulare

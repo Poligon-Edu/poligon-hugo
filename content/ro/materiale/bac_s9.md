@@ -2,11 +2,14 @@
 title = "Selecție bac internațional"
 type = "docs"
 slug = "bac-international"
+weight = 1
 +++
 
 # O selecție internațională de subiecte de bac
 
+{{< material-author >}}
 Adrian Manea, `adrianmanea@poligon-edu.ro`
+{{< /material-author >}}
 
 ## Abstractul fără context
 Examenul de bacalaureat din România este privit adesea ca plin de șabloane.
