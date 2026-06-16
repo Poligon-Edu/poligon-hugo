@@ -208,8 +208,17 @@ Ecranul se va împărți în două și în partea dreaptă vei vedea textul tran
 
 ![vscode_md_preview](/images/vscode_md_preview.png)
 
+
+### O alternativă
+[PanWriter](https://panwriter.com/) este un editor gratuit și open source,
+dezvoltat de comunitate, și care conține posibilitatea de interacțiune cu
+[`pandoc`]({{< relref path="materiale/floss/pandoc.md" lang="ro" >}}), pentru
+conversii mai complicate.
+
+Dar îl poți folosi și ca editor Markdown simplu, cu *live preview*.
+
 ### Exportă și salvează
-Totuși, textul transformat pe care ți-l arată VSCode nu este salvat.
+Textul transformat pe care ți-l arată VSCode sau PanWriter nu este salvat.
 El este afișat doar cât timp ai și sursa `md` deschisă. Când vrei să și salvezi
 varianta transformată, o poți face în mai multe moduri.
 
@@ -226,3 +235,20 @@ cu care te-ai obișnuit.
 Pentru o soluție locală și ultraperformantă, care nu te limitează la HTML și PDF
 și produce chiar și documente Word, îți recomand [`pandoc`](https://pandoc.org/), 
 despre care îți spun mai multe într-un [articol separat]({{< relref path="materiale/floss/pandoc.md" lang="ro" >}}).
+
+## Alte resurse
+Sintaxa Markdown e foarte simplă, intenționat. Textul se scrie ușor,
+cu convenții cu care te obișnuiești rapid. Așa că, dacă deschizi, de exemplu,
+pagina [editorului Dillinger](https://dillinger.io/), vezi că ți-au pregătit
+deja un document care conține aproape tot ce se poate face cu Markdown.
+
+Sintaxa de bază o găsești și [aici](https://www.markdownguide.org/basic-syntax/).
+
+În rest, resursele și posibilitățile se înmulțesc în funcție de editorul
+și metoda folosită. Așa că nu-ți pot recomanda decât să-ți alegi o metodă
+de lucru, să o înveți bine și să cauți instrucțiuni specifice metodei respective,
+fie că e vorba de VSCode cu extensii, de editoare din terminal sau alte pachete.
+
+---
+
+Întoarce-te la ghidurile noastre 👉 [aici]({{< relref path="/materiale/floss/_index.md" lang="ro" >}}).
