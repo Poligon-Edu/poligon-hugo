@@ -18,3 +18,11 @@ Putem include și citate:
 $$
 \int x^2 + 1 dx = \dfrac{x^3}{3} + x + \mathcal{C}.
 $$
+
+---
+
+Listele numerotate arată astfel:
+
+1. Primul element;
+2. Al doilea element;
+3. Al treilea element.
