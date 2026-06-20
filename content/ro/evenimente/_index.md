@@ -7,17 +7,6 @@ slug = "evenimente"
 
 # Evenimente
 
-## Partea nescrisă a bacalaureatului
-🗓️ **17 iunie 2026**: discutăm despre bacalaureatul la română și matematică. Cum să te pregătești,
-dincolo de învățat formule și comentarii, rezolvat variante și exerciții. Cum să-ți dozezi
-cel mai bine efortul, să-ți organizezi atenția, să prioritizezi sarcinile de lucru și nu numai.
-Practic, vorbim despre *Partea nescrisă a bacalaureatului: Ce mai e de pregătit, dincolo de manuale și variante*.
-Participarea este gratuită și nu se limitează la elevi de clasa a douăsprezecea.
-Completează formularul Google de **[aici](https://forms.gle/F1h27sP8xBQRZ5RMA)** ca să primești
-invitația pe email.
-
-![Webinar Ioana](/images/webinar_ioana.png)
-
 ## DataMathLab @ Aspire Teachers
 🗓️ **3-4 iulie 2026**: Adrian Manea va participa la [festivalul DataMathLab 2026](https://www.aspireteachers.ro/datamathlab-festival2026),
 organizat de Aspire Teachers la Brașov. Tema festivalului este matematica în lumea inteligenței
@@ -26,13 +15,23 @@ ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul 
 
 ![DataMathLab](/images/datamathlab_2026.webp)
 
-
 ## Arhivă
 <details>
 
 <summary>
 Apasă aici ca să vezi evenimentele anterioare.
 </summary>
+
+<h3>Partea nescrisă a bacalaureatului</h3>
+
+⏪ **17 iunie 2026**: am discutat despre bacalaureatul la română și matematică. Cum să te pregătești,
+dincolo de învățat formule și comentarii, rezolvat variante și exerciții. Cum să-ți dozezi
+cel mai bine efortul, să-ți organizezi atenția, să prioritizezi sarcinile de lucru și nu numai.
+Practic, vorbim despre *Partea nescrisă a bacalaureatului: Ce mai e de pregătit, dincolo de manuale și variante*.
+Participarea este gratuită și nu se limitează la elevi de clasa a douăsprezecea.
+
+![Webinar Ioana](/images/webinar_ioana.png)
+
 
 <h3>Unelte moderne pentru lecțiile de matematică</h3>
 
