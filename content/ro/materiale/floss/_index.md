@@ -45,7 +45,8 @@ Am scris despre:
 
 * [Markdown]({{< relref path="materiale/floss/markdown.md" lang="ro" >}});
 * [Pandoc]({{< relref path="materiale/floss/pandoc.md" lang="ro" >}});
-* Urmează: [LaTeX]({{< relref path="materiale/floss/latex.md" lang="ro" >}}).
+* [LaTeX]({{< relref path="materiale/floss/latex.md" lang="ro" >}});
+* [Xournal++]({{< relref path="materiale/floss/xournalpp.md" lang="ro" >}}).
 
 ---
 
