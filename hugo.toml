@@ -26,13 +26,11 @@ BookSection = "*"
 # ==========================================
 [languages]
 [languages.ro]
-languageName = "Română"
 label = "Română"
 contentDir = "content/ro"
 weight = 1
 
 [languages.en]
-languageName = "English"
 label = "English"
 contentDir = "content/en"
 weight = 2
