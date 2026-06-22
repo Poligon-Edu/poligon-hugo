@@ -104,7 +104,7 @@ Apoi copiază în el codul de mai jos (sau descarcă direct fișierul de [aici](
 \vspace{1cm}
 
 Aceasta este formula de rezolvare a ecuației de gradul al doilea,
-care are forma canonică $ ax^2 + bx + c = 0, a, b, c \in \mathbb{R} $:
+care are forma canonică $ ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0 $:
 
 \[
     x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
@@ -137,8 +137,8 @@ ca `\large, \Large, \huge, \big, \Big` și nu numai. Le poți testa pe fiecare.
 - Am adăugat spațiu vertical de 1cm, cu `\vspace{1cm}`.
 - Textul propriu-zis se scrie normal, iar când vrei să incluzi matematică, o delimitezi prin `$...$`.
 - Dacă vrei matematică scrisă separat, pe un rând și centrată, o delimitezi prin `\[ ... \]`.
-- Simbolurile din formulă ar trebui să fie clare: `\frac` scrie o fracție, `\pm` scrie $\pm$, iar `\sqrt`
-scrie un radical.
+- Simbolurile din formulă ar trebui să fie clare: `\frac` scrie o fracție, `\pm` scrie $\pm$, 
+`\neq` scrie $\neq$, iar `\sqrt` scrie un radical.
 - Observă că delimitările se fac prin acolade, nu paranteze sau alte simboluri. Când vrei să izolezi
 conținutul, îl incluzi între acolade. La titlu, de exemplu, dacă nu-l delimitam între acolade,
 opțiunile `\Huge` și `\textbf` se aplicau întregului document.
@@ -194,7 +194,7 @@ De exemplu, documentul `.tex` de mai sus se poate scrie (aproximativ) la fel
 # Primul meu document $\LaTeX$
 
 Aceasta este formula de rezolvare a ecuației de gradul al doilea,
-care are forma canonică $ax^2 + bx + c = 0, a, b, c \in \mathbb{R}$:
+care are forma canonică $ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0$:
 
 \[
     x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
