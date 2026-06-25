@@ -244,3 +244,7 @@ $ pandoc -N --variable "geometry=margin=1.2cm" \
 ```
 
 Mai multe în [documentația pandoc](https://pandoc.org/demos.html).
+
+---
+
+Întoarce-te la ghidurile noastre 👉 [aici]({{< relref path="/materiale/floss/_index.md" lang="ro" >}}).
