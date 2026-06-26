@@ -157,29 +157,65 @@ blockquote {
 // ==========================================
 // 8. FIXED SIDEBAR MENU TYPOGRAPHY
 // ==========================================
-
-// We remove the strict ">" after .book-menu so it finds the nav wherever it is
 .book-menu nav > ul > li {
 
-  // 1. Targets Top-Level Items Only (Standalone links & expandable folder labels)
-  > a, > label, > span {
+  // 1. Base Shared Typography for all Top-Level Sidebar Items
+  > a, > label, > span, .flex {
     font-size: 1.3rem !important;  
-    font-weight: 600 !important;     // Bold
-    display: inline-block !important;
-    margin-top: 0.6rem !important;   
+    font-weight: 600 !important;     // Bold signature weight
     letter-spacing: -0.01em;
     color: var(--teal) !important;
+    margin-top: 0.6rem !important;
+    text-decoration: none !important;
   }
 
-  // 2. Targets All Sub-Items Nested Inside Folders
+  // 2. Standalone Top-Level Links (Keeps text and emoji pseudo-elements grouped naturally)
+  > a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0.35rem !important; // Keeps the injected pin emoji anchored directly next to the word
+  }
+
+  // 3. Structural Flex Rows (Handles the collapsible titles + dropdown arrow separation)
+  .flex {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important; // Pushes native menu toggle arrow flush to the right edge
+
+    // Force the section hyperlink and labels inside this flex row to remain brand teal
+    a, label, span {
+      color: var(--teal) !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      gap: 0.35rem !important;
+      margin: 0 !important;
+      
+      &:hover {
+        color: var(--burgundy) !important;
+      }
+    }
+
+    // Controls the native collapsible dropdown indicator arrow layout
+    img, .book-icon {
+      margin: 0 !important;
+      opacity: 0.7;
+    }
+  }
+
+  // 4. Targets All Sub-Items Nested Inside Folders (Keeps them clean and distinct)
   ul li a {
-    font-size: 1.0rem !important;  // Smaller
+    font-size: 1.0rem !important;  // Smaller readable text size
     font-weight: 500 !important;     // Regular reading weight
     margin-top: 0.1rem !important;                 
     margin-bottom: 0.1rem !important;
+    color: var(--navy) !important;
+    display: inline-block !important;
   }
 }
-
 // ==========================================
 // 9. BRAND SITE TITLE CUSTOMIZATION
 // ==========================================

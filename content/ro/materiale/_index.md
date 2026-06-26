@@ -1,10 +1,11 @@
 +++
-title = "Materiale educaționale"
+title = "Resurse educaționale"
 type = "docs"
 weight = 3
+bookCollapseSection = "true"
 +++
 
-# Materiale educaționale
+# Resurse educaționale
 
 Vei găsi aici materiale pe care ți le recomandăm în studiul
 matematicii, cu aplicațiile sale în științe, cu dezvoltarea istorică,
