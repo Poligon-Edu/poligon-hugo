@@ -385,12 +385,40 @@ blockquote {
   height: 100vh !important; // Forces container to match 100% of the screen height
   overflow-y: auto !important;
 
+  // 1. MODERN STANDARD RULES (Mainly Firefox)
+  // Initializes the scrollbar as thin and completely transparent
   scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+  // 2. WEBKIT ENGINE RULES (Chrome, Safari, Edge, Opera)
   &::-webkit-scrollbar {
-    width: 4px;
+    width: 6px; // Given a tiny bit of breathing room so it's easy to track
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent !important; // The background track line stays invisible
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent !important; // The slider is hidden by default
+    border-radius: 20px !important;           // Clean pill-shaped rounded edges
+  }
+
+  // 3. THE MAGIC HOVER TRIGGER
+  // When a user moves their mouse anywhere into the sidebar area, reveal the track elements smoothly
+  &:hover {
+    scrollbar-color: var(--gray-200) transparent; // Triggers Firefox rendering change
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--gray-200) !important; // Triggers Webkit rendering change
+      
+      // Bonus Polish: Turns your signature brand teal if they hover directly over the scrollbar itself!
+      &:hover {
+        background-color: var(--teal) !important;
+      }
+    }
   }
 }
-
 
 // MOBILE LOOKS
 // ==========================================
