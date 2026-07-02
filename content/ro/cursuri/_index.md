@@ -2,6 +2,7 @@
 title = "Cursuri personalizate"
 weight = 5
 type = "docs"
+bookCollapseSection = "true"
 +++
 
 ![Courses](/images/courses.avif)
