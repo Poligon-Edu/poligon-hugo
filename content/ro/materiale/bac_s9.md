@@ -1,11 +1,11 @@
 +++
-title = "Selecție bac internațional"
+title = "Bac internațional"
 type = "docs"
 slug = "bac-international"
 weight = 1
 +++
 
-# O selecție internațională de subiecte de bac
+# O selecție internațională pentru bac
 
 {{< material-author >}}
 Adrian Manea, `adrianmanea@poligon-edu.ro`
@@ -26,7 +26,7 @@ trebuie să se pregătească pentru examene specifice, ca SAT sau IB.
 Ce se întâmplă atunci e faptul că, deși notele de la matematică din timpul
 liceului ar putea fi (foarte) bune, elevii au dificultăți în a se adapta
 la *tipul* de cerință, la *formularea* exercițiului. Cu alte cuvinte,
-substratul matematic poate să fie binecunocut, dar modalitatea de prezentare
+substratul matematic poate să fie binecunoscut, dar modalitatea de prezentare
 să îi surprindă.
 
 Elevii români sunt, în general, obișnuiți cu formulări abstracte.

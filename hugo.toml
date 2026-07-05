@@ -16,9 +16,9 @@ defaultContentLanguageInSubdir = false
 BookTheme = "auto"
 BookToC = true
 BookSearch = true
-BookLogo = "images/logo.png"
+BookLogo = "logo.svg"
 BookKatex = true
-BookFavicon = "images/favicon.png"
+BookFavicon = "favicon.svg"
 BookSection = "*"
 
 # ==========================================

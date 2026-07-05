@@ -29,8 +29,7 @@ De exemplu, formatul HTML putea să arate cam așa:
 <head></head>
 <body>
 <h1>Markdown</h1>
-<p>Textele de pe internet, ca toate paginile, de altfel, se bazează
-pe un <i>limbaj de programare specific</i>.</p>
+<p>Textele de pe internet, ca toate paginile, de altfel, se bazează pe un <i>limbaj de programare specific</i>.</p>
 <br/>
 <br/>
 <p>Riguros vorbind...</p>
@@ -58,8 +57,7 @@ se scriu cu Markdown așa simplu și direct:
 ```md
 # Markdown
 
-Textele de pe internet, ca toate paginile, de altfel, se bazează
-pe un *limbaj de programare specific*.
+Textele de pe internet, ca toate paginile, de altfel, se bazează pe un *limbaj de programare specific*.
 
 Riguros vorbind...
 ```

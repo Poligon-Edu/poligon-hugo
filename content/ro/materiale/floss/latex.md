@@ -103,8 +103,8 @@ Apoi copiază în el codul de mai jos (sau descarcă direct fișierul de [aici](
 
 \vspace{1cm}
 
-Aceasta este formula de rezolvare a ecuației de gradul al doilea,
-care are forma canonică $ ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0 $:
+Aceasta este formula de rezolvare a ecuației de gradul al doilea, care are forma canonică 
+$ ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0 $:
 
 \[
     x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
@@ -193,8 +193,8 @@ De exemplu, documentul `.tex` de mai sus se poate scrie (aproximativ) la fel
 ```md
 # Primul meu document $\LaTeX$
 
-Aceasta este formula de rezolvare a ecuației de gradul al doilea,
-care are forma canonică $ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0$:
+Aceasta este formula de rezolvare a ecuației de gradul al doilea, care are forma canonică 
+$ax^2 + bx + c = 0, a, b, c \in \mathbb{R}, a \neq 0$:
 
 \[
     x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
