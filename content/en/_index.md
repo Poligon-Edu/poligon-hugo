@@ -4,7 +4,7 @@ weight = 0
 type = "docs"
 
 description = "Science and Mathematics education hub, with modern methods and appllications"
-images = ["logo_light.svg"]
+images = ["thumb.png"]
 +++
 
 # Welcome!
