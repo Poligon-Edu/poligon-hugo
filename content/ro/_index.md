@@ -4,7 +4,7 @@ type = "docs"
 
 description = "Educație științifică și matematică prin metode moderne, interdisciplinare"
 
-images = ["/images/logo_small.png"]
+images = ["logo_light.svg"]
 +++
 
 # Bun venit!
