@@ -1,13 +1,9 @@
-<!-- Load KaTeX CSS Core styles -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 
-<!-- Load KaTeX JS Core scripts -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
 
-<!-- Load the Auto-Render extension script -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 
-<!-- Configure the Engine to explicitly capture $ and $$ delimiters -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
@@ -28,6 +24,10 @@
   document.documentElement.setAttribute('data-theme', savedTheme);
 </script>
 
-<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="32x32">
+<link rel="icon" href="{{ "icon-192.png" | relURL }}" type="image/png" sizes="192x192">
+<link rel="icon" href="{{ "icon-512.png" | relURL }}" type="image/png" sizes="512x512">
 
 {{ template "_internal/google_analytics.html" . }}

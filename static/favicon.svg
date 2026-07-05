@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <style>
+      /* DEFAULT: Light Mode (Ivory background, Navy stroke) */
+      .bg-color { fill: #fffdf0; }
+      .line-color { stroke: #3b4758; }
+      
+      /* OVERRIDE: Dark Mode (Navy background, Ivory stroke) */
+      @media (prefers-color-scheme: dark) {
+        .bg-color { fill: #3b4758; }
+        .line-color { stroke: #fffdf0; }
+      }
+    </style>
+    <mask id="parallel-cut-condensed">
+      <rect width="200" height="200" fill="white" />
+      <polygon points="29.78,37.52 62.28,13.91 97.54,62.45 65.04,86.06" fill="black" />
+    </mask>
+  </defs>
+
+  <rect class="bg-color" width="200" height="200" rx="30" ry="30" />
+
+  <path 
+    class="line-color"
+    d="M 79.91,38.18 L 120.09,38.18 L 152.59,61.79 L 165.00,100.00 L 152.59,138.21 L 120.09,161.82 L 79.91,161.82 L 47.41,138.21 L 35.00,100.00 L 47.41,61.79 Z" 
+    fill="none" 
+    stroke-width="14" 
+    stroke-linejoin="miter" 
+    mask="url(#parallel-cut-condensed)"
+  />
+
+  <circle cx="55.54" cy="55.89" r="4" fill="#aa424e" />
+  <circle cx="63.66" cy="49.99" r="4" fill="#aa424e" />
+  <circle cx="71.79" cy="44.08" r="4" fill="#aa424e" />
+</svg>
