@@ -16,7 +16,7 @@ important, național sau internațional.
 
 ## Ce trebuie să știi
 * Domeniile în care avem pregătire academică, pedagogică și experiență profesională, 
-dar și didactică sînt **matematica** și **fizica**, la nivel preuniversitar și universitar.
+dar și didactică sunt **matematica** și **fizica**, la nivel preuniversitar și universitar.
 
 * Lucrăm individual sau alcătuim grupuri foarte mici (< 5 elevi), însă numai cu acordul
 tău și dacă toți elevii din grup au un nivel de pregătire similar și pot colabora.
@@ -32,11 +32,6 @@ noștri au toate uneltele necesare și-ți pun la dispoziție materialele și no
 ori ai emoții pentru o testare națională (evaluare, bacalaureat) sau internațională (SAT, IB, GRE), sau ai 
 probleme în sesiunea de examen (sau de restanțe) avem experiența și pregătirea necesară ca să te ajutăm.
 
-* Învățăm în *română*, *engleză* sau *franceză*. Yes, we work with [international students]({{< ref path="_index.md" lang="en" >}})!
-Mai mult, dacă nivelul tău al unei limbi străine nu este la capacitatea dorită, îți putem oferi 
-lecții complementare care să te familiarizeze mai întâi cu termenii de specialitate. 
-Duolingo nu prea te învață ce înseamnă *manifold*, *eigenvalue* sau *série entière*, nu-i așa? Noi te ajutăm!
-
 * **Nu trebuie să cumperi niciun material de studiu!** Ghiozdanul plin de manuale, culegeri, caiete speciale, 
 memoratoare și multe altele îl poți lăsa acasă. Dacă ai deja cărți, caiete sau fișe de exerciții pe care le 
 folosești la școală, vom porni de la ele. Dacă nu, baza noastră materială conține cele mai populare manuale 
@@ -50,7 +45,7 @@ de comun acord, semnăm un contract și emitem facturi la fiecare 10 ore (sau al
 decis de comun acord).
 
 ## Înscrie-te sau află mai multe
-Folosește pagina de **[contact]({{< ref path="contact.md" lang="ro" >}})** și programează o discuție
-inițială pentru consultanță.
+Folosește pagina de [contact]({{< ref path="contact.md" lang="ro" >}}) și programează o discuție
+inițială gratuită pentru consultanță.
 
 Scrie-ne și dacă ai întrebări, neclarități sau propuneri!

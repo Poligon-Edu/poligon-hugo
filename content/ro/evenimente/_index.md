@@ -7,13 +7,9 @@ slug = "evenimente"
 
 # Evenimente
 
-## DataMathLab @ Aspire Teachers
-🗓️ **3-4 iulie 2026**: Adrian Manea va participa la [festivalul DataMathLab 2026](https://www.aspireteachers.ro/datamathlab-festival2026),
-organizat de Aspire Teachers la Brașov. Tema festivalului este matematica în lumea inteligenței
-artificiale, iar Adrian va susține două ateliere de utilizare a uneltelor moderne
-ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul virtual.
+## Noutăți în curând!
 
-![DataMathLab](/images/datamathlab_2026.webp)
+![WIP](/images/wip.png#center)
 
 ## Arhivă
 <details>
@@ -21,6 +17,15 @@ ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul 
 <summary>
 Apasă aici ca să vezi evenimentele anterioare.
 </summary>
+
+<h3>DataMathLab @ Aspire Teachers</h3>
+⏪  <b>3-4 iulie 2026</b>: Adrian Manea participat la <a href="https://www.aspireteachers.ro/datamathlab-festival2026">festivalul
+DataMathLab 2026</a>, organizat de Aspire Teachers la Brașov. Tema festivalului 
+este matematica în lumea inteligenței
+artificiale, iar Adrian a susținut două ateliere de utilizare a uneltelor moderne
+ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul virtual.
+
+<img src="/images/datamathlab_2026.webp" />
 
 <h3>Partea nescrisă a bacalaureatului</h3>
 

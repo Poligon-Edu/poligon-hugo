@@ -22,26 +22,22 @@ We believe that scientific and mathematical education has a distinct role,
 more so during the present times, when artificial intelligence seems to
 be capable of replacing you in anything.
 
-Our experience showed that school often fails to deliver on its promises
-or when it does deliver, sometimes it's not more than what you need for
-good grades, but lacking actual *knowledge and understanding*.
+School sometimes fails to deliver on its promises
+or when it does deliver, it's not more than what you need for
+good grades, neglecting actual *knowledge and understanding*.
 
-If you trust Einstein, you should remember him saying that *education is
+If you trust Einstein, *education is
 what you're left with after you have forgotten everything you learned in school*.
-Therefore, self-study, applications, and the (hi)story of scientific discoveries
+Self-study, applications, and the (hi)story of scientific discoveries
 weigh more than a list of exercises you must crunch before your quiz.
 
-Our preoccupation for communication and collaboration between disciplines
-motivates us to discuss with specialists from various domains in the pursuit
-of continuous improvement.
-
-Studying with us means a friendlier and more diverse approach that most
+Studying with us promises a friendlier and more diverse approach that most
 schools or private tutors offer. Our teachers are experienced both in
 academical excellence, and in teaching, so we all know that it is
 equally important to know a theorem, but also to be able to *explain* it.
 
 We are passionate, enthusiastic, patient, and caring enough to discuss
-and explain everything that's not clear such that abstract concepts
+and explain everything such that abstract concepts
 become familiar. We're not saying it's frictionless or easy, but
 the required effort ensures that your learning journey is adequate,
 natural, and, ultimately, pleasant.
@@ -64,12 +60,6 @@ Education must first and foremost be accessible, so all our lessons,
 courses, and workshops involve *free and open source* tools, such that
 students or teachers who partake are not forced into buying books,
 subscriptions, or other digital or physical items.
-
-For this, we are working on a course where we show how easy it is to
-install educational and productivity software which are free and open source,
-built with ethical responsibility, so you can avoid predatory data collection
-tools or bundled AI bloat. They are all available on Windows and macOS,
-but our course will chiefly be an argument for using Linux.
 
 ## Curious?
 * Visit our page on [private tutoring]({{< ref "tutoring.md" >}}) if your

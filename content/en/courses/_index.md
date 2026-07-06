@@ -14,19 +14,14 @@ We do our best to have a flexible schedule and most courses will be held online.
 However, in-person meetings are also available in Bucharest.
 
 ## How Does This Work?
+One of the most important values of our activity is *customized education for each learner*.
+We want to build precisely the course that fits your goals. Each chapter we study
+will be chosen carefully and the whole curriculum can adapt to your pace.
 
-There are three tiers we offer, but depending on the topic and your interest,
-they are flexible and up for discussion — hence the customization.
-
-✅ *the essential package*, with 5 meetings (approximately 10 hours);
-
-✅ *the detailed package*, with 10 meetings (approximately 20 hours);
-
-✅ *the premium package*, which can be added to any of the tier you choose
-and which gets you the meeting recordings, as well as all the recommended reading
-materials, the lecturer's slides and notes for all the meetings.
-
-All packages include free access to a WhatsApp group, for further discussion and sharing.
+We try to make the schedule as flexible as possible, while also encouraging
+discussions and collaboration. Which is why you can opt to be added
+to a WhatsApp group with other learners, where we share more resources
+and continue our discussions.
 
 ---
 

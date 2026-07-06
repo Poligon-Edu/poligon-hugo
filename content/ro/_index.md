@@ -124,7 +124,7 @@ tale, nivelului de cunoștințe, dar și obiectivelor, uită-te în
 [portofoliul nostru]({{< relref path="/cursuri/_index.md" lang="ro" >}})
 ca să vezi condițiile generale și ce-ți propunem.
 
-* Accesează pagina de [materiale educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}}) 
+* Accesează pagina de [resurse educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}}) 
 și descarcă fișele de teorie și exerciții dacă vrei să înveți singur câteva
 concepte pe care ți le propunem.
 

@@ -85,7 +85,7 @@ după care încep dificultățile de interpretare grafică.
 
 ## Încearcă și tu
 Am ales zece exerciții din examene internaționale (SAT, IB, Abitur și bacalaureatul
-francez) într-un document pe care îl poți descărca gratuit **[de aici](/documents/bac_intl_s9.pdf)**.
+francez) într-un document pe care îl poți descărca gratuit [de aici](/documents/bac_intl_s9.pdf).
 
 Am scris câteva opinii privitoare la structura acestor exerciții și cum diferă
 ele de examenul din România [într-un articol din Școala9](https://www.scoala9.ro/de-ce-e-greu-bacul-din-alte-tari-daca-romania-face-mai-multa-matematica/2422).

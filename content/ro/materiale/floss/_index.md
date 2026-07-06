@@ -12,7 +12,7 @@ Adrian Manea, `adrianmanea@poligon-edu.ro`
 {{< /material-author >}}
 
 În multe din [prezentările recente]({{< relref path="evenimente/_index.md" lang="ro" >}}), am vorbit despre
-**software educațional gratuit și open source** pentru elevi și profesori.
+software educațional gratuit și open source pentru elevi și profesori.
 
 Nu neg utilitatea AI-ului, pe care îl folosesc aproape zilnic
 (mare parte din site-ul acesta a fost creat cu ajutorul lui Gemini, strict

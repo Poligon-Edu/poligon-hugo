@@ -143,6 +143,7 @@ code, pre, kbd, samp {
   font-family: 'Martian Mono', monospace !important;
   background-color: var(--gray-100) !important;
   color: var(--navy);
+  font-size: 0.9rem !important;
 }
 
 /* Scaled Inline Code Elements */
@@ -848,16 +849,16 @@ p.custom-author-paragraph {
     font-family: 'Martian Mono', monospace !important;
     font-weight: 400 !important;
     color: var(--navy) !important;
+    font-size: 0.9rem !important;
   }
 }
 
 // ==========================================
 // 14. OPTICAL MATH SCALING (KATEX OVERRIDE)
 // ==========================================
-/* Activated 0.90em modifier to drop towering math expressions into baseline alignment */
-// .katex {
-//   font-size: 0.90em !important; 
-// }
+.katex {
+  font-size: 0.99em !important; 
+}
 
 // ==========================================
 // 15. UTILITIES (TRUE OPENTYPE SMALL CAPS)

@@ -84,5 +84,5 @@ la ceva general valabil, așa că o să-ți arăt cum faci asta în situații de
 
 
 ## Descarcă lecția
-**[Aici](/documents/inductie_maria_poligon.pdf)** găsești lecția întreagă în format PDF,
+[Aici](/documents/inductie_maria_poligon.pdf) găsești lecția întreagă în format PDF,
 gratuit pentru studiu și descărcare.

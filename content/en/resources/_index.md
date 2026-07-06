@@ -1,11 +1,11 @@
 +++
-title = "Educational Resources"
+title = "Resources"
 type = "docs"
-weight = 4
-bookHidden = true
+weight = 3
+bookHidden = false
 +++
 
-# Educational Resources
+# Resources
 Here you will find resources we recommend for learning mathematics,
 with applications in natural science, historical development, philosophical
 interpretations, and more.

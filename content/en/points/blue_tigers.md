@@ -37,4 +37,4 @@ the essence of arithmetic: although seemingly finite, as he can pocket them,
 they are impossible to count.
 
 Read the full story in an English translation 
-[here](https://jerrywbrown.com/wp-content/uploads/2020/02/Blue-Tigers-Borges-Jorge-Luis.pdf) 
+[here](https://jerrywbrown.com/wp-content/uploads/2020/02/Blue-Tigers-Borges-Jorge-Luis.pdf).
