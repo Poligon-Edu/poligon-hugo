@@ -1,7 +1,7 @@
 +++
 title = "Adrian Manea, PhD."
 type = "docs"
-slug = "adrian-manea"
+slug = "adrian"
 +++
 
 ![Adrian Manea](/images/adrian.jpg)

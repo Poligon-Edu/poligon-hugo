@@ -1,7 +1,7 @@
 +++
 title = "Joshua P. Biro"
 type = "docs"
-slug = "joshua-biro"
+slug = "joshua"
 +++
 
 ![Joshua](/images/joshua.jpg)

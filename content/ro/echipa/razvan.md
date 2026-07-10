@@ -1,7 +1,7 @@
 +++
 title = "Răzvan Z. Vulpe"
 type = "docs"
-slug = "razvan-vulpe"
+slug = "razvan"
 +++
 
 ![Razvan](/images/razvan.jpg)

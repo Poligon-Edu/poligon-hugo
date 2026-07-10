@@ -1,7 +1,7 @@
 +++
 title = "Maria Kaproș"
 type = "docs"
-slug = "maria-kapros"
+slug = "maria"
 +++
 
 ![Maria](/images/maria.jpeg)
