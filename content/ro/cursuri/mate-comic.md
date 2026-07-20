@@ -18,7 +18,8 @@ spună mai mult decât o mie de cuvinte.
 
 Îți arătăm asta la un curs personalizat, pentru care nu ai nevoie
 de talent artistic. Nici noi nu ne pricepem grozav, așa că toate ilustrațiile
-de pe pagina aceasta sunt făcute de Chris Bădulescu, căreia îi mulțumim tare!
+de pe pagina aceasta sunt făcute de [Chris Bădulescu](https://www.instagram.com/not_azre/),
+căreia îi mulțumim tare!
 
 Vino la curs și vezi cum desenele, oricât de stângace sau
 amuzante îți ies, dacă le folosești ca să transmiți o idee
@@ -111,7 +112,7 @@ viteza este direct proporțională cu pătratul înălțimii la care se află
 * Vor participa profesorii [Maria Kaproș](https://poligon-edu.ro/echipa/maria),
   [Răzvan Vulpe](https://poligon-edu.ro/echipa/razvan) și [Adrian Manea](https://poligon-edu.ro/echipa/adrian).
 * Cursul îl vom ține **față în față, în București**. Credem că discuțiile și
-înteractivitatea prezenței fizice nu se compară cu un meeting online. Totuși,
+interactivitatea prezenței fizice nu se compară cu un meeting online. Totuși,
 dacă nu ești din capitală și vrei să participi, menționează asta în formularul
 de înscriere și ne vom gândi și la o ediție online.
 * Știm că e vacanță, așa că încercăm să fim flexibili.
