@@ -74,11 +74,17 @@ deci poți prezice că ajunge, de exemplu, la 100 mult mai repede decât primul.
 
 Dar o legătură de forma $x \mapsto \dfrac{x + 10}{x}$?
 
-Dacă te uiți la perechile pe care le produce, găsești, de exemplu:
-$(1, 11)$, $(2, 6)$, $\left( 3, \dfrac{13}{3} \right)$,
-$\left( 4, \dfrac{14}{4} \right)$. Creșterea nu mai este la fel de
-rapidă, deși în continuare există o diferență destul de mare între
-primul număr și al doilea.
+Dacă te uiți la perechile pe care le produce, găsești:
+
+$$
+(1, 11), (2, 6), \left( 3, \dfrac{13}{3} \right),
+\left( 4, \dfrac{14}{4} \right), \left( 5, 3 \right), \left( 6, \dfrac{8}{3} \right).
+$$
+
+În continuare există o diferență între primul număr și al doilea,
+dar această diferență pare să se micșoreze. Mai mult,
+$\dfrac{14}{4} = 3,5 < 4$, deci destul de repede,
+numărul al doilea devine mai mic decât primul.
 
 Poți să ghicești, cu aproximație, ce valoare o să aibă al doilea
 număr când primul va fi $1000000$? Dar când primul se apropie de infinit?
