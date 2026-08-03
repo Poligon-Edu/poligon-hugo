@@ -58,7 +58,7 @@ deci și sfoara ta are 12 000 kilometri lungime. Cât de lungă ar trebui
 să fie o altă sfoară împrejur dacă vrei să plutească la exact 1 metru
 deasupra Pământului?
 
-![Sfoară](/images/curs_comic/string_earth.png)
+![Sfoară](/images/curs_comic/string_earth.png#center)
 
 ## Înțelege și fă predicții prin reprezentări grafice
 Graficele, pe scurt, sunt desenele matematicii și științei prin care
