@@ -9,7 +9,7 @@ slug = "mate-comic"
 ![Matematică desenată](/images/curs_comic/fata_pe_grafic.png#center)
 
 *Matematica se face cu creionul pe hârtie*, așa ți-au spus profesorii.
-Dar la fel funcționează și desenul și, în plus, adaugă mai multă culoare.
+La fel funcționează și desenul, care adaugă și mai multă culoare.
 
 Desenele de la matematică nu sunt numai pentru lecția de geometrie.
 Printr-un desen, fie el amuzant, artistic sau tehnic, poți să înțelegi
@@ -26,8 +26,7 @@ amuzante îți ies, dacă le folosești ca să transmiți o idee
 matematică sau științifică, te ajută să înveți mai bine decât formulele
 din manual.
 
-Organizăm cursul în jurul a două teme, însă te încurajăm să vii
-și cu propriile idei.
+Îți propunem două teme pentru început.
 
 ## Proporții și relații între mărimi
 Ai învățat despre mărimi direct și invers proporționale, dar e o diferență
@@ -122,16 +121,16 @@ interactivitatea prezenței fizice nu se compară cu un meeting online. Totuși,
 dacă nu ești din capitală și vrei să participi, menționează asta în formularul
 de înscriere și ne vom gândi și la o ediție online.
 * Știm că e vacanță, așa că încercăm să fim flexibili.
-  Datele propuse sunt **1, 2 sau 3 septembrie**, din care vei alege în formularul de înscriere.
-* Durata este de **4 ore, plus 30-40 minute de pauză**. La început, îți arătăm noi
+  Datele propuse sunt **4 sau 5 septembrie**, din care vei alege în formularul de înscriere.
+* Durata este de **4 ore, plus 30 minute de pauză**. La început, îți arătăm noi
 câteva lucruri la care să lucrăm, apoi ne împărțim în perechi și facem unul sau
 mai multe desene care să ilustreze o problemă, o formulă de calcul sau un subiect
 de matematică preferat.
 * La finalul cursului, toată lumea va vota desenul preferat, iar primii trei clasați
 vor fi premiați.
-    + Locul 3: Voucher de participare gratuită la un curs viitor;
-    + Locul 2: Un set de creioane colorate, un caiet de desen și un voucher de participare gratuită la un curs viitor;
-    + Locul 1: Cartea [Algebră în benzi desenate](https://humanitasjunior.ro/carte/algebra-in-benzi-desenate) și un voucher de participare gratuită la un curs viitor.
+    + 🥉 Locul 3: Voucher de participare gratuită la un curs viitor;
+    + 🥈 Locul 2: Un set de creioane colorate, un caiet de desen și un voucher de participare gratuită la un curs viitor;
+    + 🥇 Locul 1: Cartea [Algebră în benzi desenate](https://humanitasjunior.ro/carte/algebra-in-benzi-desenate) și un voucher de participare gratuită la un curs viitor.
 * Prețul de participare este de **400 lei** și include:
     + coli, creioane, carioci cu care să desenezi și să scrii, deci poți să lași caietul sau tableta acasă;
     + apă și o gustare în pauză.
@@ -144,6 +143,8 @@ Credem în *cursuri personalizate*, de aceea vrem să adaptăm conținutul nivel
 Tot în formular poți să alegi și data care îți convine cel mai mult și să propui
 o variantă online, dacă nu ești în București.
 
-Vino la curs, promitem și meme!
+Accesează-l și înscrie-te 👉 [**aici**](https://forms.gle/1UWXfwaWdYKPyEoK9).
+
+*Vino la curs, promitem și meme!*
 
 ![Meme](/images/curs_comic/math_meme_roman.jpeg#center)
