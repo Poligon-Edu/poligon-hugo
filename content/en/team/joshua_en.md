@@ -42,12 +42,10 @@ by the John Locke Institute in Oxford.
 During my academic studies, I gave more than ten talks at national conferences,
 as well as at an international podcast on radiotherapy.
 
-I adapted my MSc. thesis in a book in Romanian, titled 
+I adapted my MSc. thesis in a book in Romanian, titled
 [„Dincolo de manual: explorări didactice în fizica atomică, nucleară și medicală”](https://www.librarie.net/p/502610/dincolo-de-manual-explorari-didactice-in-fizica-atomica-nucleara-si-medicala).
 
 Through all these experiences, I became more willing and more apt to understand
 people around me. I am no stranger to burnout and doubts that creep in from
 time to time, but they motivate me to bring more clarity in science teaching
 and all my activity.
-
-`joshuabiro@poligon-edu.ro`

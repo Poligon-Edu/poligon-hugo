@@ -25,7 +25,7 @@ sau să-și îmbunătățească rezultatele la clasă.
 Am studiat matematica la Universitatea Babeș-Bolyai din Cluj-Napoca.
 După studiile de licență, am urmat masteratul didactic „Metode moderne în predarea matematicii”.
 
-Acum sunt profesor titular și am obținut definitivatul în învățământ cu 9,75, 
+Acum sunt profesor titular și am obținut definitivatul în învățământ cu 9,75,
 ultima etapă de licențiere în cariera didactică.
 
 Matematica a fost în viața mea cu mult înainte de aceste calificări profesionale.
@@ -42,5 +42,3 @@ profesorul trebuie să fie parteneri. Îmi văd rolul ca pe un ajutor în organi
 gândirii și vreau ca elevii să își organizeze gândirea cu ajutorul matematicii,
 să capete încredere în propriile capacități, cu care să construiască raționamente
 și să găsească soluții independent.
-
-`septimiumoldovan@poligon-edu.ro`
