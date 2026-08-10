@@ -205,7 +205,7 @@ blockquote {
 .book-menu nav > ul > li {
   // Top-Level Structural Parent Links
   > a, > label, > span, .flex {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     font-weight: 700 !important;
     letter-spacing: -0.02em !important;
     color: var(--teal) !important;
@@ -242,10 +242,10 @@ blockquote {
 
   // Nested Sub-Items Drawer
   ul li a {
-    font-size: 1rem !important;
-    font-weight: 600 !important;
-    letter-spacing: 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
     color: var(--navy) !important;
+    letter-spacing: 2% !important;
     display: inline-block !important;
     opacity: 0.85;
     &:hover { opacity: 1 !important; }
