@@ -30,12 +30,12 @@
 // ==========================================
 @media (prefers-color-scheme: dark) {
   :root {
-    --ivory: #3b4758;       
-    --navy: #fffdf0;       
-    --teal: #e56a77;        
-    --burgundy: #26bdae;    
-    --gray-100: #242b37;    
-    --gray-200: #2d3748;    
+    --ivory: #3b4758;
+    --navy: #fffdf0;
+    --teal: #e56a77;
+    --burgundy: #26bdae;
+    --gray-100: #242b37;
+    --gray-200: #2d3748;
 
     --body-background: var(--ivory);
     --body-font-color: var(--navy);
@@ -46,12 +46,12 @@
 }
 
 html[data-theme="dark"] {
-  --ivory: #3b4758;       
-  --navy: #fffdf0;       
-  --teal: #e56a77;        
-  --burgundy: #26bdae;    
-  --gray-100: #242b37;    
-  --gray-200: #2d3748;    
+  --ivory: #3b4758;
+  --navy: #fffdf0;
+  --teal: #e56a77;
+  --burgundy: #26bdae;
+  --gray-100: #242b37;
+  --gray-200: #2d3748;
 
   --body-background: var(--ivory);
   --body-font-color: var(--navy);
@@ -84,11 +84,11 @@ body, html, .book-menu, .book-page, .book-navigation, .book-header {
 }
 
 body, html {
-  font-family: 'Crimson Pro', serif; 
+  font-family: 'Crimson Pro', serif;
 }
 
 button, input {
-  font-family: 'Switzer', sans-serif; 
+  font-family: 'Switzer', sans-serif;
 }
 
 // ==========================================
@@ -117,10 +117,10 @@ button, input {
   }
 
   summary {
-    font-family: inherit;                      
+    font-family: inherit;
     font-size: 20px !important;
     line-height: 1.7 !important;
-    color: var(--body-font-color) !important;  
+    color: var(--body-font-color) !important;
     text-transform: none !important;
     letter-spacing: normal !important;
     cursor: pointer;
@@ -132,11 +132,11 @@ button, input {
 // 6. TECHNICAL CODES & BLOCKS (BRUTALIST MONO)
 // ==========================================
 pre {
-  white-space: pre-wrap !important;       
-  white-space: -moz-pre-wrap !important;  
-  white-space: -pre-wrap !important;       
-  white-space: -o-pre-wrap !important;     
-  word-wrap: break-word !important;        
+  white-space: pre-wrap !important;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap !important;
+  white-space: -o-pre-wrap !important;
+  word-wrap: break-word !important;
 }
 
 code, pre, kbd, samp {
@@ -148,10 +148,10 @@ code, pre, kbd, samp {
 
 /* Scaled Inline Code Elements */
 .markdown code {
-  font-size: 0.75em !important; 
+  font-size: 0.75em !important;
   padding: 0.15em 0.35em !important;
   border-radius: 4px !important;
-  word-break: break-word !important; 
+  word-break: break-word !important;
 }
 
 /* Structural Override to prevent block codes from shrinking */
@@ -178,8 +178,8 @@ blockquote {
   color: var(--navy) !important;
   padding: 0.85rem 1.15rem !important;
   margin: 1.5rem 0 !important;
-  border-radius: 4px !important;                                    
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;             
+  border-radius: 4px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
   font-family: 'Switzer', sans-serif;
   font-size: 17px;
   line-weight: 1.3;
@@ -205,9 +205,9 @@ blockquote {
 .book-menu nav > ul > li {
   // Top-Level Structural Parent Links
   > a, > label, > span, .flex {
-    font-size: 1.2rem !important;  
-    font-weight: 700 !important;   
-    letter-spacing: -0.02em !important; 
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
     color: var(--teal) !important;
     margin-top: 0.6rem !important;
     text-decoration: none !important;
@@ -217,17 +217,17 @@ blockquote {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: flex-start !important;
-    gap: 0.35rem !important; 
+    gap: 0.35rem !important;
   }
 
   .flex {
     display: flex !important;
     align-items: center !important;
-    justify-content: space-between !important; 
+    justify-content: space-between !important;
 
     a, label, span {
       color: var(--teal) !important;
-      font-weight: 700 !important; 
+      font-weight: 700 !important;
       letter-spacing: -0.02em !important;
       text-decoration: none !important;
       display: inline-flex !important;
@@ -243,11 +243,11 @@ blockquote {
   // Nested Sub-Items Drawer
   ul li a {
     font-size: 1rem !important;
-    font-weight: 600 !important;   
-    letter-spacing: 0 !important;  
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
     color: var(--navy) !important;
     display: inline-block !important;
-    opacity: 0.85;                 
+    opacity: 0.85;
     &:hover { opacity: 1 !important; }
   }
 }
@@ -266,8 +266,8 @@ blockquote {
   color: transparent !important;              // Completely evaporates the inherited teal fill
   font-family: 'Switzer', sans-serif !important;
   font-size: 1.3rem !important;               // Pushes back up to your target impact scale
-  letter-spacing: -0.02em !important; 
-  opacity: 1 !important;             
+  letter-spacing: -0.02em !important;
+  opacity: 1 !important;
   display: inline-flex !important;            // Forces layout container stabilization for clipping
 }
 
@@ -291,22 +291,22 @@ blockquote {
 // ==========================================
 .book-brand {
   margin-top: 0.5rem !important;
-  margin-bottom: 2rem !important; 
+  margin-bottom: 2rem !important;
 
   // The Master Grid Container
   a {
     display: grid !important;
-    grid-template-columns: auto 1fr !important; 
-    grid-template-rows: auto auto !important;     
-    
-    height: 44px !important;                    
+    grid-template-columns: auto 1fr !important;
+    grid-template-rows: auto auto !important;
+
+    height: 44px !important;
     align-content: center !important;            // Clusters the text lines perfectly as a single block
-    column-gap: 0.95rem !important;              
+    column-gap: 0.95rem !important;
     row-gap: 2px !important;                     // Crisp, tight corporate logotype spacing
-    
+
     text-decoration: none !important;
     line-height: 1 !important;
-    font-size: 0 !important; 
+    font-size: 0 !important;
     color: transparent !important;
 
     span {
@@ -316,18 +316,18 @@ blockquote {
     // The Icon Layer
     img, .book-icon {
       grid-column: 1 !important;
-      grid-row: 1 / span 2 !important;             
-      height: 44px !important;                     
-      width: 44px !important;                      
-      margin: 0 !important;                        
-      display: block !important;                   
-      border-radius: 15% !important;             
-      
-      content: url("logo_light.svg") !important; 
+      grid-row: 1 / span 2 !important;
+      height: 44px !important;
+      width: 44px !important;
+      margin: 0 !important;
+      display: block !important;
+      border-radius: 15% !important;
+
+      content: url("logo_light.svg") !important;
 
       html[data-theme="dark"] & {
         content: url("logo_dark.svg") !important;
-        box-shadow: none !important; 
+        box-shadow: none !important;
       }
 
       @media (prefers-color-scheme: dark) {
@@ -344,18 +344,18 @@ blockquote {
       grid-column: 2 !important;
       grid-row: 1 !important;
       font-family: 'Switzer', sans-serif !important;
-      font-size: 1.45rem !important;         
+      font-size: 1.45rem !important;
       font-weight: 800 !important;               // Switzer Extrabold
-      color: var(--navy) !important;             
-      letter-spacing: -0.03em !important;       
-      line-height: 1.0 !important;               
-      margin: 0 !important;                      
-      
+      color: var(--navy) !important;
+      letter-spacing: -0.03em !important;
+      line-height: 1.0 !important;
+      margin: 0 !important;
+
       // 🌟 VERTICAL CALIBRATION CONTROL 🌟
       // Negative value pulls the visual glyphs UP to counteract the font padding
       position: relative !important;
-      transform: translateY(-1px) !important;     
-      
+      transform: translateY(-1px) !important;
+
       transition: color 0.2s ease !important;
     }
 
@@ -365,23 +365,23 @@ blockquote {
       grid-column: 2 !important;
       grid-row: 2 !important;
       font-family: 'Switzer', sans-serif !important;
-      font-size: 0.72rem !important;             
+      font-size: 0.72rem !important;
       font-weight: 400 !important;               // Regular weight for clean legibility
       color: var(--navy) !important;
-      opacity: 0.50 !important;                  
-      letter-spacing: 0.24em !important;         
-      line-height: 1.0 !important;              
-      margin: 0 !important;                      
-      
+      opacity: 0.50 !important;
+      letter-spacing: 0.24em !important;
+      line-height: 1.0 !important;
+      margin: 0 !important;
+
       // 🌟 VERTICAL CALIBRATION CONTROL 🌟
       // Keeps both rows completely synchronized on the vertical axis
       position: relative !important;
-      transform: translateY(-1px) !important;     
-      
+      transform: translateY(-1px) !important;
+
       transition: all 0.2s ease !important;
     }
 
-    &:hover { 
+    &:hover {
       &::before { color: var(--burgundy) !important; }
       &::after { color: var(--burgundy) !important; opacity: 0.75 !important; }
     }
@@ -393,9 +393,9 @@ blockquote {
 // ==========================================
 .book-toc {
   border-left: 1px solid var(--gray-200);
-  padding: 0.1rem 0.1rem !important; 
+  padding: 0.1rem 0.1rem !important;
 
-  nav { 
+  nav {
     font-family: 'Switzer', sans-serif;
   }
 
@@ -411,7 +411,7 @@ blockquote {
   }
 
   #TableOfContents {
-    > ul { 
+    > ul {
       padding-left: 0 !important;
       margin-left: 0 !important;
       list-style: none !important;
@@ -432,22 +432,22 @@ blockquote {
       padding: 0.25rem 0;
       transition: all 0.2s ease;
       opacity: 1 !important;
-      &:hover { 
-        color: var(--burgundy) !important; 
-        text-decoration: none !important; 
+      &:hover {
+        color: var(--burgundy) !important;
+        text-decoration: none !important;
       }
     }
 
     ul ul {
-      padding-left: 0.8rem !important;       
+      padding-left: 0.8rem !important;
       margin-left: 0 !important;
       margin-top: 0.1rem;
       margin-bottom: 0.1rem;
-      border-left: 1px solid var(--gray-200); 
+      border-left: 1px solid var(--gray-200);
 
-      a { 
+      a {
         font-size: 0.9rem !important;
-        color: var(--navy) !important; 
+        color: var(--navy) !important;
       }
     }
   }
@@ -459,7 +459,7 @@ blockquote {
 .book-menu-content {
   display: flex !important;
   flex-direction: column !important;
-  height: 100vh !important; 
+  height: 100vh !important;
   overflow-y: auto !important;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
@@ -469,9 +469,9 @@ blockquote {
   &::-webkit-scrollbar-thumb { background-color: transparent !important; border-radius: 20px !important; }
 
   &:hover {
-    scrollbar-color: var(--gray-200) transparent; 
+    scrollbar-color: var(--gray-200) transparent;
     &::-webkit-scrollbar-thumb {
-      background-color: var(--gray-200) !important; 
+      background-color: var(--gray-200) !important;
       &:hover { background-color: var(--teal) !important; }
     }
   }
@@ -482,7 +482,7 @@ blockquote {
 // ==========================================
 @media screen and (max-width: 56rem) {
   .book-menu {
-    padding-left: 0 !important;  
+    padding-left: 0 !important;
     padding-right: 0 !important;
     aside { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
   }
@@ -501,9 +501,9 @@ blockquote {
     .book-header .book-icon, .book-menu .book-icon { filter: invert(1) brightness(2) !important; }
   }
 
-  .book-toc, #TableOfContents, #TableOfContents 
+  .book-toc, #TableOfContents, #TableOfContents
   a {
-    font-family: 'Switzer', sans-serif !important; 
+    font-family: 'Switzer', sans-serif !important;
     font-size: 1rem !important;
   }
 
@@ -541,20 +541,20 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
 /* Review Carousel Engine */
 .review-carousel-container {
   position: relative;
-  width: 100%; 
-  margin: 2rem auto; 
-  overflow: hidden; 
+  width: 100%;
+  margin: 2rem auto;
+  overflow: hidden;
   background-color: var(--gray-100) !important;
   border-left: 4px solid var(--teal) !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03) !important;
-  padding: 1.5rem 0 !important; 
+  padding: 1.5rem 0 !important;
   box-sizing: border-box;
 }
-.review-carousel-track { 
+.review-carousel-track {
   display: flex;
   transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
-  width: 100%; 
+  width: 100%;
 }
 .review-card {
   flex: 0 0 100%;
@@ -566,17 +566,17 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   padding: 0 2.75rem !important;
   justify-content: center !important;
 }
-.review-profile { 
+.review-profile {
   display: flex;
   align-items: center;
   gap: 0.85rem;
 }
-.review-meta-block { 
+.review-meta-block {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
 }
-.review-avatar { 
+.review-avatar {
   width: 44px !important;
   height: 44px !important;
   border-radius: 50% !important;
@@ -592,14 +592,14 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   color: var(--navy) !important;
   line-height: 1.2 !important;
 }
-.review-date { 
+.review-date {
   font-family: 'Switzer', sans-serif !important;
   font-size: 0.82rem !important;
   font-weight: 400 !important;
   color: var(--navy) !important;
   opacity: 0.55;
 }
-.review-text { 
+.review-text {
   font-family: 'Crimson Pro', serif !important;
   font-size: 18px !important;
   line-height: 1.6 !important;
@@ -608,7 +608,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   font-style: italic;
   white-space: pre-line !important;
 }
-.carousel-arrow { 
+.carousel-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -621,18 +621,18 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   opacity: 0.35;
   padding: 0.5rem !important;
   transition: opacity 0.2s ease, color 0.2s ease !important;
-  &:hover { 
+  &:hover {
     opacity: 1;
     color: var(--teal) !important;
   }
 }
 .left-arrow {
   left: 0.5rem !important;
-} 
-.right-arrow { 
+}
+.right-arrow {
   right: 0.5rem !important;
 }
-.carousel-dots { 
+.carousel-dots {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
@@ -645,13 +645,13 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   background-color: var(--gray-200);
   cursor: pointer;
   transition: background-color 0.3s ease;
-  &.active { 
+  &.active {
     background-color: var(--teal) !important;
   }
 }
 
 /* Bite-Sized Math Facts Engine */
-#facts-engine-wrapper { 
+#facts-engine-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -662,7 +662,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   font-family: 'Switzer', sans-serif;
   justify-content: center !important;
 }
-.fact-btn { 
+.fact-btn {
   padding: 0.5rem 1.25rem !important;
   border-radius: 4px !important;
   font-weight: 600 !important;
@@ -672,25 +672,25 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   background-color: transparent !important;
   color: var(--teal) !important;
   text-decoration: none !important;
-  &:hover { 
+  &:hover {
     background-color: var(--teal) !important;
     color: var(--ivory) !important;
-  } 
-  &.primary-btn { 
+  }
+  &.primary-btn {
     background-color: var(--teal) !important;
-    color: var(--ivory) !important; 
-    &:hover { 
+    color: var(--ivory) !important;
+    &:hover {
       background-color: var(--burgundy) !important;
       border-color: var(--burgundy) !important;
     }
   }
 }
-#btn-another, #btn-back-list { 
+#btn-another, #btn-back-list {
   display: none;
   background-color: var(--teal) !important;
   color: var(--ivory) !important;
   border-color: var(--gray-200) !important;
-  &:hover { 
+  &:hover {
     background-color: var(--burgundy) !important;
     border-color: var(--burgundy) !important;
     color: var(--ivory) !important;
@@ -705,69 +705,69 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03) !important;
   transition: transform 0.25s ease;
   justify-content: center !important;
-  p { 
+  p {
     font-style: normal !important;
-  } 
+  }
   h3 {
     margin-top: 0 !important;
     color: var(--navy) !important;
-  } 
+  }
 }
 #facts-engine-wrapper.single-view-active {
-  .facts-list-container { 
+  .facts-list-container {
     order: 1 !important;
-  } 
-  .facts-control-hub { 
+  }
+  .facts-control-hub {
     order: 2 !important;
     justify-content: space-between !important;
     margin-top: 2rem !important;
     margin-bottom: 0 !important;
-  } 
-  #btn-random { 
+  }
+  #btn-random {
     display: none !important;
   }
-  #btn-another, #btn-back-list { 
+  #btn-another, #btn-back-list {
     display: inline-block !important;
   }
-  .fact-card { 
+  .fact-card {
     display: none !important;
-  } 
-  .fact-card.active-random-card { 
+  }
+  .fact-card.active-random-card {
     display: block !important;
     animation: cardPopForward 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
     margin: 1.75rem auto !important;
     width: 100% !important;
-    max-width: none !important; 
-  } 
+    max-width: none !important;
+  }
 }
-@keyframes cardPopForward { 
-  0% { 
+@keyframes cardPopForward {
+  0% {
     opacity: 0;
     transform: scale(0.96) translateY(8px);
-  } 
-  100% { 
+  }
+  100% {
     opacity: 1;
     transform: scale(1) translateY(0);
-  } 
+  }
 }
 
 /* Cookie Consent Banner */
 .cookie-banner {
-  position: fixed; 
-  bottom: 2rem; 
-  left: 50%; 
-  transform: translateX(-50%) translateY(0); 
-  width: 90%; 
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  width: 90%;
   max-width: 620px;
-  background-color: var(--gray-100) !important; 
+  background-color: var(--gray-100) !important;
   border-left: 4px solid var(--teal) !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06) !important; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06) !important;
   border-radius: 4px;
   padding: 1.25rem 1.5rem;
   z-index: 999999;
   font-family: 'Switzer', sans-serif;
   transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1), transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-  &.cookie-hidden { 
+  &.cookie-hidden {
     opacity: 0;
     pointer-events: none;
     transform: translateX(-50%) translateY(15px);
@@ -782,7 +782,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
       justify-content: space-between;
       text-align: left;
       gap: 2rem;
-    } 
+    }
   }
   .cookie-text {
     margin: 0 !important;
@@ -803,14 +803,14 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
     cursor: pointer !important;
     border: 1px solid transparent !important;
     transition: all 0.2s ease !important;
-    &.primary { 
+    &.primary {
       background-color: var(--navy) !important;
       color: var(--ivory) !important;
       &:hover {
         background-color: var(--teal) !important;
-        border-color: var(--teal) !important; 
-      } 
-    } 
+        border-color: var(--teal) !important;
+      }
+    }
     &.secondary {
       background-color: transparent !important;
       border-color: var(--gray-200) !important;
@@ -820,8 +820,8 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
         opacity: 1;
         background-color: var(--burgundy) !important;
         color: var(--ivory) !important;
-      } 
-    } 
+      }
+    }
   }
 }
 
@@ -831,21 +831,21 @@ p.custom-author-paragraph {
   font-weight: 600 !important;
   font-size: 1.1rem !important;
   color: var(--navy) !important;
-  margin: 1.5rem 0 !important;               
-  strong { 
+  margin: 1.5rem 0 !important;
+  strong {
     font-family: 'Switzer', sans-serif !important;
     font-weight: 700 !important;
     color: var(--burgundy) !important;
     font-style: normal !important;
   }
-  a { 
+  a {
     color: var(--burgundy) !important;
     text-decoration: underline !important;
     &:hover {
       color: var(--navy) !important;
-    } 
+    }
   }
-  code { 
+  code {
     font-family: 'Martian Mono', monospace !important;
     font-weight: 400 !important;
     color: var(--navy) !important;
@@ -857,7 +857,7 @@ p.custom-author-paragraph {
 // 14. OPTICAL MATH SCALING (KATEX OVERRIDE)
 // ==========================================
 .katex {
-  font-size: 0.99em !important; 
+  font-size: 0.99em !important;
 }
 
 // ==========================================
@@ -866,5 +866,38 @@ p.custom-author-paragraph {
 .small-caps-switzer {
   font-family: 'Switzer', sans-serif !important;
   font-variant-caps: small-caps !important;
-  letter-spacing: 0.05em !important; 
+  letter-spacing: 0.05em !important;
+}
+
+// FIGURE AND CAPTION STYLING
+/* The container holding both the image and the caption */
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* The image itself inside the figure */
+figure img {
+  max-width: 100%;      /* Ensures the image doesn't break mobile screens */
+  height: auto;
+  border-radius: 6px;   /* Optional: adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+}
+
+/* The caption text */
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 1rem;   /* Makes the caption slightly smaller than body text */
+  font-family: 'Switzer' !important;
+  font-weight: 200 !important;
+  line-height: 1.3;
+}
+
+// HEADER IMAGE
+.blog-header-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; /* Prevents the image from stretching weirdly */
+  border-radius: 0;  /* Maybe you want sharp corners for the header */
+  box-shadow: none;
 }

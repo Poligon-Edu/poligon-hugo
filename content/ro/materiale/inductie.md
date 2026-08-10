@@ -8,7 +8,7 @@ weight = 2
 # Inducția matematică
 
 {{< material-author >}}
-Maria Kaproș, `mariakapros@poligon-edu.ro`
+Maria Kaproș
 {{< /material-author >}}
 
 ## Motivație
@@ -31,7 +31,7 @@ De multe ori, însă, metoda inducției matematice este studiată la școală cu
 exemple abstracte și nu este mereu clar că, de fapt, nu funcționează
 doar în matematică. *Raționamentul inductiv* este o tehnică de argumentare
 pe care poți să o folosești oricând vrei să ajungi la o concluzie generală
-după ce ai observat câteva situații particulare. În plus, ea stă la baza 
+după ce ai observat câteva situații particulare. În plus, ea stă la baza
 multor cercetări și metodei științifice: experimentele din laborator adună
 date particulare, practice, iar apoi intervine rolul teoriei, care formulează
 și demonstrează o concluzie generală.
@@ -50,8 +50,8 @@ Dacă ești extrovertit, e simplu: intuiești cu cine ar fi o idee bună să sta
 
 Dar dacă te împrietenești mai ușor cu o carte, cu un film sau cu un joc video,
 un zâmbet sau o conversație oricât de scurtă poate să însemne mult,
-simți că te arunci într-o ecuație cu multe necunoscute. 
-*Cum să mă comport ca să-mi fac prieteni?* E o întrebare la care te 
+simți că te arunci într-o ecuație cu multe necunoscute.
+*Cum să mă comport ca să-mi fac prieteni?* E o întrebare la care te
 gândești să răspunzi.
 
 Poate o să te surprindă, dar metoda științifică are o soluție.

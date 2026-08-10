@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="markdown book-post">
+  <h1 style="font-weight:800; line-height: 1.3;">
+    {{ partial "docs/title" . }}
+  </h1>
+
+  {{ partial "docs/post-meta" . }}
+
+  <!-- AUTHOR BYLINE -->
+  {{ with .Params.author }}
+  <div class="post-author" style="margin-top: 0.5rem; margin-bottom: 1.5rem; font-weight: 400; font-family: 'Switzer';">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <!-- IMAGE BLOCK -->
+  {{ with .Params.header_image }}
+    <figure class="blog-header-image" style="margin: 1.5rem 0;">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="width: 100%; border-radius: 8px;" />
+
+      {{ with $.Params.header_caption }}
+        <figcaption style="text-align: center; margin-top: 0rem; font-size: 0.85rem; color: #555;">
+          {{ . | markdownify }}
+        </figcaption>
+      {{ end }}
+    </figure>
+  {{ end }}
+
+  <div class="book-post-content markdown-inner">
+    {{- .Content -}}
+  </div>
+</article>
+{{ end }}

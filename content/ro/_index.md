@@ -41,14 +41,14 @@ explica în cuvintele tale.
 
 Avem entuziasmul, răbdarea și interesul necesare ca să-ți explicăm tot
 ce nu ai înțeles, astfel încât conceptele abstracte de matematică sau
-științe ale naturii să-ți fie clare. 
+științe ale naturii să-ți fie clare.
 
 Efortul este necesar, dar nu trebuie
 să vină cu forța, prin învățare pe de rost, din teamă sau obligație.
 Pentru că dificultățile educaționale [nu sunt întotdeauna clare](https://www.scoala9.ro/de-ce-se-blocheaza-elevii-la-stiinte/2382)
-și ușor de pus în seama elevului sau a „sistemului”. 
+și ușor de pus în seama elevului sau a „sistemului”.
 
-Uneori pur și simplu trebuie să acorzi atenția corespunzătoare, 
+Uneori pur și simplu trebuie să acorzi atenția corespunzătoare,
 individuală, pe care într-o clasă îți este imposibil să o faci.
 
 ![Joshua științe](/images/joshua_stiinte.png)
@@ -61,8 +61,8 @@ individuală, pe care într-o clasă îți este imposibil să o faci.
 > și prietenoasă, elevul privește învățarea ca pe o experiență de dezvoltare sănătoasă.
 
 ## Colaborăm, nu predăm
-Ne place foarte mult să avem o relație amicală, de colaborare, cu elevii 
-și studenții cu care lucrăm, așa că ne bucurăm să-i implicăm 
+Ne place foarte mult să avem o relație amicală, de colaborare, cu elevii
+și studenții cu care lucrăm, așa că ne bucurăm să-i implicăm
 în proiecte diverse. De exemplu:
 
 * Într-un [articol publicat de VOCATIV](https://vocativ.ro/sase-elevi-despre-cum-traiesc-ultimele-saptamani-inainte-de-bac-in-fiecare-secunda-in-care-nu-invat-simt-ca-ar-trebui-sa-o-fac/), unul dintre cele mai importante
@@ -115,7 +115,7 @@ interacționezi cu inteligența artificială. sunt disponibile
 * Vizitează pagina despre [lecții private]({{< ref "lectii.md" >}}) dacă prioritatea
 ta este să-ți îmbunătățești situația școlară, la examene, teste sau teme.
 Lucrăm individual sau în grupuri foarte mici (2-3-4 elevi, însă numai după
-ce ne-am asigurat că nivelul de cunoștințe este aproximativ uniform). Avem profesori 
+ce ne-am asigurat că nivelul de cunoștințe este aproximativ uniform). Avem profesori
 specializați pentru lecții de matematică și fizică, pentru
 toate nivelurile de studii: primar, gimnazial, liceal sau chiar pentru studenți.
 
@@ -124,18 +124,17 @@ tale, nivelului de cunoștințe, dar și obiectivelor, uită-te în
 [portofoliul nostru]({{< relref path="/cursuri/_index.md" lang="ro" >}})
 ca să vezi condițiile generale și ce-ți propunem.
 
-* Accesează pagina de [resurse educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}}) 
+* Accesează pagina de [resurse educaționale]({{< relref path="/materiale/_index.md" lang="ro" >}})
 și descarcă fișele de teorie și exerciții dacă vrei să înveți singur câteva
 concepte pe care ți le propunem.
 
 * Fii la curent cu evenimentele, cursurile și atelierele pe care le organizăm
-sau află cum a fost la cele anterioare din secțiunea de 
+sau află cum a fost la cele anterioare din secțiunea de
 [evenimente]({{< relref path="/evenimente/_index.md" lang="ro" >}}).
 
 * Vrei să citești articole de popularizare a științei?
-Atunci vizitează blogul [Gradient](https://gradientul.xyz) și abonează-te la newsletter.
+Atunci vizitează-ne [blogul]({{< ref path="/blog/_index.md" lang="ro" >}}).
 
-* Nu ai timp de un articol întreg? Citește rapid [punctele de acumulare]({{< relref path="puncte/index.md" lang="ro" >}}).
 
 * Întreabă-ne sau scrie-ne gândurile și sugestiile tale prin email sau WhatsApp,
 accesând secțiunea de [contact]({{< relref path="contact.md" lang="ro" >}}).

@@ -7,9 +7,18 @@ slug = "evenimente"
 
 # Evenimente
 
-## Noutăți în curând!
+## Matematică desenată
+![Curs matematică desenată](/images/curs_comic/fata_pe_grafic.png)
 
-![WIP](/images/wip.png#center)
+Matematica se face cu creionul pe hârtie, așa ți-au spus profesorii.
+La fel funcționează și desenul, care adaugă și mai multă culoare.
+
+Desenele de la matematică nu sunt numai pentru lecția de geometrie.
+Printr-un desen, fie el amuzant, artistic sau tehnic, poți să înțelegi
+mai ușor lucruri complicate, fiindcă și la matematică, o imagine poate
+să spună mai mult decât o mie de cuvinte.
+
+Află mai multe pe [pagina cursului]({{< relref path="cursuri/mate-comic.md" lang="ro" >}}).
 
 ## Arhivă
 <details>
@@ -20,7 +29,7 @@ Apasă aici ca să vezi evenimentele anterioare.
 
 <h3>DataMathLab @ Aspire Teachers</h3>
 ⏪  <b>3-4 iulie 2026</b>: Adrian Manea participat la <a href="https://www.aspireteachers.ro/datamathlab-festival2026">festivalul
-DataMathLab 2026</a>, organizat de Aspire Teachers la Brașov. Tema festivalului 
+DataMathLab 2026</a>, organizat de Aspire Teachers la Brașov. Tema festivalului
 este matematica în lumea inteligenței
 artificiale, iar Adrian a susținut două ateliere de utilizare a uneltelor moderne
 ca Markdown și LaTeX pentru îmbunătățirea „comunicării” cu asistentul virtual.

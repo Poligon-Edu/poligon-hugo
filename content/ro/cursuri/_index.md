@@ -1,6 +1,6 @@
 +++
 title = "Cursuri personalizate"
-weight = 5
+weight = 3
 type = "docs"
 bookCollapseSection = "true"
 +++
