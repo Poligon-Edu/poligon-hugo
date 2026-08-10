@@ -143,7 +143,7 @@ Credem în *cursuri personalizate*, de aceea vrem să adaptăm conținutul nivel
 Tot în formular poți să alegi și data care îți convine cel mai mult și să propui
 o variantă online, dacă nu ești în București.
 
-Accesează-l și înscrie-te 👉 [**aici**](https://forms.gle/1UWXfwaWdYKPyEoK9).
+Accesează-l și înscrie-te 👉 [**aici**](https://tally.so/r/QK915g).
 
 *Vino la curs, promitem și meme!*
 
