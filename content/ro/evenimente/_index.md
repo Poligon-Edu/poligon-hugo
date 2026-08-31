@@ -3,6 +3,7 @@ title = "Evenimente"
 type = "docs"
 weight = 1
 slug = "evenimente"
+bookHidden = "true"
 +++
 
 # Evenimente
