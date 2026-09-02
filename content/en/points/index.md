@@ -1,7 +1,7 @@
 +++
 title = "Points of Accumulation"
 type = "docs"
-bookToC = true
+bookHidden = true
 weight = 2
 slug = "accumulation-points"
 +++
@@ -20,5 +20,5 @@ slug = "accumulation-points"
 <p id="nota-stea" style="font-size: 13px; opacity: 0.75; line-height: 1.5; margin-top: 2rem;">
 <sup>*</sup>: We don't actually have enough data to back this up, but guarantee
 that 4 out of 4 teachers worked to compile it and recommend it enthusiastically
-<a href="#text-stea" style="text-decoration: none; color: var(--teal);">↩</a> 
+<a href="#text-stea" style="text-decoration: none; color: var(--teal);">↩</a>
 </p>

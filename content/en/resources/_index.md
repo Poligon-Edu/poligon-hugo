@@ -1,7 +1,7 @@
 +++
 title = "Resources"
 type = "docs"
-weight = 3
+weight = 2
 bookHidden = false
 +++
 

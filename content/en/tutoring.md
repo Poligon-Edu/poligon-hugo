@@ -1,7 +1,7 @@
 +++
 title = "Private Tutoring"
 type = "docs"
-weight = 4
+weight = 1
 +++
 
 ![Tutoring](/images/tutoring.avif)
@@ -23,7 +23,7 @@ if you agree and if we judge that all students in the group have a similar acade
 level and can collaborate efficiently.
 
 * You can choose whether to study face to face or online. Our approach will be the same.
-In the online format, you are strongly encouraged (though not mandatory!) to have and 
+In the online format, you are strongly encouraged (though not mandatory!) to have and
 use a tablet (such as an iPad) or a graphics tablet. Our teachers have all the
 necessary tools and will make available all their notes, homework assignments,
 and exercise sheets in PDF format, free of cost.
@@ -45,7 +45,7 @@ and available for all operating systems, sometimes even on mobile.
 * In terms of management and paperwork, we sell a **trial package of 6 hours of tutoring**,
 which will be organized as you wish (e.g., 3 meetings of 2 hours each). After the trial ends,
 we propose an extension, which entails a services contract and you will be invoiced
-every 10 hours (or every other interval we agree upon). 
+every 10 hours (or every other interval we agree upon).
 
 ## Sign Up or Learn More
 Use the [contact]({{< relref path="/contact.md" lang="en" >}}) section to schedule

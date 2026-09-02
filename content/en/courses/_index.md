@@ -2,6 +2,7 @@
 title = "Custom Courses"
 type = "docs"
 weight = 5
+bookHidden = "true"
 +++
 
 ![Courses](/images/courses.avif)
@@ -45,7 +46,7 @@ please drop us an email with the topic you'd like to study!
 <h3>History and Philosophy of Mathematics or The Set of Real Numbers</h3>
 
 We focus on a seemingly simple, but profound topic, which is has a very rich
-history: the set of real numbers. We will talk about sets, about numbers, and 
+history: the set of real numbers. We will talk about sets, about numbers, and
 answer questions such as *What makes numbers like e or π real?*
 
 Find out more [here]({{< ref "hist_phil_math.md" >}}).
