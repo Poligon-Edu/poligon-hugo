@@ -2,7 +2,6 @@
 title = "Inducția matematică"
 type = "docs"
 slug = "inductia-matematica"
-weight = 2
 +++
 
 # Inducția matematică

@@ -2,7 +2,6 @@
 title = "Ghiduri software"
 type = "docs"
 slug = "floss"
-weight = 9
 +++
 
 # Ghiduri software
@@ -23,8 +22,8 @@ La fel și dacă nu înțelegi, măcar superficial, cum a făcut când ți-a ră
 
 Altfel spus, AI-ul este excelent *când știi ce să-i ceri și înțelegi (măcar parțial) ce-ți dă*.
 
-Apoi, am convingerea că există multe unelte educaționale insuficient 
-cunoscute și folosite, cel puțin printre profesori și elevi sau măcar 
+Apoi, am convingerea că există multe unelte educaționale insuficient
+cunoscute și folosite, cel puțin printre profesori și elevi sau măcar
 în grupurile pe care le-am frecventat.
 
 De aceea, propun acest scurt ghid pentru utilizarea software-ului

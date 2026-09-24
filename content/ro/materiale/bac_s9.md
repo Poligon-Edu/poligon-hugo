@@ -2,7 +2,6 @@
 title = "Bac internațional"
 type = "docs"
 slug = "bac-international"
-weight = 1
 +++
 
 # O selecție internațională pentru bac
