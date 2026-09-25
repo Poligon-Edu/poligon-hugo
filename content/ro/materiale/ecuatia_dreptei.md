@@ -374,3 +374,171 @@ Dacă două drepte sunt perpendiculare, atunci produsul pantelor lor este egal c
 {{% /important %}}
 
 ## Ecuația dreptei prin două puncte
+
+Până acum, exemplele pe care le-am dat porneau cu ecuații ale dreptelor, pe care puteam
+lua oricâte puncte &mdash; aleatoriu, convenabil sau punctele de intersecție cu
+axele de coordonate.
+
+Acum ne gândim la problema inversă. Prin orice două puncte trece o dreaptă unică.
+Cum îi găsim ecuația? Problema se mai numește *ecuația dreptei prin tăieturi*, iar
+unele materiale o calculează direct printr-o formulă. Însă ecuația e foarte ușor
+de dedus, pe baza înțelegerii celor doi coeficienți, $ a $ și $ b $, cum i-am notat
+până acum.
+
+Iată un exemplu concret. Vrei să afli ecuația dreptei care conține punctele $ A(-1, 2) $
+și $ B(3, -1) $. Ești, așadar, în căutarea coeficienților $ a $ și $ b $ din ecuația
+$ y = ax + b $, astfel încât cele două puncte să fie pe aceeași dreaptă.
+
+Cum ecuația dreptei dă legătura între perechile de coordonate $ (x, y) $ pentru orice
+punct care se găsește pe dreapta respectivă, înseamnă că și punctele $ A $ și $ B $
+au coordonatele care respectă ecuația dreptei căutate. Altfel spus, $ y_A = a \cdot x_A + b $
+(unde $ x_A = -1 $ și $ y_A = -2 $) și similar pentru punctul $ B $.
+
+Rezultă două ecuații cu două necunoscute:
+
+- Pentru punctul $ A $: $ 2 = -1 \cdot a + b $;
+- Pentru punctul $ B $: $-1 = 3 \cdot a + b $.
+
+Rezolvăm sistemul și obținem $ a = -\dfrac{3}{4} $ și $ b = \dfrac{5}{4} $,
+deci dreapta căutată este $ y = -\dfrac{3}{4} x + \dfrac{5}{4} $.
+
+Cu această metodă poți să calculezi ecuația oricărei drepte prin două puncte,
+fără să folosești formule complicate, ci doar definițiile: cum se scrie în general
+ecuația dreptei și ce înseamnă că un punct cu coordonate cunoscute se află pe o dreaptă.
+
+## Lungimea unui segment de dreaptă
+
+Dacă te interesează mai degrabă segmentul de dreaptă dintre două puncte, nu dreapta întreagă,
+și vrei să afli lungimea acestui segment, ai o metodă simplă, pentru care trebuie să-ți
+amintești doar teorema lui Pitagora.
+
+Dar înainte să poți calcula pentru un segment oarecare, ajută să începem cu două cazuri
+mai simple: când segmentele sunt orizontale sau verticale.
+
+De exemplu, un segment vertical este descris de puncte care au aceeași coordonată $ x $,
+pentru că se află la aceeași „lățime” (măsurată pe axa orizontală), dar la „înălțimi”
+diferite (măsurate pe axa verticală). Deci punctele arată de forma $ A(x_A, y_A) $ și
+$ B(x_A, y_B) $. Lungimea segmentului $ [AB] $ este, atunci, diferența celor două
+coordonate verticale și, pentru că nu știm care dintre ele este mai mare, vom folosi
+modulul. Deci $ AB = | y_A - y_B | $.
+
+Ca să fie și mai clar, te poți gândi că punctele se află direct pe axa *Oy*, deci $ x_A = 0 $.
+Așadar, segmentul $ [AB] $ devine o porțiune din axa *Oy*, de lungime $ | y_A - y_B | $.
+
+Similar, pentru segmente orizontale, determinate de puncte care au aceeași coordonată $ y $,
+fiindcă se află la aceeași „înălțime”: $ A(x_A, y_A) $ și $ B(x_B, y_A) $. Lungimea
+este $ AB = | x_A - x_B | $. Din nou poți particulariza pentru $ y_A = 0 $, caz în care
+segmentul $ [AB] $ devine o porțiune din axa *Ox*.
+
+Acum, pentru cazul general, când segmentul este oblic. Îți explic pe un exemplu, aceleași
+două puncte pe care le-am mai folosit: $ A(-1, 2) $ și $ B(3, -1) $. Vrei lungimea segmentului
+$ [AB] $ sau distanța dintre cele două puncte. Este suficient să le reprezinți într-un sistem
+de coordonate și să construiești un triunghi dreptunghic în care $ [AB] $ este ipotenuză.
+Vezi figura de mai jos.
+
+<figure id="fig-segment-oblic">
+<img src="/images/figures/fig9.svg" alt="Un segment oblic" style="width:95%;">
+<figcaption>Distanța dintre două puncte oarecare, calculată cu teorema lui Pitagora</figcaption>
+</figure>
+
+Am format triunghiul dreptunghic $ \Delta ABC $, în care ipotenuza este $ AB $, iar catetele
+sunt una orizontală și una verticală. Deci știm să le calculăm lungimile, pe baza cazurilor
+particulare discutate puțin mai sus. Să mai adaug că știm și coordonatele lui $ C $, din
+modul în care a fost obținut: $ C(-1, -1) $, fiindcă se află pe aceeași verticală cu $ A $
+și pe aceeași orizontală cu $ B $. Apoi:
+
+$$
+\begin{matrix}
+AC = |y_A - y_C| = | 2 - (-1) | = 3 \\
+BC = |x_B - x_C| = | 3 - (-1) | = 4
+\end{matrix}
+$$
+
+Cu teorema lui Pitagora, rezultă $ AB = \sqrt{3^2 + 4^2} = 5 $.
+
+Poți reface oricând această metodă, fără să ții minte vreo formulă suplimentară.
+Dacă vrei, totuși, să aplici o formulă directă, poți reduce calculele de mai sus la:
+
+$$
+AB = \sqrt{ (x_A - x_B)^2 + (y_A - y_B)^2 },
+$$
+
+unde nu am mai pus modulul, pentru că, prin ridicare la pătrat, semnul oricum devine irelevant.
+
+## Supliment: Calcule și figuri geometrice
+
+Legătura dintre algebră și geometrie ajută foarte mult ca să vezi același obiect din mai multe
+unghiuri. În istoria matematicii, această legătură a venit foarte târziu. Geometria, cu originile
+în Grecia antică — ne gândim la Pitagora, Euclid, Arhimede, Thales și alții —, a fost tratată
+drept disciplină diferită de algebră până tocmai în secolul al XVII-lea. De fapt, geometria
+nici măcar nu se prea ocupa cu măsurători și calcule. Sunt celebre problemele lui Euclid și ale
+contemporanilor care se rezolvau prin construcții cu rigla (negradată!) și compasul.
+Lungimea unui segment era irelevantă: îl luai în deschizătura compasului și-l mutai sau îl
+comparai cu un altul, de exemplu.
+
+Însă, pe parcurs ce s-au dezvoltat algebra și metodele de calcul cu funcții, matematicienii
+au încercat să le combine cu componentele vizuale din geometrie. Dar ce legătură are un punct
+sau o dreaptă cu un număr sau o funcție? Astăzi, răspunsul vine în anii de gimnaziu, însă
+a necesitat creativitatea francezilor René Descartes (1596-1650) și François Viète
+(1540-1603), portretizați mai jos, care au clarificat aceste legături.
+
+<figure id="fig-descartes-viete">
+<img src="/images/figures/descartes_viete.png" alt="René Descartes și François Viète"
+style="width:95%;">
+<figcaption>René Descartes (s) și François Viète (d), matematicieni francezi ai secolelor XVI-XVII</figcaption>
+</figure>
+
+Descartes este cel care a propus interpretarea punctelor prin coordonatele lor. El a asociat
+o pereche de numere reale fiecărui punct din plan, numere care aveau o semnificație pe
+cât de simplă, pe atât de ingenioasă. A fost nevoie să fixeze un sistem de referință,
+cum l-au numit fizicienii, sau *sistem de coordonate*, în termeni matematici: reperul *xOy*.
+Cele două axe sunt drepte, cu sensurile pozitive alese spre dreapta, respectiv în sus, și
+o unitate de măsură fixată, astfel încât distanțele să poată fi exprimate prin numere reale.
+Când un punct se află pe una dintre axe, coordonatele lui sunt simple: una este zero și cealaltă
+arată de câte ori se cuprinde unitatea în distanța dintre punct și origine. Dar pentru puncte
+care nu se află pe axe? Atunci Descartes a propus *proiecții* ale punctelor, astfel încât
+să se poată vedea „urmele” pe care le lasă punctele față de axele de coordonate.
+
+
+Astfel, un punct din plan $ A(x_A, y_A) $ îl poți
+gândi ca pe o pereche de instrucțiuni: pornești din originea sistemului de coordonate
+(fixată), mergi $ x_A $ unități pe axa orizontală (la dreapta dacă $ x_A > 0 $
+și la stânga dacă $ x_A < 0 $), apoi $ y_A $ unități pe axa verticală
+(în sus dacă $ y_A > 0 $ și în jos dacă $ y_A < 0 $). Astfel, ai pornit
+dintr-un punct fixat și ai ajuns în orice punct căruia îi știi coordonatele.
+Pașii poți să-i vezi în figura de mai jos.
+
+<figure id="fig-pasi-reprezentare">
+<img src="/images/figures/fig10.svg" alt="Pașii pentru reprezentarea grafică a unui punct"
+style="width:75%;">
+<figcaption>Interpretarea coordonatelor unui punct din plan ca pe doi pași prin care
+pornești din origine și ajungi la punctul respectiv</figcaption>
+</figure>
+
+În ce privește numerele negative, ele sunt ușor de înțeles dacă ții cont
+de faptul că direcția este o convenție. De fapt, acest lucru este adevărat
+și în fizică și aproape oriunde apar numere negative: cercetătorii au stabilit
+un punct de referință pe care îl consideră zero, precum și direcția pozitivă.
+
+De exemplu, temperaturile mai mici decât pragul de îngheț sunt negative,
+sumele cheltuite dintr-un buget inexistent sunt datorii și se înregistrează
+cu numere negative, iar în reperul $ xOy $, numerele aflate la stânga sau
+în josul originii sunt negative. Însă distanțele sunt calculate, desigur,
+prin numere pozitive, care sunt modulele celor negative. Situația e chiar
+convenabilă, pentru că, atunci când te gândești la punctul $ B(-1, 3) $,
+de exemplu, știi sigur că poți ajunge la el dacă pornești pe axa
+orizontală către stânga o unitate, apoi 3 unități în sus. Cu alte cuvinte,
+numerele negative vin cu informație suplimentară, cea legată de direcție.
+
+Încă un fapt deosebit este că, în perioada medievală, limba latină era foarte folosită,
+mai ales în Europa, astfel că mulți cercetători o foloseau în tratatele și publicațiile lor,
+ba chiar își luau și un nume latinesc. De aceea, Viète mai este cunoscut și ca
+*Franciscus Vieta*, iar Descartes, drept *Renatus Cartesius*. Atât de
+importantă a fost introducerea interpretării algebrice pentru drepte și, în general,
+figuri plane încât sistemul de coordonate *xOy* se mai numește *cartezian*
+în onoarea lui Descartes.
+
+
+---
+
+## Exerciții

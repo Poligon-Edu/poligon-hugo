@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="155.57561mm"
+   height="137.14627mm"
+   viewBox="0 0 155.57561 137.14627"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-27.212185,-77.841679)">
+    <path
+       style="fill:#aa424e;stroke:none;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="M 99.083737,77.49162 28.075358,219.50838 a 8.1760744,8.1760744 58.282525 0 0 7.312903,11.83253 H 174.61174 a 8.1760741,8.1760741 121.71747 0 0 7.31291,-11.83253 L 110.91626,77.49162 a 6.614583,6.614583 180 0 0 -11.832523,0 z"
+       id="path1"
+       transform="matrix(1,0,0,0.87073823,-2.389764e-6,13.550574)" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="M 99.083737,77.49162 28.075358,219.50838 a 8.1760744,8.1760744 58.282525 0 0 7.312903,11.83253 H 174.61174 a 8.1760741,8.1760741 121.71747 0 0 7.31291,-11.83253 L 110.91626,77.49162 a 6.614583,6.614583 180 0 0 -11.832523,0 z"
+       id="path1-8"
+       transform="matrix(0.57375407,0,0,0.4995896,44.755821,79.209707)" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.309812;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="M 72.646103,185.71195 H 137.3539 L 118.7101,155.4425 Z"
+       id="path2" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:14.1111px;line-height:1.3;font-family:Switzer;-inkscape-font-specification:'Switzer Medium';letter-spacing:0.529167px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="-29.086575"
+       y="193.02153"
+       id="text2"
+       transform="rotate(-33.55523)"><tspan
+         id="tspan2"
+         style="stroke-width:0.265"
+         x="-29.086575"
+         y="193.02153">10%</tspan></text>
+  </g>
+</svg>
