@@ -1093,3 +1093,163 @@ style="width:95%">
 </figure>
 
 ---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+8. Coordonatele unui punct $ C $, egal depărtat de $ A(-3, -2) $ și $ B(2, 2) $
+și astfel încât $ AC < 10 $, $ BC < 10 $.
+</span>
+
+O metodă simplă de a plasa un punct egal depărtat de două puncte fixate
+$ A $ și $ B $ este să fie pe mediatoarea segmentului $ AB $.
+Asta pentru că se formează un triunghi isoscel $ \Delta ABC $, cu $ AC = BC $,
+fiindcă din vârful $ C $ ai dus o mediană, care este și înălțime (mediatoarea).
+
+Deci avem de aflat ecuația perpendicularei pe mijlocul segmentului $ AB $
+mai întâi.
+
+Dacă $ M(x_M, y_M) $ este mijlocul acestui segment, atunci:
+$$
+    x_M = \dfrac{-3 + 2}{2} = -\dfrac{1}{2}, \quad %
+    y_M = \dfrac{-2 + 2}{2} = 0 \Rightarrow M\left( -\dfrac{1}{2}, 0 \right).
+$$
+
+Vrem o perpendiculară pe $ AB $ care să treacă prin $ M $. Mai întâi,
+ecuația dreptei, notată generic $ AB: y = ax + b $:
+$$
+\begin{matrix}
+    &A \in AB \Rightarrow -2 = -3a + b \\
+    &B \in AB \Rightarrow 2 = 2a + b
+\end{matrix}
+$$
+
+Rezultă $ -4 = -5a $, deci $ a = \dfrac{4}{5} $ și $ b = 2 - 2a = \dfrac{2}{5} $.
+Deci $ AB: y = \dfrac{4}{5} x + \dfrac{2}{5} $.
+
+Acum fie perpendiculara căutată $ d: y = mx + n $. Știm că
+$ m \cdot \dfrac{4}{5} = -1 $, deci $ m = -\dfrac{5}{4} $.
+
+Cum $ M \in d $, rezultă $ 0 = -\dfrac{1}{2} \cdot \left( -\dfrac{5}{4} \right) + n $,
+deci $ n = -\dfrac{5}{8} $.
+
+Așadar, mediatoarea segmentului $ AB $ are ecuația:
+$$
+    d: y = -\dfrac{5}{4} x - \dfrac{5}{8} \Leftrightarrow 10x + 8y + 5 = 0.
+$$
+
+Orice punct $ C $ care se găsește pe această dreaptă are coordonatele
+care verifică ecuația de mai sus și este automat egal depărtat de $ A $ și $ B $.
+Mai rămâne doar să alegem unul astfel încât distanța să nu depășească 10 kilometri.
+
+Fie, deci, $ C(x_C, y_C) \in d $, adică $ 10x_C + 8y_C + 5 = 0 $.
+
+Distanța $ AB $ de exemplu este:
+$$
+    AB = \sqrt{(-3 - x_C)^2 + (-2 - y_C)^2}
+$$
+și $ AB < 10 $ este echivalent cu $ AB^2 < 100 $
+
+Ca să lucrăm cât mai simplu și pentru că avem nevoie de un exemplu, încercăm
+să luăm $ x_C = 0 $. Atunci $ y_C = -\dfrac{5}{8} $, iar ca distanță:
+$$
+    AB^2 = (-3 - 0)^2 + \left( -2 + \dfrac{5}{8} \right)^2 = 9 + \dfrac{121}{64} = \dfrac{697}{64} < 100,
+$$
+deci este o alegere bună. Rămâne $ C \left( 0, \dfrac{-5}{8} \right) $.
+
+Iată și reprezentarea grafică, în figura de mai jos.
+
+<figure id="fig-ex8">
+<img src="/images/figures/fig18.svg" alt="Reprezentarea grafică pentru exercițiul 8"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 8</figcaption>
+</figure>
+
+> Suplimentar, te poți gândi la o metodă prin care să găsești cea mai îndepărtată
+> poziție a punctului $ C $, dar tot astfel încât distanța să nu depășească 10 kilometri?
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+9. De plasat punctul $ R(x_R, y_R) $ egal depărtat de punctele $ A(1, 1) $, $ B(-3, 1) $
+și $ C(2, -4) $.
+</span>
+
+
+Inspirat și din problema anterioară, e clar că $ R $ ar trebui să se afle
+pe mediatoarele tuturor segmentelor $ AB, AC $ și $ BC $. Altfel spus,
+să fie intersecția mediatoarelor acestora. Echivalent, $ R $ este centrul
+cercului circumscris triunghiului $ \Delta ABC $ și atunci, distanțele
+$ RA, RB, RC $ devin raze ale acestui cerc.
+
+Există formule care-ți dau direct ecuația cercului prin trei puncte,
+dar noi vom proceda pas cu pas, ca mai devreme, pe baza mediatoarelor.
+
+Mai întâi, mijlocul $ M $ al lui $ AB $ este $ M(-1, 1) $, mijlocul $ N $
+al lui $ AC $ este $ N \left( \dfrac{3}{2}, -\dfrac{3}{2} \right) $,
+iar mijlocul $ P $ al lui $ BC $ este $ P \left( -\dfrac{1}{2}, -\dfrac{3}{2} \right) $.
+
+Cele trei mediatoare sigur sunt concurente, deci este suficient
+să determinăm două dintre ecuații și punctul lor comun, fiindcă
+acel punct se va găsi și pe cea de-a treia.
+
+Fie, deci, $ m_{BC} : y = ax + b $ mediatoarea pe $ BC $.
+Mai întâi, însă, ecuația $ BC: y = mx + n $:
+$$
+\begin{matrix}
+    &B \in BC \Rightarrow 1 = -3m + n \\
+    &C \in BC \Rightarrow -4 = 2m + n,
+\end{matrix}
+$$
+de unde $ -5m = 5 $, adică $ m = -1 $ și apoi $ n = -4 - 2m = -2 $.
+Deci $ BC: y = -x - 2 $.
+
+Din $ m_{BC} \perp BC $, rezultă $ a = 1 $
+și din $ P \in m_{BC} $ obținem $ -\dfrac{3}{2} = -\dfrac{1}{2} + b $, adică $ b = -1 $.
+În fine, $ m_{BC}: y = x - 1 $.
+
+Mai departe, $ m_{AC} $ mediatoarea pe $ AC $. Mai întâi,
+$ AC: y = ax + b $:
+$$
+\begin{matrix}
+    &A \in AC \Rightarrow 1 = a + b \\
+    &C \in AC \Rightarrow -4 = 2a + b,
+\end{matrix}
+$$
+de unde $ -a = 5 $, adică $ a = -5 $ și $ b = 1 - a = 6 $.
+Rezultă $ AC: y = -5x + 6 $ și, dacă $ m_{AC}: y = mx + n $,
+rezultă $ m = \dfrac{1}{5} $. În fine:
+$$
+    N \in m_{AC} \Rightarrow -\dfrac{3}{2} = \dfrac{1}{5} \cdot {3}{2} + n \Rightarrow %
+    n = -\dfrac{3}{2} - \dfrac{3}{10} = -\dfrac{9}{5}.
+$$
+adică $ m_{AC}: y = \dfrac{1}{5} x - \dfrac{9}{5} $.
+
+Avem cele două mediatoare, acum să le găsim punctul de intersecție:
+$$
+\begin{matrix}
+    y &= \dfrac{1}{5} x - \dfrac{9}{5} \\
+    y &= x - 1,
+\end{matrix}
+$$
+de unde $ 0 = \left( \dfrac{1}{5} - 1 \right)x - \dfrac{9}{5} + 1 \Rightarrow x = -1 $
+și $ y = x - 1 = -2 $.
+Deci $ R (-1, -2) $.
+
+Putem verifica, pentru siguranță, că acest punct se găsește și pe mediatoarea
+$ m_{AB} $. Echivalent, verificăm dacă sunt egale distanțele $ AR = BR = CR $
+și ar fi mai simplu așa:
+$$
+\begin{matrix}
+    AR &= \sqrt{ 2^2  + 3^2 } = \sqrt{13} \\
+    BR &= \sqrt{ (-2)^2 + 3^2 } = \sqrt{13} \\
+    CR &= \sqrt{ (3^2 + (-3)^2 } = \sqrt{13}.
+\end{matrix}
+$$
+
+Reprezentarea, cu ajutorul celor două mediatoare, o găsești în figura de mai jos.
+
+<figure id="fig-ex9">
+<img src="/images/figures/fig19.svg" alt="Reprezentarea grafică pentru exercițiul 9"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 9</figcaption>
+</figure>
+
