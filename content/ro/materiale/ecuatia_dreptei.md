@@ -542,3 +542,554 @@ figuri plane încât sistemul de coordonate *xOy* se mai numește *cartezian*
 ---
 
 ## Exerciții
+
+Îți propun în continuare câteva exerciții, unele dintre ele standard, adaptate
+din manuale și culegeri, dar și câteva mai deosebite. Las aici doar cerințele
+și te încurajez să încerci mai întâi să le rezolvi singur, iar în paginile următoare
+îți arăt și rezolvările detaliate. Îți recomand, de asemenea, să folosești
+reprezentarea grafică ori de câte ori este nevoie --- poate chiar la fiecare exercițiu.
+
+Mai adaug că, de obicei, în manuale și culegeri pe care le folosești la clasă,
+multe calcule se termină cu rezultate numere întregi sau fracții simple ca $ \dfrac{1}{2} $
+sau $ -\dfrac{3}{2} $. Poți aproape să fii sigur, dacă obții un rezultat ca $ \dfrac{15}{7} $,
+trebuie să fi greșit pe undeva. Însă în exercițiile pe care ți le-am propus, nu toate
+calculele dau rezultate „frumoase”. Decizia a fost intenționată, pentru
+că e util să te obișnuiești cu metoda, să ai încredere în teoria și procedurile pe
+care le folosești, fără această verificare specială, *„dacă nu e număr întreg, am greșit”*
+În plus, în multe situații reale, vei avea un calculator de buzunar la îndemână, astfel
+că, atunci când ești sigur pe metodă, calculele, oricât de urâte, le poți face pe un calculator
+și nu e nicio problemă.
+
+1. Calculează ecuația și lungimea medianei din $ A $ a triunghiului $ \Delta ABC $,
+cu vârfurile în punctele $ A(-2, -1) $, $ B(2, 0) $, $ C(0, 6) $.
+
+2. Calculează ecuația dreptei care conține punctul $ A(6, 0) $ și este
+perpendiculară pe dreapta de ecuație $ 2x - 3y + 1 = 0 $.
+
+3. Găsește ecuația dreptei care se obține prin simetria dreptei
+de ecuație $ d: 2x - 3y + 1 = 0 $ față de punctul $ A(6, 0) $.
+
+4. Calculează ecuația dreptei care conține punctul $ A(-2, 2) $ și este
+paralelă cu dreapta $ CD $, determinată de $ C(2, 1) $ și $ D(-1, -3) $.
+
+5. Calculează ecuația și lungimea înălțimii din $ A $ în triunghiul $ ABC $,
+cu vârfurile în punctele $ A(-1, 7) $, $ B(-7, 0) $, $ C(5, -3) $.
+
+6. Verifică dacă punctele $ A(3, -5), B(-2, 6) $ și $ C(8, -16) $ sunt coliniare.
+
+7. Verifică dacă dreptele următoare sunt concurente:
+
+$$
+\begin{matrix}
+d_1:& 2x - y - 1 = 0 \\
+d_2:& 3x + 2y - 5 = 0 \\
+d_3:& x + 3y - 4 = 0
+\end{matrix}
+$$
+
+8. Două orașe se află pe o hartă la coordonatele $ A(-3, -2) $ și $ B(2, 2) $.
+Administrația regională vrea să construiască un centru comercial în afara orașelor,
+dar astfel încât locuitorii ambelor orașe $ A $ și $ B $ să ajungă la fel de repede,
+iar distanțele de la centrul comercial $ C $ și orașele $ A $ și $ B $ să nu depășească
+10 unități (să spunem, kilometri). Dă un exemplu de plasare a punctului $ C $ care să verifice condițiile.
+
+9. Pe harta unui joc ai 3 clădiri, pentru care știi coordonatele:
+$ A(1, 1), B(-3, 1), C(2, -4) $.
+Ele se aprovizionează de la același rezervor $ R(x_R, y_R) $.
+Unde trebuie plasat rezervorul (găsește coordonatele sale) astfel încât jucătorii
+din cele 3 clădiri să poată interveni la fel de rapid pentru
+reparații ale rezervorului, indiferent din ce clădire ar pleca?
+
+---
+
+## Rezolvări ale exercițiilor
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+1. Ecuația și lungimea medianei din $ A $ în $ \Delta ABC $, cu vârfurile în
+$ A(-2, -1) $, $ B(2, 0) $ și $ C(0, 6) $.
+</span>
+
+Îți propun să lăsăm reprezentarea grafică pentru la final, ca de verificare.
+Poți să rezolvi problema și doar prin calcule.
+
+Mediana unește un vârf cu mijlocul laturii opuse, deci să notăm $ M(x_M, y_M) $ punctul
+de mijloc al laturii $ BC $. Dintr-o formulă de calcul simplă (pe care te invit să ți-o
+justifici), coordonatele mijlocului unui segment se calculează ca media aritmetică
+a coordonatelor capetelor. Adică:
+
+$$
+x_M = \frac{x_B + x_C}{2} = 1 \quad \text{și} \quad %
+y_M = \frac{y_B + y_C}{2} = 3.
+$$
+
+Deci mijlocul lui $ BC $ este $ M(1, 3) $. Acum problema are două părți: lungimea
+segmentului $ [AM] $ și ecuația dreptei $ AM $.
+
+Pentru lungimea segmentului, poți să folosești formula de calcul care provine din
+teorema lui Pitagora, adică:
+
+$$
+AM = \sqrt{(x_A - x_M)^2 + (y_A - y_M)^2} = \sqrt{9 + 16} = \sqrt{25} = 5.
+$$
+
+Iar pentru ecuația dreptei, să o notăm cu $ y = ax + b $. Coeficienții $ a $ și $ b $
+îi afli din condiția ca punctele $ A $ și $ M $ să aibă coordonate care verifică
+ecuația dreptei. Adică:
+
+$$
+\begin{matrix}
+A \in AM \Rightarrow y_A = a \cdot x_A + b \Rightarrow -1 = -2a + b \\
+M \in AM \Rightarrow y_M = a \cdot x_M + b \Rightarrow 3 = a + b
+\end{matrix}
+$$
+
+Poți scădea cele două relații și obții $ -3a = -4 $, de unde $ a = \dfrac{4}{3} $, iar apoi,
+$ b = 3 - a = \dfrac{5}{3} $. În final:
+
+$$
+AM: y = \dfrac{4}{3} x + \dfrac{5}{3}.
+$$
+
+Așadar, este o dreaptă care are panta $ \dfrac{4}{3} $, deci un pic mai mare decât $ 1 $
+și ordonata la origine $ \dfrac{5}{3} $, adică ceva mai mică decât 2. Astfel de estimări
+sunt utile în partea de vizualizare.
+
+Acum putem face și desenul, să ne asigurăm că am lucrat corect:
+
+- Desenăm cele trei puncte care dau triunghiul $ \Delta ABC $ și le unim, ca să obținem laturile;
+- Plasăm punctul $ M(1, 3) $ și observăm dacă este mijlocul laturii $ BC $;
+- Desenăm dreapta de ecuație $ y = \dfrac{4}{3} x + \dfrac{5}{3} $ prin două puncte oarecare
+și verificăm (vizual) dacă trece prin $ A $ și $ M $. Cel mai simplu ar fi să folosim
+punctele de intersecție cu axele: $ \left( 0, \dfrac{5}{3} \right) $ și
+$ \left( -\dfrac{5}{4}, 0 \right) $.
+
+Reprezentarea e în figura de mai jos și confirmă calculele.
+
+<figure id="fig-ex1">
+<img src="/images/figures/fig11.svg" style="width:95%" alt="Rezolvarea exercițiului 1">
+<figcaption>Reprezentarea grafică pentru soluția exercițiului 1</figcaption>
+</figure>
+
+---
+
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+2. Ecuația dreptei prin $ A(6, 0) $ perpendiculară pe $ d: 2x - 3y + 1 = 0 $.
+</span>
+
+Mai întâi, observă că ecuația dreptei $ d $ este dată într-o formă ușor diferită de cum
+am lucrat până acum. Dar nu e nicio problemă: o prelucrezi prin separarea lui $ y $ și obții:
+
+$$
+2x - 3y + 1 = 0 \Rightarrow 3y = 2x + 1 \Rightarrow y = \dfrac{2}{3} x + \dfrac{1}{3}
+$$
+
+Deci e vorba de o dreaptă cu panta $ \dfrac{2}{3} $ și ordonata la origine $ \dfrac{1}{3} $,
+adusă acum în forma cu care ne-am obișnuit.
+
+Dreapta pe care o căutăm are și ea o ecuație de aceeași formă, să zicem $ y = ax + b $.
+
+Din proprietățile pe care le-am discutat, produsul pantelor a două drepte perpendiculare
+este $ -1 $, deci:
+
+$$
+a \cdot \dfrac{2}{3} = -1 \Rightarrow a = -\dfrac{3}{2}.
+$$
+
+Avem, deocamdată, $ y = -\dfrac{3}{2} x + b $ pentru ecuația dreptei căutate.
+
+Mai rămâne să folosim și punctul $ A $ de pe dreaptă: coordonatele sale verifică ecuația
+dreptei, când $ x = 6 $, $ y $ trebuie să fie $ 0 $, adică:
+
+$$
+0 = -\dfrac{3}{2} \cdot 6 + b \Rightarrow b = 9.
+$$
+
+În final, $ y = -\dfrac{3}{2} x + 9 $ este ecuația dreptei căutate.
+
+Din nou, ajută să facem o reprezentare grafică, să avem măcar o verificare vizuală.
+O găsești în figura de mai jos.
+
+<figure id="fig-ex2">
+<img src="/images/figures/fig12.svg" alt="Reprezentarea pentru exercițiul 2"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru soluția exercițiului 2</figcaption>
+</figure>
+
+Dreapta dată are panta $ \dfrac{2}{3} $, deci urcă spre dreapta, dar nu foarte abrupt.
+Iar dreapta calculată are panta $ -\dfrac{3}{2} $, deci urcă spre stânga, ceva mai abrupt
+decât cealaltă.
+
+Ambele drepte le vom desena prin două puncte ajutătoare, care să fie chiar intersecțiile cu axele.
+Pentru prima dreaptă, avem $ \left(0, \dfrac{1}{3} \right) $ și $ \left(-\dfrac{1}{2}, 0 \right) $,
+iar pentru cealaltă, punctele $ (0, 9) $ și $ (6, 0) $.
+
+### Supliment
+Cele două drepte par perpendiculare pe figură și le poți reprezenta cu atenție, cu
+instrumente geometrice. Dar putem și să ne asigurăm, prin calcule. Alegem unul dintre cele
+două triunghiuri formate la intersecția lor și verificăm prin reciproca teoremei lui Pitagora.
+
+Mai întâi, punctul de intersecție. O să-l notăm cu $ P(x_P, y_P) $.
+Îi vom calcula coordonatele, ținând cont că se găsește pe ambele drepte,
+deci $ x_P $ și $ y_P $ satisfac ambele ecuații:
+
+$$
+\begin{matrix}
+y_P &= \dfrac{2}{3} x_P + \dfrac{1}{3} \\
+y_P &= -\dfrac{3}{2} x_P + 9
+\end{matrix}
+$$
+
+Scazi cele două relații și obții:
+$$
+x_P \left( \dfrac{2}{3} + \dfrac{3}{2} \right) + \dfrac{1}{3} - 9 = 0 %
+\Rightarrow x_P \cdot \dfrac{13}{6} - \dfrac{26}{3} = 0 \Rightarrow x_P = \dfrac{26}{3} \cdot \dfrac{6}{13} = 4.
+$$
+
+Apoi înlocuiești în oricare dintre ecuații și obții:
+$$
+y_P = \dfrac{2}{3} \cdot 4 + \dfrac{1}{3} = 3.
+$$
+
+Acum să încercăm teorema lui Pitagora în triunghiul $ \Delta PQR $, unde $ P(4, 3) $
+este punctul calculat, $ Q(0, 9) $ este punctul de intersecție a dreptei calculate
+cu axa $ Oy $, iar $ R\left(0, \dfrac{1}{3} \right) $ este punctul de intersecție
+a dreptei date cu axa $ Oy $.
+
+Lungimile laturilor le putem calcula direct la pătrat, fiindcă oricum le vom folosi
+în teorema lui Pitagora.
+
+$$
+\begin{matrix}
+    PQ^2 =& 4^2 + 6^2 = 16 + 36 = 52 = \dfrac{468}{9} \\
+    QR^2 =& \left( 9 - \dfrac{1}{3} \right)^2 = \left( \dfrac{26}{3} \right)^2 = \dfrac{676}{9} \\
+    RP^2 =& 4^2 + \left( 3 - \dfrac{1}{3} \right)^2 = 16 + \dfrac{64}{9} = \dfrac{208}{9}.
+\end{matrix}
+$$
+
+Calculele confirmă acum că $ PQ^2 + RP^2 = QR^2 $, deci triunghiul este dreptunghic în $ P $,
+adică dreptele sunt perpendiculare.
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+3. Simetrica dreptei $ d: 2x - 3y + 1 = 0 $ față de punctul $ A(6, 0) $.
+</span>
+
+Simetrica unei drepte față de un punct înseamnă o dreaptă paralelă cu cea
+inițială și astfel încât distanța de la punctul fixat la ambele drepte să
+fie aceeași.
+
+În manuale găsești formule care-ți dau direct ecuația dreptei simetrice,
+însă cred că este mai ajutător să o construim din aproape în aproape,
+pe baza interpretării pe care am dat-o și cu cât mai puține formule
+suplimentare.
+
+Mai întâi, observă că e aceeași dreaptă cu cea de la exercițiul anterior,
+deci putem să o rescriem în forma cu care suntem obișnuiți:
+$$
+d: y = \dfrac{2}{3} x + \dfrac{1}{3}.
+$$
+
+Propun să procedăm așa:
+- Găsim ecuația dreptei perpendiculare pe $ d $, care trece prin $ A $.
+- Calculăm punctul de intersecție dintre perpendiculara respectivă și $ d $.
+- Calculăm distanța de la $ A $ la acest punct.
+- Luăm o paralelă la $ d $, pe care o intersectăm cu aceeași perpendiculară
+(care va fi perpendiculară comună).
+- Punem condiția ca punctul de intersecție dintre această paralelă și
+perpendiculara comună să se afle la aceeași distanță față de $ A $ cât
+era distanța de la $ A $ la $ d $.
+
+Cum spuneam, sunt mai mulți pași decât rezolvarea printr-o simplă formulă,
+dar fiecare etapă folosește doar lucruri pe care le știm deja.
+
+Fie, deci, $ d^\prime \perp d $, cu $ d^\prime: y = a^\prime x + b^\prime $.
+Din perpendicularitate, rezultă că $ a^\prime = -\dfrac{3}{2} $.
+
+Apoi, din faptul că $ A \in d^\prime $ rezultă că $ 0 = -\dfrac{3}{2} \cdot 6 + b^\prime $,
+de unde $ b^\prime = 9 $.
+
+Deci $ d^\prime: y = -\dfrac{3}{2} x + 9 $ este perpendiculara pe $ d $
+care trece prin $ A $ și am rezolvat primul punct din planul propus. (Este, de fapt,
+calculul pe care l-am făcut la exercițiul anterior.)
+
+Acum, punctul de intersecție dintre $ d^\prime $ și $ d $ să-l notăm cu $ M(x_M, y_M) $.
+El verifică ecuațiile ambelor drepte, deci:
+$$
+\begin{matrix}
+y_M = \dfrac{2}{3} x_M + \dfrac{1}{3} \\
+      y_M = -\dfrac{3}{2} x_M + 9
+      \end{matrix}
+$$
+
+Le scădem și obținem:
+$$
+0 = x_M \left( \dfrac{2}{3} + \dfrac{3}{2} \right) + \dfrac{1}{3} - 9 \Rightarrow %
+x_M = \dfrac{26}{3} \cdot \dfrac{6}{13} = 4.
+$$
+
+Apoi, $ y_M = \dfrac{2}{3} \cdot 4 + \dfrac{1}{3} = 3 $, deci $ M(4, 3) $ (din nou, calculul
+pe care l-am făcut și mai devreme, pentru punctul $ P $.)
+
+Distanța de la $ A $ la acest $ M $ este:
+$$
+AM = \sqrt{ (6 - 4)^2 + (0 - 3)^2 } = \sqrt{4 + 9} = \sqrt{13}.
+$$
+
+Acum, orice paralelă la dreapta $ d $ are aceeași pantă cu ea. Deci, dacă dreapta $ f $
+este paralelă cu dreapta $ d $, atunci $ f: y = \dfrac{2}{3} x + b $, pentru un $ b $
+oarecare, care să fie diferit de $ \dfrac{1}{3} $ (altfel, coincide cu dreapta $ d $).
+
+Intersectăm pe $ f $ cu $ d^\prime $ acum, să zicem într-un punct $ B(x_B, y_B) $.
+El are proprietățile:
+$$
+\begin{matrix}
+    B \in d^\prime &\Rightarrow y_B = -\dfrac{3}{2} x_B + 9 \\
+    B \in f &\Rightarrow y_B = \dfrac{2}{3} x_B + b.
+\end{matrix}
+$$
+
+Scădem cele două relații ca să dispară $ y_B $ și obținem:
+$$
+0 = x_B \left( -\dfrac{3}{2} - \dfrac{2}{3} \right) + 9 - b %
+\Rightarrow x_B \cdot \dfrac{13}{6} = b - 9 \Rightarrow %
+x_B = \dfrac{13(b - 9)}{6}.
+$$
+
+Acum calculăm $ y_B $ corespunzător, tot în funcție de $ b $:
+$$
+    y_B = \dfrac{2}{3} x_B + b = \dfrac{2}{3} \cdot \dfrac{13(b - 9)}{6} - \dfrac{9b}{9} %
+    \Rightarrow y_B = \dfrac{4b - 117}{9}.
+$$
+
+Mai avem doar să punem condiția ca distanța de la $ A $ la această dreaptă să fie tot $ \sqrt{13} $,
+adică lungimea $ AB $ să fie $ \sqrt{13} $. Vom lucra mai simplu cu pătratul acestei lungimi,
+care vrem să fie $ 13 $:
+$$
+    AB^2 = \left( 6 - \dfrac{13(b - 9)}{6} \right)^2 + \left(\dfrac{4b - 117}{9}\right)^2 = 13.
+$$
+
+Rezultă o ecuație de gradul al doilea pentru $ b $:
+$$
+    \left(\dfrac{153 - 13b}{6}\right)^2 + \left(\dfrac{4b - 117}{9} \right)^2 = 13 %
+    \Rightarrow b = -\dfrac{25}{3}.
+$$
+
+Când înlocuiești pentru punctul $ B $, obții simplu $ B(8, -3) $.
+
+În concluzie, dreapta căutată este $ f : y = \dfrac{2}{3} x - \dfrac{25}{3} $,
+care mai poate fi scrisă și sub forma:
+$$
+    f: 2x - 3y - 25 = 0.
+$$
+
+Reprezentarea grafică de mai jos îți arată pașii pe care i-am parcurs.
+
+<figure id="fig-ex-3">
+<img src="/images/figures/fig13.svg" alt="Reprezentarea grafică pentru exercițiul 3"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 3</figcaption>
+</figure>
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+4. Ecuația dreptei prin $ A(-2, 2) $, paralelă cu $ CD $, unde $ C(2, 1) $ și $ D(-1, -3) $.
+</span>
+
+Pas cu pas: căutăm o dreaptă, deci o expresie de forma $ d: y = ax + b $.
+Dreapta conține punctul $ A $, deci $ 2 = -2a + b $.
+
+Apoi, ca să folosim condiția de paralelism, trebuie să găsim ecuația dreptei $ CD $.
+Fie ea $ CD: y = mx + n $. Avem, pe rând:
+
+$$
+\begin{matrix}
+    C \in CD &\Rightarrow 1 = 2m + n \\
+    D \in CD &\Rightarrow -3 = -m + n
+\end{matrix}
+$$
+
+Scădem cele două relații și găsim $ 4 = 3m $, deci $ m = \dfrac{4}{3} $. Apoi
+$ n = -3 + m = \dfrac{-5}{3} $.
+
+Deci $ CD: y = \dfrac{4}{3} x - \dfrac{5}{3} $.
+
+Cum $ d \parallel CD $, rezultă că $ a = \dfrac{4}{3} $.
+Acum ne întoarcem la relația anterioară:
+$$
+    2 = -2 \cdot \dfrac{4}{3} + b \Rightarrow b = 2 + \dfrac{8}{3} = \dfrac{14}{3}.
+$$
+În concluzie, dreapta căutată are ecuația $ y = \dfrac{4}{3} x + \dfrac{14}{3} $.
+Într-o formă fără fracții, poți elimina numitorii și obții $ -4x + 3y - 14 = 0 $.
+
+Verificarea prin desen este în figura de mai jos.
+
+<figure id="fig-ex4">
+<img src="/images/figures/fig14.svg" alt="Reprezentarea grafică pentru exercițiul 4"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 4</figcaption>
+</figure>
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+5. Ecuația și lungimea înălțimii din $ A $ în $ \Delta ABC $, cu vârfurile în punctele
+$ A(-1, -7) $, $ B(-7, 0) $ și $ C(5, -3) $.
+</span>
+
+Problema este echivalentă cu a cere distanță de la punctul $ A $
+la dreapta $ BC $ și ecuația perpendicularei din $ A $ pe $ BC $.
+
+Mai întâi, găsim ecuația dreptei $ BC $. Fie ea $ BC: y = ax + b $
+pentru început. Apoi:
+$$
+\begin{matrix}
+    B \in BC \Rightarrow 0 &= -7a + b \\
+    C \in BC \Rightarrow -3 &= 5a + b
+\end{matrix}
+$$
+
+Scădem relațiile și găsim $ 3 = -12a $, deci $ a = -\dfrac{1}{4} $.
+Apoi:
+$$
+b = -3 - 5a = -3 + \dfrac{5}{4} = \dfrac{7}{4}. %
+\Rightarrow BC: y = -\dfrac{1}{4} x - \dfrac{7}{4}
+$$
+
+Acum vrem o perpendiculară din vârful $ A $ pe dreapta $ BC $. Să-i notăm ecuația
+generic $ d: y = mx + n $. Cum $ d \perp BC $, rezultă
+$ m \cdot \dfrac{-1}{4} = -1 $, deci $ m = 4 $.
+
+Apoi, $ A \in d $, deci $ 7 = -4 + n $, de unde $ n = 11 $,
+adică $ d: y = 4x + 11 $.
+
+Acum vrem distanța de la punctul $ A $ la dreapta $ BC $. Mai întâi, să aflăm
+punctul de intersecție între dreapta-înălțime și latura $ BC $.
+Fie acesta $ M(x_M, y_M) $, deci:
+$$
+\begin{matrix}
+    M \in BC &\Rightarrow y_M = -\dfrac{1}{4} x_M - \dfrac{7}{4} \\
+    M \in d &\Rightarrow y_M = 4 x_M + 11.
+\end{matrix}
+$$
+
+Prin scădere rezultă $ x_M \left( -\dfrac{1}{4} - 4 \right) - \dfrac{7}{4} - 11 = 0 $,
+adică $ x_M = -3 $. Înlocuim și obținem $ y_M = 4 \cdot (-3) + 11 = -1 $.
+
+În fine, $ M(-3, -1) $ și mai rămâne de calculat doar lungimea $ AM $:
+$$
+    AM = \sqrt{ (-1 + 3)^2 + (7 + 1)^2 } = \sqrt{4 + 64} = 2 \sqrt{17}.
+$$
+
+### Supliment
+
+În unele manuale găsești o formulă directă care calculează distanța
+de la un punct la o dreaptă, deci nu mai e nevoie de găsit punctul $ M $.
+Pentru asta, trebuie să rescriem ecuația $ BC $ sub forma:
+$$
+BC: x + 4y + 7 = 0
+$$
+și distanță de la $ A $ la $ BC $ este:
+$$
+\mathrm{dist}(A, BC) = \dfrac{|x_A + 4y_A + 7|}{\sqrt{1^2 + 4^2}} = 2 \sqrt{17}.
+$$
+Dar am preferat o construcție pas cu pas, care nu folosește formule noi de memorat.
+
+Verificarea prin desen, măcar orientativ, în figura de mai jos.
+
+<figure id="fig-ex5">
+<img src="/images/figures/fig15.svg" alt="Reprezentarea grafică pentru exercițiul 5"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 5</figcaption>
+</figure>
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+6. Coliniaritatea punctelor $ A(3, -5), B(-2, 6), C(8, -16) $.
+</span>
+
+La nivelul clasei a unsprezecea, există o metodă elegantă și directă
+de verificare, cu ajutorul matricelor. Dar, în spiritul de până acum,
+o să ne uităm la o soluție care nu folosește nimic nou, ci doar
+noțiunile simple legate de ecuația dreptei pe care le-am întâlnit deja.
+
+Planul este să găsim ecuația dreptei determinate de două dintre cele
+trei puncte și să vedem dacă și coordonatele celui de-al treilea punct
+verifică acea ecuație. Dacă da, punctele sunt coliniare, fiindcă toate
+au coordonate care verifică o aceeași ecuație a dreptei.
+
+Să găsim ecuația dreptei $ AB $, de exemplu, pe care o notăm, în general,
+$ AB: y = ax + b $. Apoi, pe rând:
+$$
+\begin{matrix}
+    &A \in AB \Rightarrow -5 = 3a + b \\
+    &B \in AB \Rightarrow 6 = -2a + b
+\end{matrix}
+$$
+Prin scădere: $ -11 = 5a $, deci $ a = -\dfrac{11}{5} $ și
+$ b = 6 + 2a = 6 - \dfrac{22}{5} = \dfrac{8}{5} $.
+
+Deci $ AB: y = -\dfrac{11}{5} x + \dfrac{8}{5} $ sau
+$ AB: 11x + 5y - 8 = 0 $.
+
+Mai rămâne doar să vedem dacă și coordonatele lui $ C $ verifică această
+ecuație:
+$$
+11 \cdot 8 + 5 \cdot (-16) - 8 = 88 - 80 - 8 = 0,
+$$
+ceea ce este adevărat, deci punctele sunt coliniare și se află toate pe dreapta $ AB $.
+
+Le poți vedea în figura de mai jos.
+
+<figure id="fig-ex6">
+<img src="/images/figures/fig16.svg" alt="Reprezentarea grafică pentru exercițiul 6"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 6</figcaption>
+</figure>
+
+---
+
+<span style="color:var(--burgundy); font-size:1.3rem;">
+7. Drepte concurente:
+$$
+\begin{matrix}
+d_1 :& 2x - y = 1 = 0 \\
+d_2 :& 3x + 2y - 5 = 0 \\
+d_3 :& x + 3y - 4 = 0
+\end{matrix}
+$$
+</span>
+
+Vom găsi punctul de intersecție al primelor două drepte și verificăm
+dacă punctul respectiv se găsește și pe dreapta a treia. În clasa a unsprezecea,
+problema se poate formula ca un sistem de trei ecuații și două necunoscute.
+
+Să luăm, deci, sistemul alcătuit din primele două ecuații. Putem
+să-l rezolvăm prin metoda substituției, adică din prima ecuație scoatem
+$ y = 2x - 1 $ și înlocuim în a doua:
+$$
+    3x + 2( 2x - 1) - 5 = 3x + 4x - 2 - 5 = 7x - 7 = 0 \Rightarrow x = 1.
+$$
+Apoi $ y = 2 \cdot 1 - 1 = 1 $.
+
+Deci $ d_1 \cap d_2 = \left\{ A(1, 1) \right\} $, adică primele două drepte
+se intersectează în punctul $ A(1, 1) $.
+
+Acum rămâne doar să vedem dacă acest punct se găsește și pe a treia dreaptă:
+$$
+    1 + 3 \cdot 1 - 4 = 0,
+$$
+care este adevărat, deci într-adevăr, toate cele trei drepte se intersectează în $ A(1, 1) $.
+
+Reprezentarea o găsești în figura de mai jos.
+
+<figure id="fig-ex7">
+<img src="/images/figures/fig17.svg" alt="Reprezentarea grafică pentru exercițiul 7"
+style="width:95%">
+<figcaption>Reprezentarea grafică pentru exercițiul 7</figcaption>
+</figure>
+
+---
