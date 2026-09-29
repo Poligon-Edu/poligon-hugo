@@ -10,6 +10,11 @@ slug = "ecuatia-dreptei"
 Adrian Manea, `adrianmanea@poligon-edu.ro`
 {{< /material-author >}}
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;color: var(--teal);font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a></b>
+</span>
+
 Dreapta este un obiect matematic atât de simplu, încât nici nu are definiție.
 O înțelegi intuitiv și geometric mai întâi, iar apoi, prin ecuații algebrice.
 
@@ -79,7 +84,7 @@ Am obținut punctele $ A(1, 4) $ și $ B(-2, 1) $, prin care trece dreapta căut
 Reprezentarea grafică arată ca în figura de mai jos.
 
 <figure id="fig-dreapta-prin-2-puncte">
-<img src="/images/figures/fig1.svg" alt="Dreapta de ecuație y = x + 3" style="width:75%;">
+<img src="/images/figures/fig1.svg" alt="Dreapta de ecuație y = x + 3" style="width:95%;">
 <figcaption>Dreapta de ecuație y = x + 3</figcaption>
 </figure>
 
@@ -112,7 +117,7 @@ Putem completa desenul cu ele, iar punctele anterioare, $ A $ și $ B $, devin d
 puncte oarecare, fără vreo importanță anume.
 
 <figure id="fig-dreapta-intersectii-axe">
-<img src="/images/figures/fig2.svg" alt="Dreapta de ecuație y = x + 3 și intersecțiile cu axele" style="width:75%;">
+<img src="/images/figures/fig2.svg" alt="Dreapta de ecuație y = x + 3 și intersecțiile cu axele" style="width:95%;">
 <figcaption>Dreapta de ecuație y = x + 3 și intersecțiile cu axele</figcaption>
 </figure>
 
@@ -130,7 +135,7 @@ adică ecuația este doar $ y = ax $ și am reprezentat pentru câteva valori al
 
 <figure id="fig-dreapta-b-0">
 <img src="/images/figures/fig3.svg" alt="Reprezentarea mai multor drepte de forma y = ax"
-style="width:75%;">
+style="width:95%;">
 <figcaption>Reprezentarea mai multor drepte de forma y = ax</figcaption>
 </figure>
 
@@ -164,7 +169,7 @@ prin câte două puncte de pe ea, dar nu le-am mai reprezentat, ca să nu încar
 
 <figure id="fig-dreapta-a-0">
 <img src="/images/figures/fig4.svg" alt="Reprezentarea mai multor drepte de forma y = b"
-style="width:75%;">
+style="width:95%;">
 <figcaption>Reprezentarea mai multor drepte de forma y = b</figcaption>
 </figure>
 
@@ -200,7 +205,7 @@ această valoare.
 
 {{% /highlight %}}
 
-### Panta dreptei
+## Panta dreptei
 
 Înclinarea unei drepte poate fi măsurată precis. În afară de faptul că este
 descrisă de o anumită valoare a lui $ a $ în ecuația dreptei, care este o interpretare
@@ -211,7 +216,7 @@ adică dreapta este $ y = x $, care se mai numește și *prima bisectoare* (dac�
 de ce, te vei lămuri imediat). Iată desenul.
 
 <figure id="fig-prima-bisectoare">
-<img src="/images/figures/fig5.svg" alt="Prima bisectoare" style="width:75%;">
+<img src="/images/figures/fig5.svg" alt="Prima bisectoare" style="width:95%;">
 <figcaption>Prima bisectoare, adică dreapta de ecuație y = x</figcaption>
 </figure>
 
@@ -338,7 +343,7 @@ Iată, deci, o configurație.
 
 <figure id="fig-drepte-perpendiculare">
 <img src="/images/figures/fig8.svg" alt="Drepte perpendiculare"
-style="width:75%;">
+style="width:95%;">
 <figcaption>Drepte perpendiculare, care se intersectează în origine</figcaption>
 </figure>
 
@@ -510,7 +515,7 @@ Pașii poți să-i vezi în figura de mai jos.
 
 <figure id="fig-pasi-reprezentare">
 <img src="/images/figures/fig10.svg" alt="Pașii pentru reprezentarea grafică a unui punct"
-style="width:75%;">
+style="width:95%;">
 <figcaption>Interpretarea coordonatelor unui punct din plan ca pe doi pași prin care
 pornești din origine și ajungi la punctul respectiv</figcaption>
 </figure>
@@ -555,7 +560,7 @@ sau $ -\dfrac{3}{2} $. Poți aproape să fii sigur, dacă obții un rezultat ca 
 trebuie să fi greșit pe undeva. Însă în exercițiile pe care ți le-am propus, nu toate
 calculele dau rezultate „frumoase”. Decizia a fost intenționată, pentru
 că e util să te obișnuiești cu metoda, să ai încredere în teoria și procedurile pe
-care le folosești, fără această verificare specială, *„dacă nu e număr întreg, am greșit”*
+care le folosești, fără această verificare specială, *„dacă nu e număr întreg, am greșit”*.
 În plus, în multe situații reale, vei avea un calculator de buzunar la îndemână, astfel
 că, atunci când ești sigur pe metodă, calculele, oricât de urâte, le poți face pe un calculator
 și nu e nicio problemă.
@@ -724,7 +729,12 @@ Ambele drepte le vom desena prin două puncte ajutătoare, care să fie chiar in
 Pentru prima dreaptă, avem $ \left(0, \dfrac{1}{3} \right) $ și $ \left(-\dfrac{1}{2}, 0 \right) $,
 iar pentru cealaltă, punctele $ (0, 9) $ și $ (6, 0) $.
 
-### Supliment
+
+<br />
+<span style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;font-weight:800;font-size: 1.3rem;">
+Supliment
+</span>
+
 Cele două drepte par perpendiculare pe figură și le poți reprezenta cu atenție, cu
 instrumente geometrice. Dar putem și să ne asigurăm, prin calcule. Alegem unul dintre cele
 două triunghiuri formate la intersecția lor și verificăm prin reciproca teoremei lui Pitagora.
@@ -983,7 +993,10 @@ $$
     AM = \sqrt{ (-1 + 3)^2 + (7 + 1)^2 } = \sqrt{4 + 64} = 2 \sqrt{17}.
 $$
 
-### Supliment
+<br />
+<span style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;font-weight:800;font-size: 1.3rem;">
+Supliment
+</span>
 
 În unele manuale găsești o formulă directă care calculează distanța
 de la un punct la o dreaptă, deci nu mai e nevoie de găsit punctul $ M $.
@@ -1192,6 +1205,7 @@ să determinăm două dintre ecuații și punctul lor comun, fiindcă
 acel punct se va găsi și pe cea de-a treia.
 
 Fie, deci, $ m_{BC} : y = ax + b $ mediatoarea pe $ BC $.
+
 Mai întâi, însă, ecuația $ BC: y = mx + n $:
 $$
 \begin{matrix}
@@ -1253,3 +1267,7 @@ style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 9</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;color: var(--teal);font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a></b>
+</span>
