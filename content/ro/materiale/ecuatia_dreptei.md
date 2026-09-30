@@ -1,10 +1,10 @@
 +++
-title = "Ecuația dreptei"
+title = "Ecuația dreptei în plan"
 type = "docs"
 slug = "ecuatia-dreptei"
 +++
 
-# Ecuația dreptei
+# Ecuația dreptei în plan
 
 {{< material-author >}}
 Adrian Manea, `adrianmanea@poligon-edu.ro`
