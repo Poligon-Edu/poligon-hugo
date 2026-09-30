@@ -300,8 +300,8 @@ cum vezi în semne de circulație.
 <img src="/images/figures/slope_diy.svg" style="display: block; margin: auto; width:50%" />
 
 O înclinare de 10%, de exemplu, înseamnă că, pentru fiecare 100 de metri
-parcurși pe ipotenuză, ai urcat 10 metri (față de orizontală). În legătură
-cu ecuația dreptei, înseamnă că ipotenuza, adică drumul înclinat pe care urci,
+parcurși pe șoseaua-catetă, ai urcat 10 metri (față de orizontală). În legătură
+cu ecuația dreptei, înseamnă că drumul înclinat pe care urci,
 face parte dintr-o dreaptă cu panta de 10% = 0,1, adică are o ecuație de forma
 $ y = 0,1 x + b $, cu $ b $ necunoscut (și irelevant).
 
