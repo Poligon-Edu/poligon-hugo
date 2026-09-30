@@ -295,7 +295,7 @@ astfel încât uneori pot fi obtuze.
 # Panta unei șosele
 
 Dacă înțelegi așa panta, anume prin tangenta unui unghi în triunghiul dreptunghic
-unde dreapta este ipotenuză, e ușor de interpretat și înclinarea dată ca procent,
+unde dreapta este o catetă, e ușor de interpretat și înclinarea dată ca procent,
 cum vezi în semne de circulație.
 <img src="/images/figures/slope_diy.svg" style="display: block; margin: auto; width:50%" />
 
