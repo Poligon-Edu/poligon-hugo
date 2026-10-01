@@ -17,7 +17,7 @@ BookTheme = "auto"
 BookToC = true
 BookSearch = true
 BookLogo = "logo.svg"
-BookKatex = true
+BookKatex = false
 BookFavicon = "favicon.svg"
 BookSection = "*"
 

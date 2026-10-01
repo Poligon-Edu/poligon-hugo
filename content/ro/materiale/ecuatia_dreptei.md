@@ -61,7 +61,7 @@ se adună la rezultat.
 O dreaptă de forma $y = 3x + 1$, descrisă de funcția cu aceeași expresie,
 se poate înțelege ca o procedură care primește numere reale ca date de intrare
 și le prelucrează pe toate la fel: le înmulțește cu 3 și la rezultat adaugă 1.
-Primești $x = 1$, obții $y = 4$; primești $y= - 1,5$, obții $y = -3,5$ și așa
+Primești $x = 1$, obții $y = 4$; primești $ x= - 1{,}5 $, obții $y = -3{,}5$ și așa
 mai departe, iar în loc de $ y $ poți să scrii $ f(x) $ și înseamnă același lucru.
 
 Când vorbești despre același tip de expresie, dar gândită ca o dreaptă, de ecuație

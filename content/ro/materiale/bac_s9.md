@@ -35,6 +35,7 @@ Dar, când te uiți pe un subiect de SAT din 2025, de exemplu, poți să găseș
 așa ceva:
 
 {{% box %}}
+
 Funcția $f$, definită prin $f(t) = 14t + 9$, estimează înălțimea, în centimetri,
 a unui arbust de viță de vie la $t$ luni după ce a fost plantată de un fermier.
 
