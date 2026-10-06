@@ -11,8 +11,8 @@ Adrian Manea, `adrianmanea@poligon-edu.ro`
 {{< /material-author >}}
 
 <span
-style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;color: var(--teal);font-size:1.1rem;letter-spacing:0.01rem;">
-<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a></b>
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a> sau <a href="https://www.youtube.com/watch?v=wbcmUqUS8w4">vezi pe YouTube</a></b>
 </span>
 
 Dreapta este un obiect matematic atât de simplu, încât nici nu are definiție.
@@ -1268,6 +1268,6 @@ style="width:95%">
 </figure>
 
 <span
-style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;color: var(--teal);font-size:1.1rem;letter-spacing:0.01rem;">
-<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a></b>
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="/documents/ecuatia_dreptei.pdf">Descarcă versiunea PDF</a> sau <a href="https://www.youtube.com/watch?v=wbcmUqUS8w4">vezi pe YouTube</a></b>
 </span>
