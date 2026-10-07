@@ -61,7 +61,7 @@ se adună la rezultat.
 O dreaptă de forma $y = 3x + 1$, descrisă de funcția cu aceeași expresie,
 se poate înțelege ca o procedură care primește numere reale ca date de intrare
 și le prelucrează pe toate la fel: le înmulțește cu 3 și la rezultat adaugă 1.
-Primești $x = 1$, obții $y = 4$; primești $ x= - 1{,}5 $, obții $y = -3{,}5$ și așa
+Primești $x = 1$, obții $y = 4$; primești $ x= {-1}{,}5 $, obții $y = {-3}{,}5$ și așa
 mai departe, iar în loc de $ y $ poți să scrii $ f(x) $ și înseamnă același lucru.
 
 Când vorbești despre același tip de expresie, dar gândită ca o dreaptă, de ecuație
@@ -79,8 +79,8 @@ Iată un exemplu: dreapta de ecuație $ y = x + 3 $.
 Punctele de pe graficul ei au coordonatele $ (x, y) $, deci alegi două valori pentru $ x $,
 calculezi valorile corespunzătoare pentru $ y $ și gata.
 
-Să zicem $ x = 1 $, deci $ y = 1 + 3 = 4 $ și $ x = -2 $, deci $ y = -2 + 3 = 1 $.
-Am obținut punctele $ A(1, 4) $ și $ B(-2, 1) $, prin care trece dreapta căutată.
+Să zicem $ x = 1 $, deci $ y = 1 + 3 = 4 $ și $ x = {-2} $, deci $ y = {-2} + 3 = 1 $.
+Am obținut punctele $ A(1, 4) $ și $ B({-2}, 1) $, prin care trece dreapta căutată.
 Reprezentarea grafică arată ca în figura de mai jos.
 
 <figure id="fig-dreapta-prin-2-puncte">
@@ -110,7 +110,7 @@ Calculul coordonatelor lipsă se obține imediat, din ecuația dreptei, care dă
 
 Spre exemplu, pentru dreapta desenată anterior, de ecuație $ y = x + 3 $, găsim imediat:
 
-- pentru punctul $ P $, $ 0 = x_P + 3 \Rightarrow x_P = -3 $, deci $ P(-3, 0) $;
+- pentru punctul $ P $, $ 0 = x_P + 3 \Rightarrow x_P = {-3} $, deci $ P({-}3, 0) $;
 - pentru punctul $ Q $, $ y_Q = 0 + 3 \Rightarrow y_Q = 3 $, deci $ Q(0, 3) $.
 
 Putem completa desenul cu ele, iar punctele anterioare, $ A $ și $ B $, devin două
@@ -212,8 +212,11 @@ descrisă de o anumită valoare a lui $ a $ în ecuația dreptei, care este o in
 algebrică, există și o metodă geometrică de a o găsi.
 
 Să ne uităm, pentru început, la un caz foarte simplu: cel când $ a = 1 $ și $ b = 0 $,
-adică dreapta este $ y = x $, care se mai numește și *prima bisectoare* (dacă nu e clar
-de ce, te vei lămuri imediat). Iată desenul.
+adică dreapta este $ y = x $, care se mai numește și *prima bisectoare*. Dacă nu e clar
+de ce, figura de mai jos ar trebui să lămurească: această dreaptă este bisectoarea
+a două dintre unghiurile drepte create de axele de coordonate. (Dacă te întrebi de ce
+este „prima”, răspunsul e mai degrabă convențional și istoric. *A doua bisectoare*
+este dreapta de ecuație $ y = {-}x $, care taie celelalte două unghiuri.)
 
 <figure id="fig-prima-bisectoare">
 <img src="/images/figures/fig5.svg" alt="Prima bisectoare" style="width:95%;">
@@ -236,11 +239,11 @@ Te poți convinge tot cu ajutorul unor triunghiuri dreptunghice, construite potr
 De exemplu, am reprezentat mai jos câteva drepte:
 
 $$
-\begin{matrix}
+\begin{align*}
 \textcolor{#3b4758}{d_1:} & \textcolor{#3b4758}{y = x + 2} \\
 \textcolor{#aa424e}{d_2:} & \textcolor{#aa424e}{y = 2x - 1} \\
 \textcolor{#008e80}{d_3:} & \textcolor{#008e80}{y = -\dfrac{1}{2} x + 1}
-\end{matrix}
+\end{align*}
 $$
 
 <figure id="fig-pante-drepte">
@@ -250,12 +253,12 @@ $$
 
 Pentru fiecare dintre ele, poți să construiești câte un triunghi dreptunghic cu
 vârful în punctul de intersecție a dreptei cu axa *Ox*. Cu metoda aplicată anterior,
-obții imediat <span style="color:var(--navy);">$A(-2, 0)$</span>,
+obții imediat <span style="color:var(--navy);">$A({-}2, 0)$</span>,
 <span style="color:var(--burgundy);">$B\left( \dfrac{1}{2}, 0 \right)$</span>
 și <span style="color:var(--teal);">$C(2, 0)$</span>.
 
 Apoi, mai alegi câte un punct pe grafic, ca să poți construi triunghiurile.
-De exemplu, <span style="color:var(--navy);">$A^\prime(-1, 1)$</span>,
+De exemplu, <span style="color:var(--navy);">$A^\prime({-}1, 1)$</span>,
 <span style="color:var(--burgundy);">$B^\prime(2, 3)$</span> și
 <span style="color:var(--teal);">$C^\prime(0, 1)$</span>. Formezi triunghiuri
 dreptunghice dacă duci paralele la axele de coordonate din aceste puncte,
@@ -264,7 +267,7 @@ ca punctele alese să fie chiar intersecțiile cu axele de coordonate.
 
 În fine, cel de-al treilea punct pentru formarea fiecărui triunghi îl iei prin
 proiecția punctelor anterioare pe axa *Ox*. Adică
-<span style="color:var(--navy);">$A^{\prime\prime}(-1, 0)$</span>,
+<span style="color:var(--navy);">$A^{\prime\prime}({-}1, 0)$</span>,
 <span style="color:var(--burgundy);">$B^{\prime\prime}(2, 0)$</span> și
 <span style="color:var(--teal);">$C^{\prime\prime}(0, 0)$</span> $ = O $.
 
@@ -279,7 +282,7 @@ lungimilor catetelor pe care le-am delimitat.
 - În $ \Delta CC^\prime C^{\prime\prime} $, unghiul care ne interesează este $ \gamma $
 și este un unghi obtuz. Însă vom putea calcula tangenta suplementului său, unghiul
 ascuțit al triunghiului pe care l-am construit. Îl notăm cu
-$ c = \widehat{C^\prime B^{\prime\prime} O} $ și avem
+$ c = \measuredangle C^\prime B^{\prime\prime} O $ și avem
 $ \mathrm{tg}(c) = \dfrac{C^\prime O}{OB^{\prime\prime}} = \dfrac{1}{2} $.
 Acum, cu o formulă trigonometrică,
 $$ \mathrm{tg}(c) = -\mathrm{tg}(180\degree - c) = -\mathrm{tg}(\gamma), $$ rezultă
@@ -321,10 +324,10 @@ Două drepte sunt paralele dacă și numai dacă au aceeași pantă.
 Altfel spus, dreptele de ecuații:
 
 $$
-\begin{matrix}
+\begin{align*}
 d_1: & y = a_1x + b_1 \\
 d_2: & y = a_2x + b_2
-\end{matrix}
+\end{align*}
 $$
 sunt paralele dacă și numai dacă $ a_1 = a_2 $. Pentru siguranță, merită adăugată
 și condiția $ b_1 \neq b_2 $, pentru că altfel, dreptele coincid și, cel mai probabil,
@@ -348,7 +351,7 @@ style="width:95%;">
 </figure>
 
 Panta dreptei $ d_1 $ este $ \mathrm{tg}(\alpha) = a_1 $, iar panta dreptei $ d_2 $
-este $ \mathrm{tg}(180\degree - \beta) = -\mathrm{tg}(\beta) = a_2 $.
+este $ \mathrm{tg}(180\degree - \beta) = {-\mathrm{tg}(\beta)} = a_2 $.
 
 Acum, dacă dreptele sunt perpendiculare, atunci $ \alpha + \beta = 90\degree $,
 deci $ \mathrm{tg}(\alpha) = \mathrm{tg}(90\degree - \beta) $. Aici avem nevoie
@@ -365,8 +368,8 @@ $$
 \mathrm{tg}(\alpha) = \dfrac{1}{\mathrm{tg}(90\degree - \alpha)} = %
 \dfrac{1}{\mathrm{tg}(\beta)} = - \dfrac{1}{\mathrm{tg}(180\degree - \beta)},
 $$
-iar dacă trecem la pante, rezultă $ a_1 = -\dfrac{1}{a_2} $, care se mai scrie și
-$ a_1 \cdot a_2 = -1 $.
+iar dacă trecem la pante, rezultă $ a_1 = {-\dfrac{1}{a_2}} $, care se mai scrie și
+$ a_1 \cdot a_2 = {-1} $.
 
 Am obținut ce căutam.
 
@@ -390,22 +393,22 @@ unele materiale o calculează direct printr-o formulă. Însă ecuația e foarte
 de dedus, pe baza înțelegerii celor doi coeficienți, $ a $ și $ b $, cum i-am notat
 până acum.
 
-Iată un exemplu concret. Vrei să afli ecuația dreptei care conține punctele $ A(-1, 2) $
-și $ B(3, -1) $. Ești, așadar, în căutarea coeficienților $ a $ și $ b $ din ecuația
+Iată un exemplu concret. Vrei să afli ecuația dreptei care conține punctele $ A({-}1, 2) $
+și $ B(3, {-}1) $. Ești, așadar, în căutarea coeficienților $ a $ și $ b $ din ecuația
 $ y = ax + b $, astfel încât cele două puncte să fie pe aceeași dreaptă.
 
 Cum ecuația dreptei dă legătura între perechile de coordonate $ (x, y) $ pentru orice
 punct care se găsește pe dreapta respectivă, înseamnă că și punctele $ A $ și $ B $
 au coordonatele care respectă ecuația dreptei căutate. Altfel spus, $ y_A = a \cdot x_A + b $
-(unde $ x_A = -1 $ și $ y_A = -2 $) și similar pentru punctul $ B $.
+(unde $ x_A = {-}1 $ și $ y_A = {-}2 $) și similar pentru punctul $ B $.
 
 Rezultă două ecuații cu două necunoscute:
 
-- Pentru punctul $ A $: $ 2 = -1 \cdot a + b $;
-- Pentru punctul $ B $: $-1 = 3 \cdot a + b $.
+- Pentru punctul $ A $: $ 2 = {-1} \cdot a + b $;
+- Pentru punctul $ B $: $ {-1} = 3 \cdot a + b $.
 
-Rezolvăm sistemul și obținem $ a = -\dfrac{3}{4} $ și $ b = \dfrac{5}{4} $,
-deci dreapta căutată este $ y = -\dfrac{3}{4} x + \dfrac{5}{4} $.
+Rezolvăm sistemul și obținem $ a = {-\dfrac{3}{4}} $ și $ b = \dfrac{5}{4} $,
+deci dreapta căutată este $ y = {-\dfrac{3}{4}} x + \dfrac{5}{4} $.
 
 Cu această metodă poți să calculezi ecuația oricărei drepte prin două puncte,
 fără să folosești formule complicate, ci doar definițiile: cum se scrie în general
@@ -436,7 +439,7 @@ este $ AB = | x_A - x_B | $. Din nou poți particulariza pentru $ y_A = 0 $, caz
 segmentul $ [AB] $ devine o porțiune din axa *Ox*.
 
 Acum, pentru cazul general, când segmentul este oblic. Îți explic pe un exemplu, aceleași
-două puncte pe care le-am mai folosit: $ A(-1, 2) $ și $ B(3, -1) $. Vrei lungimea segmentului
+două puncte pe care le-am mai folosit: $ A( {-1}, 2) $ și $ B(3, {-1}) $. Vrei lungimea segmentului
 $ [AB] $ sau distanța dintre cele două puncte. Este suficient să le reprezinți într-un sistem
 de coordonate și să construiești un triunghi dreptunghic în care $ [AB] $ este ipotenuză.
 Vezi figura de mai jos.
@@ -449,14 +452,14 @@ Vezi figura de mai jos.
 Am format triunghiul dreptunghic $ \Delta ABC $, în care ipotenuza este $ AB $, iar catetele
 sunt una orizontală și una verticală. Deci știm să le calculăm lungimile, pe baza cazurilor
 particulare discutate puțin mai sus. Să mai adaug că știm și coordonatele lui $ C $, din
-modul în care a fost obținut: $ C(-1, -1) $, fiindcă se află pe aceeași verticală cu $ A $
+modul în care a fost obținut: $ C( {-1}, {-1}) $, fiindcă se află pe aceeași verticală cu $ A $
 și pe aceeași orizontală cu $ B $. Apoi:
 
 $$
-\begin{matrix}
-AC = |y_A - y_C| = | 2 - (-1) | = 3 \\
-BC = |x_B - x_C| = | 3 - (-1) | = 4
-\end{matrix}
+\begin{align*}
+AC = |y_A - y_C| = | 2 - ({-1}) | = 3 \\
+BC = |x_B - x_C| = | 3 - ({-1}) | = 4
+\end{align*}
 $$
 
 Cu teorema lui Pitagora, rezultă $ AB = \sqrt{3^2 + 4^2} = 5 $.
@@ -484,8 +487,8 @@ comparai cu un altul, de exemplu.
 Însă, pe parcurs ce s-au dezvoltat algebra și metodele de calcul cu funcții, matematicienii
 au încercat să le combine cu componentele vizuale din geometrie. Dar ce legătură are un punct
 sau o dreaptă cu un număr sau o funcție? Astăzi, răspunsul vine în anii de gimnaziu, însă
-a necesitat creativitatea francezilor René Descartes (1596-1650) și François Viète
-(1540-1603), portretizați mai jos, care au clarificat aceste legături.
+a necesitat creativitatea francezilor René Descartes (1596--1650) și François Viète
+(1540--1603), portretizați mai jos, care au clarificat aceste legături.
 
 <figure id="fig-descartes-viete">
 <img src="/images/figures/descartes_viete.png" alt="René Descartes și François Viète"
@@ -530,7 +533,7 @@ sumele cheltuite dintr-un buget inexistent sunt datorii și se înregistrează
 cu numere negative, iar în reperul $ xOy $, numerele aflate la stânga sau
 în josul originii sunt negative. Însă distanțele sunt calculate, desigur,
 prin numere pozitive, care sunt modulele celor negative. Situația e chiar
-convenabilă, pentru că, atunci când te gândești la punctul $ B(-1, 3) $,
+convenabilă, pentru că, atunci când te gândești la punctul $ B( {-1}, 3) $,
 de exemplu, știi sigur că poți ajunge la el dacă pornești pe axa
 orizontală către stânga o unitate, apoi 3 unități în sus. Cu alte cuvinte,
 numerele negative vin cu informație suplimentară, cea legată de direcție.
@@ -566,7 +569,7 @@ că, atunci când ești sigur pe metodă, calculele, oricât de urâte, le poți
 și nu e nicio problemă.
 
 1. Calculează ecuația și lungimea medianei din $ A $ a triunghiului $ \Delta ABC $,
-cu vârfurile în punctele $ A(-2, -1) $, $ B(2, 0) $, $ C(0, 6) $.
+cu vârfurile în punctele $ A({-2}, {-1}) $, $ B(2, 0) $, $ C(0, 6) $.
 
 2. Calculează ecuația dreptei care conține punctul $ A(6, 0) $ și este
 perpendiculară pe dreapta de ecuație $ 2x - 3y + 1 = 0 $.
@@ -574,32 +577,32 @@ perpendiculară pe dreapta de ecuație $ 2x - 3y + 1 = 0 $.
 3. Găsește ecuația dreptei care se obține prin simetria dreptei
 de ecuație $ d: 2x - 3y + 1 = 0 $ față de punctul $ A(6, 0) $.
 
-4. Calculează ecuația dreptei care conține punctul $ A(-2, 2) $ și este
-paralelă cu dreapta $ CD $, determinată de $ C(2, 1) $ și $ D(-1, -3) $.
+4. Calculează ecuația dreptei care conține punctul $ A({-2}, 2) $ și este
+paralelă cu dreapta $ CD $, determinată de $ C(2, 1) $ și $ D({-1}, {-3}) $.
 
 5. Calculează ecuația și lungimea înălțimii din $ A $ în triunghiul $ ABC $,
-cu vârfurile în punctele $ A(-1, 7) $, $ B(-7, 0) $, $ C(5, -3) $.
+cu vârfurile în punctele $ A({-1}, 7) $, $ B({-7}, 0) $, $ C(5, {-3}) $.
 
-6. Verifică dacă punctele $ A(3, -5), B(-2, 6) $ și $ C(8, -16) $ sunt coliniare.
+6. Verifică dacă punctele $ A(3, {-5}), B({-2}, 6) $ și $ C(8, {-16}) $ sunt coliniare.
 
 7. Verifică dacă dreptele următoare sunt concurente:
 
 $$
-\begin{matrix}
+\begin{align*}
 d_1:& 2x - y - 1 = 0 \\
 d_2:& 3x + 2y - 5 = 0 \\
 d_3:& x + 3y - 4 = 0
-\end{matrix}
+\end{align*}
 $$
 
-8. Două orașe se află pe o hartă la coordonatele $ A(-3, -2) $ și $ B(2, 2) $.
+8. Două orașe se află pe o hartă la coordonatele $ A({-3}, {-2}) $ și $ B(2, 2) $.
 Administrația regională vrea să construiască un centru comercial în afara orașelor,
 dar astfel încât locuitorii ambelor orașe $ A $ și $ B $ să ajungă la fel de repede,
 iar distanțele de la centrul comercial $ C $ și orașele $ A $ și $ B $ să nu depășească
 10 unități (să spunem, kilometri). Dă un exemplu de plasare a punctului $ C $ care să verifice condițiile.
 
 9. Pe harta unui joc ai 3 clădiri, pentru care știi coordonatele:
-$ A(1, 1), B(-3, 1), C(2, -4) $.
+$ A(1, 1), B({-3}, 1), C(2, {-4}) $.
 Ele se aprovizionează de la același rezervor $ R(x_R, y_R) $.
 Unde trebuie plasat rezervorul (găsește coordonatele sale) astfel încât jucătorii
 din cele 3 clădiri să poată interveni la fel de rapid pentru
@@ -611,7 +614,7 @@ reparații ale rezervorului, indiferent din ce clădire ar pleca?
 
 <span style="color:var(--burgundy); font-size:1.3rem;">
 1. Ecuația și lungimea medianei din $ A $ în $ \Delta ABC $, cu vârfurile în
-$ A(-2, -1) $, $ B(2, 0) $ și $ C(0, 6) $.
+$ A({-2}, {-1}) $, $ B(2, 0) $ și $ C(0, 6) $.
 </span>
 
 Îți propun să lăsăm reprezentarea grafică pentru la final, ca de verificare.
@@ -642,13 +645,13 @@ Iar pentru ecuația dreptei, să o notăm cu $ y = ax + b $. Coeficienții $ a $
 ecuația dreptei. Adică:
 
 $$
-\begin{matrix}
-A \in AM \Rightarrow y_A = a \cdot x_A + b \Rightarrow -1 = -2a + b \\
-M \in AM \Rightarrow y_M = a \cdot x_M + b \Rightarrow 3 = a + b
-\end{matrix}
+\begin{align*}
+A \in AM \Rightarrow & y_A =& a \cdot x_A + b \Rightarrow& {-1} =& {-2a} + b \\
+M \in AM \Rightarrow & y_M =& a \cdot x_M + b \Rightarrow& \ \ \ 3 =& \ \ \ \ \ a + b
+\end{align*}
 $$
 
-Poți scădea cele două relații și obții $ -3a = -4 $, de unde $ a = \dfrac{4}{3} $, iar apoi,
+Poți scădea cele două relații și obții $ -3a = {-4} $, de unde $ a = \dfrac{4}{3} $, iar apoi,
 $ b = 3 - a = \dfrac{5}{3} $. În final:
 
 $$
@@ -666,7 +669,7 @@ Acum putem face și desenul, să ne asigurăm că am lucrat corect:
 - Desenăm dreapta de ecuație $ y = \dfrac{4}{3} x + \dfrac{5}{3} $ prin două puncte oarecare
 și verificăm (vizual) dacă trece prin $ A $ și $ M $. Cel mai simplu ar fi să folosim
 punctele de intersecție cu axele: $ \left( 0, \dfrac{5}{3} \right) $ și
-$ \left( -\dfrac{5}{4}, 0 \right) $.
+$ \left( {-\dfrac{5}{4}}, 0 \right) $.
 
 Reprezentarea e în figura de mai jos și confirmă calculele.
 
@@ -698,19 +701,19 @@ Din proprietățile pe care le-am discutat, produsul pantelor a două drepte per
 este $ -1 $, deci:
 
 $$
-a \cdot \dfrac{2}{3} = -1 \Rightarrow a = -\dfrac{3}{2}.
+a \cdot \dfrac{2}{3} = {-1} \Rightarrow a = {-\dfrac{3}{2}}.
 $$
 
-Avem, deocamdată, $ y = -\dfrac{3}{2} x + b $ pentru ecuația dreptei căutate.
+Avem, deocamdată, $ y = {-\dfrac{3}{2}} x + b $ pentru ecuația dreptei căutate.
 
 Mai rămâne să folosim și punctul $ A $ de pe dreaptă: coordonatele sale verifică ecuația
 dreptei, când $ x = 6 $, $ y $ trebuie să fie $ 0 $, adică:
 
 $$
-0 = -\dfrac{3}{2} \cdot 6 + b \Rightarrow b = 9.
+0 = {-\dfrac{3}{2}} \cdot 6 + b \Rightarrow b = 9.
 $$
 
-În final, $ y = -\dfrac{3}{2} x + 9 $ este ecuația dreptei căutate.
+În final, $ y = {-\dfrac{3}{2}} x + 9 $ este ecuația dreptei căutate.
 
 Din nou, ajută să facem o reprezentare grafică, să avem măcar o verificare vizuală.
 O găsești în figura de mai jos.
@@ -722,11 +725,11 @@ style="width:95%">
 </figure>
 
 Dreapta dată are panta $ \dfrac{2}{3} $, deci urcă spre dreapta, dar nu foarte abrupt.
-Iar dreapta calculată are panta $ -\dfrac{3}{2} $, deci urcă spre stânga, ceva mai abrupt
+Dreapta calculată are panta $ {-\dfrac{3}{2}} $, deci urcă spre stânga, ceva mai abrupt
 decât cealaltă.
 
 Ambele drepte le vom desena prin două puncte ajutătoare, care să fie chiar intersecțiile cu axele.
-Pentru prima dreaptă, avem $ \left(0, \dfrac{1}{3} \right) $ și $ \left(-\dfrac{1}{2}, 0 \right) $,
+Pentru prima dreaptă, avem $ \left(0, \dfrac{1}{3} \right) $ și $ \left( {-\dfrac{1}{2}}, 0 \right) $,
 iar pentru cealaltă, punctele $ (0, 9) $ și $ (6, 0) $.
 
 
@@ -744,10 +747,10 @@ Mai întâi, punctul de intersecție. O să-l notăm cu $ P(x_P, y_P) $.
 deci $ x_P $ și $ y_P $ satisfac ambele ecuații:
 
 $$
-\begin{matrix}
-y_P &= \dfrac{2}{3} x_P + \dfrac{1}{3} \\
-y_P &= -\dfrac{3}{2} x_P + 9
-\end{matrix}
+\begin{align*}
+y_P =& \dfrac{2}{3} x_P + \dfrac{1}{3} \\
+y_P =& {-\dfrac{3}{2}} x_P + 9
+\end{align*}
 $$
 
 Scazi cele două relații și obții:
@@ -770,11 +773,11 @@ Lungimile laturilor le putem calcula direct la pătrat, fiindcă oricum le vom f
 în teorema lui Pitagora.
 
 $$
-\begin{matrix}
-    PQ^2 =& 4^2 + 6^2 = 16 + 36 = 52 = \dfrac{468}{9} \\
-    QR^2 =& \left( 9 - \dfrac{1}{3} \right)^2 = \left( \dfrac{26}{3} \right)^2 = \dfrac{676}{9} \\
-    RP^2 =& 4^2 + \left( 3 - \dfrac{1}{3} \right)^2 = 16 + \dfrac{64}{9} = \dfrac{208}{9}.
-\end{matrix}
+\begin{align*}
+    PQ^2 =& 4^2 + 6^2 = 16 + 36 = 52 &=& \dfrac{468}{9} \\
+    QR^2 =& \left( 9 - \dfrac{1}{3} \right)^2 = \left( \dfrac{26}{3} \right)^2 &=& \dfrac{676}{9} \\
+    RP^2 =& 4^2 + \left( 3 - \dfrac{1}{3} \right)^2 = 16 + \dfrac{64}{9} &=& \dfrac{208}{9}.
+\end{align*}
 $$
 
 Calculele confirmă acum că $ PQ^2 + RP^2 = QR^2 $, deci triunghiul este dreptunghic în $ P $,
@@ -815,22 +818,22 @@ Cum spuneam, sunt mai mulți pași decât rezolvarea printr-o simplă formulă,
 dar fiecare etapă folosește doar lucruri pe care le știm deja.
 
 Fie, deci, $ d^\prime \perp d $, cu $ d^\prime: y = a^\prime x + b^\prime $.
-Din perpendicularitate, rezultă că $ a^\prime = -\dfrac{3}{2} $.
+Din perpendicularitate, rezultă că $ a^\prime = {-\dfrac{3}{2}} $.
 
-Apoi, din faptul că $ A \in d^\prime $ rezultă că $ 0 = -\dfrac{3}{2} \cdot 6 + b^\prime $,
+Apoi, din faptul că $ A \in d^\prime $ rezultă că $ 0 = {-\dfrac{3}{2}} \cdot 6 + b^\prime $,
 de unde $ b^\prime = 9 $.
 
-Deci $ d^\prime: y = -\dfrac{3}{2} x + 9 $ este perpendiculara pe $ d $
+Deci $ d^\prime: y = {-\dfrac{3}{2}} x + 9 $ este perpendiculara pe $ d $
 care trece prin $ A $ și am rezolvat primul punct din planul propus. (Este, de fapt,
 calculul pe care l-am făcut la exercițiul anterior.)
 
 Acum, punctul de intersecție dintre $ d^\prime $ și $ d $ să-l notăm cu $ M(x_M, y_M) $.
 El verifică ecuațiile ambelor drepte, deci:
 $$
-\begin{matrix}
-y_M = \dfrac{2}{3} x_M + \dfrac{1}{3} \\
-      y_M = -\dfrac{3}{2} x_M + 9
-      \end{matrix}
+\begin{align*}
+y_M &=& \dfrac{2}{3} x_M + \dfrac{1}{3} \\
+y_M &=& -\dfrac{3}{2} x_M + 9
+\end{align*}
 $$
 
 Le scădem și obținem:
@@ -854,15 +857,15 @@ oarecare, care să fie diferit de $ \dfrac{1}{3} $ (altfel, coincide cu dreapta 
 Intersectăm pe $ f $ cu $ d^\prime $ acum, să zicem într-un punct $ B(x_B, y_B) $.
 El are proprietățile:
 $$
-\begin{matrix}
-    B \in d^\prime &\Rightarrow y_B = -\dfrac{3}{2} x_B + 9 \\
-    B \in f &\Rightarrow y_B = \dfrac{2}{3} x_B + b.
-\end{matrix}
+\begin{align*}
+    B \in {d^\prime} &\Rightarrow & y_B &=& -\dfrac{3}{2} x_B + 9 \\
+    B \in f &\Rightarrow & y_B &=& \dfrac{2}{3} x_B + b.
+\end{align*}
 $$
 
 Scădem cele două relații ca să dispară $ y_B $ și obținem:
 $$
-0 = x_B \left( -\dfrac{3}{2} - \dfrac{2}{3} \right) + 9 - b %
+0 = x_B \left( {-\dfrac{3}{2}} - \dfrac{2}{3} \right) + 9 - b %
 \Rightarrow x_B \cdot \dfrac{13}{6} = b - 9 \Rightarrow %
 x_B = \dfrac{13(b - 9)}{6}.
 $$
@@ -886,7 +889,7 @@ $$
     \Rightarrow b = -\dfrac{25}{3}.
 $$
 
-Când înlocuiești pentru punctul $ B $, obții simplu $ B(8, -3) $.
+Când înlocuiești pentru punctul $ B $, obții simplu $ B(8, {-3}) $.
 
 În concluzie, dreapta căutată este $ f : y = \dfrac{2}{3} x - \dfrac{25}{3} $,
 care mai poate fi scrisă și sub forma:
@@ -909,27 +912,27 @@ style="width:95%">
 </span>
 
 Pas cu pas: căutăm o dreaptă, deci o expresie de forma $ d: y = ax + b $.
-Dreapta conține punctul $ A $, deci $ 2 = -2a + b $.
+Dreapta conține punctul $ A $, deci $ 2 = {-2a} + b $.
 
 Apoi, ca să folosim condiția de paralelism, trebuie să găsim ecuația dreptei $ CD $.
 Fie ea $ CD: y = mx + n $. Avem, pe rând:
 
 $$
-\begin{matrix}
-    C \in CD &\Rightarrow 1 = 2m + n \\
-    D \in CD &\Rightarrow -3 = -m + n
-\end{matrix}
+\begin{align*}
+    C \in CD &\Rightarrow& 1 &=& 2m + n \\
+    D \in CD &\Rightarrow& -3 &=& -m + n
+\end{align*}
 $$
 
 Scădem cele două relații și găsim $ 4 = 3m $, deci $ m = \dfrac{4}{3} $. Apoi
-$ n = -3 + m = \dfrac{-5}{3} $.
+$ n = {-3} + m = \dfrac{-5}{3} $.
 
 Deci $ CD: y = \dfrac{4}{3} x - \dfrac{5}{3} $.
 
 Cum $ d \parallel CD $, rezultă că $ a = \dfrac{4}{3} $.
 Acum ne întoarcem la relația anterioară:
 $$
-    2 = -2 \cdot \dfrac{4}{3} + b \Rightarrow b = 2 + \dfrac{8}{3} = \dfrac{14}{3}.
+    2 = {-2} \cdot \dfrac{4}{3} + b \Rightarrow b = 2 + \dfrac{8}{3} = \dfrac{14}{3}.
 $$
 În concluzie, dreapta căutată are ecuația $ y = \dfrac{4}{3} x + \dfrac{14}{3} $.
 Într-o formă fără fracții, poți elimina numitorii și obții $ -4x + 3y - 14 = 0 $.
@@ -955,42 +958,42 @@ la dreapta $ BC $ și ecuația perpendicularei din $ A $ pe $ BC $.
 Mai întâi, găsim ecuația dreptei $ BC $. Fie ea $ BC: y = ax + b $
 pentru început. Apoi:
 $$
-\begin{matrix}
-    B \in BC \Rightarrow 0 &= -7a + b \\
-    C \in BC \Rightarrow -3 &= 5a + b
-\end{matrix}
+\begin{align*}
+    B \in BC &\Rightarrow& 0 &=& -7a + b \\
+    C \in BC &\Rightarrow& -3 &=& 5a + b
+\end{align*}
 $$
 
-Scădem relațiile și găsim $ 3 = -12a $, deci $ a = -\dfrac{1}{4} $.
+Scădem relațiile și găsim $ 3 = {-12a} $, deci $ a = {-\dfrac{1}{4}} $.
 Apoi:
 $$
-b = -3 - 5a = -3 + \dfrac{5}{4} = \dfrac{7}{4}. %
-\Rightarrow BC: y = -\dfrac{1}{4} x - \dfrac{7}{4}
+b = {-3} - 5a = {-3} + \dfrac{5}{4} = \dfrac{7}{4}. %
+\Rightarrow BC: y = {-\dfrac{1}{4}} x - \dfrac{7}{4}.
 $$
 
 Acum vrem o perpendiculară din vârful $ A $ pe dreapta $ BC $. Să-i notăm ecuația
 generic $ d: y = mx + n $. Cum $ d \perp BC $, rezultă
-$ m \cdot \dfrac{-1}{4} = -1 $, deci $ m = 4 $.
+$ m \cdot \dfrac{-1}{4} = {-1} $, deci $ m = 4 $.
 
-Apoi, $ A \in d $, deci $ 7 = -4 + n $, de unde $ n = 11 $,
+Apoi, $ A \in d $, deci $ 7 = {-4} + n $, de unde $ n = 11 $,
 adică $ d: y = 4x + 11 $.
 
 Acum vrem distanța de la punctul $ A $ la dreapta $ BC $. Mai întâi, să aflăm
 punctul de intersecție între dreapta-înălțime și latura $ BC $.
 Fie acesta $ M(x_M, y_M) $, deci:
 $$
-\begin{matrix}
+\begin{align*}
     M \in BC &\Rightarrow y_M = -\dfrac{1}{4} x_M - \dfrac{7}{4} \\
     M \in d &\Rightarrow y_M = 4 x_M + 11.
-\end{matrix}
+\end{align*}
 $$
 
-Prin scădere rezultă $ x_M \left( -\dfrac{1}{4} - 4 \right) - \dfrac{7}{4} - 11 = 0 $,
-adică $ x_M = -3 $. Înlocuim și obținem $ y_M = 4 \cdot (-3) + 11 = -1 $.
+Prin scădere rezultă $ x_M \left( {-\dfrac{1}{4}} - 4 \right) - \dfrac{7}{4} - 11 = 0 $,
+adică $ x_M = {-3} $. Înlocuim și obținem $ y_M = 4 \cdot ({-3}) + 11 = {-1} $.
 
-În fine, $ M(-3, -1) $ și mai rămâne de calculat doar lungimea $ AM $:
+În fine, $ M({-3}, {-1}) $ și mai rămâne de calculat doar lungimea $ AM $:
 $$
-    AM = \sqrt{ (-1 + 3)^2 + (7 + 1)^2 } = \sqrt{4 + 64} = 2 \sqrt{17}.
+    AM = \sqrt{ ({-1} + 3)^2 + (7 + 1)^2 } = \sqrt{4 + 64} = 2 \sqrt{17}.
 $$
 
 <br />
@@ -1037,21 +1040,21 @@ au coordonate care verifică o aceeași ecuație a dreptei.
 Să găsim ecuația dreptei $ AB $, de exemplu, pe care o notăm, în general,
 $ AB: y = ax + b $. Apoi, pe rând:
 $$
-\begin{matrix}
-    &A \in AB \Rightarrow -5 = 3a + b \\
-    &B \in AB \Rightarrow 6 = -2a + b
-\end{matrix}
+\begin{align*}
+    A \in AB &\Rightarrow& {-5} &=& 3a + b \\
+    B \in AB &\Rightarrow& 6 &=& {-2a} + b
+\end{align*}
 $$
-Prin scădere: $ -11 = 5a $, deci $ a = -\dfrac{11}{5} $ și
+Prin scădere: $ -11 = 5a $, deci $ a = {-\dfrac{11}{5}} $ și
 $ b = 6 + 2a = 6 - \dfrac{22}{5} = \dfrac{8}{5} $.
 
-Deci $ AB: y = -\dfrac{11}{5} x + \dfrac{8}{5} $ sau
+Deci $ AB: y = {-\dfrac{11}{5}} x + \dfrac{8}{5} $ sau
 $ AB: 11x + 5y - 8 = 0 $.
 
 Mai rămâne doar să vedem dacă și coordonatele lui $ C $ verifică această
 ecuație:
 $$
-11 \cdot 8 + 5 \cdot (-16) - 8 = 88 - 80 - 8 = 0,
+11 \cdot 8 + 5 \cdot ({-16}) - 8 = 88 - 80 - 8 = 0,
 $$
 ceea ce este adevărat, deci punctele sunt coliniare și se află toate pe dreapta $ AB $.
 
@@ -1068,11 +1071,11 @@ style="width:95%">
 <span style="color:var(--burgundy); font-size:1.3rem;">
 7. Drepte concurente:
 $$
-\begin{matrix}
-d_1 :& 2x - y = 1 = 0 \\
-d_2 :& 3x + 2y - 5 = 0 \\
-d_3 :& x + 3y - 4 = 0
-\end{matrix}
+\begin{align*}
+d_1 &:& 2x - y - 1 &=& 0 \\
+d_2 &:& 3x + 2y - 5 &=& 0 \\
+d_3 &:& x + 3y - 4 &=& 0
+\end{align*}
 $$
 </span>
 
@@ -1122,31 +1125,31 @@ mai întâi.
 
 Dacă $ M(x_M, y_M) $ este mijlocul acestui segment, atunci:
 $$
-    x_M = \dfrac{-3 + 2}{2} = -\dfrac{1}{2}, \quad %
-    y_M = \dfrac{-2 + 2}{2} = 0 \Rightarrow M\left( -\dfrac{1}{2}, 0 \right).
+    x_M = \dfrac{-3 + 2}{2} = {-\dfrac{1}{2}}, \quad %
+    y_M = \dfrac{-2 + 2}{2} = 0 \Rightarrow M\left( {-\dfrac{1}{2}}, 0 \right).
 $$
 
 Vrem o perpendiculară pe $ AB $ care să treacă prin $ M $. Mai întâi,
 ecuația dreptei, notată generic $ AB: y = ax + b $:
 $$
-\begin{matrix}
-    &A \in AB \Rightarrow -2 = -3a + b \\
-    &B \in AB \Rightarrow 2 = 2a + b
-\end{matrix}
+\begin{align*}
+    &A \in AB &\Rightarrow& {-2} &=& {-3a} + b \\
+    &B \in AB &\Rightarrow& 2 &=& 2a + b
+\end{align*}
 $$
 
-Rezultă $ -4 = -5a $, deci $ a = \dfrac{4}{5} $ și $ b = 2 - 2a = \dfrac{2}{5} $.
+Rezultă $ -4 = {-5a} $, deci $ a = \dfrac{4}{5} $ și $ b = 2 - 2a = \dfrac{2}{5} $.
 Deci $ AB: y = \dfrac{4}{5} x + \dfrac{2}{5} $.
 
 Acum fie perpendiculara căutată $ d: y = mx + n $. Știm că
-$ m \cdot \dfrac{4}{5} = -1 $, deci $ m = -\dfrac{5}{4} $.
+$ m \cdot \dfrac{4}{5} = {-1} $, deci $ m = {-\dfrac{5}{4}} $.
 
-Cum $ M \in d $, rezultă $ 0 = -\dfrac{1}{2} \cdot \left( -\dfrac{5}{4} \right) + n $,
-deci $ n = -\dfrac{5}{8} $.
+Cum $ M \in d $, rezultă $ 0 = {-\dfrac{1}{2}} \cdot \left( {-\dfrac{5}{4}} \right) + n $,
+deci $ n = {-\dfrac{5}{8}} $.
 
 Așadar, mediatoarea segmentului $ AB $ are ecuația:
 $$
-    d: y = -\dfrac{5}{4} x - \dfrac{5}{8} \Leftrightarrow 10x + 8y + 5 = 0.
+    d: y = {-\dfrac{5}{4}} x - \dfrac{5}{8} \Longleftrightarrow 10x + 8y + 5 = 0.
 $$
 
 Orice punct $ C $ care se găsește pe această dreaptă are coordonatele
@@ -1157,14 +1160,14 @@ Fie, deci, $ C(x_C, y_C) \in d $, adică $ 10x_C + 8y_C + 5 = 0 $.
 
 Distanța $ AB $ de exemplu este:
 $$
-    AB = \sqrt{(-3 - x_C)^2 + (-2 - y_C)^2}
+    AB = \sqrt{({-3} - x_C)^2 + ({-2} - y_C)^2}
 $$
 și $ AB < 10 $ este echivalent cu $ AB^2 < 100 $
 
 Ca să lucrăm cât mai simplu și pentru că avem nevoie de un exemplu, încercăm
-să luăm $ x_C = 0 $. Atunci $ y_C = -\dfrac{5}{8} $, iar ca distanță:
+să luăm $ x_C = 0 $. Atunci $ y_C = {-\dfrac{5}{8}} $, iar ca distanță:
 $$
-    AB^2 = (-3 - 0)^2 + \left( -2 + \dfrac{5}{8} \right)^2 = 9 + \dfrac{121}{64} = \dfrac{697}{64} < 100,
+    AB^2 = ({-3} - 0)^2 + \left( {-2} + \dfrac{5}{8} \right)^2 = 9 + \dfrac{121}{64} = \dfrac{697}{64} < 100,
 $$
 deci este o alegere bună. Rămâne $ C \left( 0, \dfrac{-5}{8} \right) $.
 
@@ -1196,9 +1199,9 @@ $ RA, RB, RC $ devin raze ale acestui cerc.
 Există formule care-ți dau direct ecuația cercului prin trei puncte,
 dar noi vom proceda pas cu pas, ca mai devreme, pe baza mediatoarelor.
 
-Mai întâi, mijlocul $ M $ al lui $ AB $ este $ M(-1, 1) $, mijlocul $ N $
-al lui $ AC $ este $ N \left( \dfrac{3}{2}, -\dfrac{3}{2} \right) $,
-iar mijlocul $ P $ al lui $ BC $ este $ P \left( -\dfrac{1}{2}, -\dfrac{3}{2} \right) $.
+Mai întâi, mijlocul $ M $ al lui $ AB $ este $ M({-1}, 1) $, mijlocul $ N $
+al lui $ AC $ este $ N \left( \dfrac{3}{2}, {-\dfrac{3}{2}} \right) $,
+iar mijlocul $ P $ al lui $ BC $ este $ P \left( {-\dfrac{1}{2}}, {-\dfrac{3}{2}} \right) $.
 
 Cele trei mediatoare sigur sunt concurente, deci este suficient
 să determinăm două dintre ecuații și punctul lor comun, fiindcă
@@ -1208,55 +1211,55 @@ Fie, deci, $ m_{BC} : y = ax + b $ mediatoarea pe $ BC $.
 
 Mai întâi, însă, ecuația $ BC: y = mx + n $:
 $$
-\begin{matrix}
-    &B \in BC \Rightarrow 1 = -3m + n \\
-    &C \in BC \Rightarrow -4 = 2m + n,
-\end{matrix}
+\begin{align*}
+    B \in BC &\Rightarrow& 1 &=& -3m + n \\
+    C \in BC &\Rightarrow& {-4} &=& 2m + n,
+\end{align*}
 $$
-de unde $ -5m = 5 $, adică $ m = -1 $ și apoi $ n = -4 - 2m = -2 $.
-Deci $ BC: y = -x - 2 $.
+de unde $ -5m = 5 $, adică $ m = {-1} $ și apoi $ n = {-4} - 2m = {-2} $.
+Deci $ BC: y = {-x} - 2 $.
 
 Din $ m_{BC} \perp BC $, rezultă $ a = 1 $
-și din $ P \in m_{BC} $ obținem $ -\dfrac{3}{2} = -\dfrac{1}{2} + b $, adică $ b = -1 $.
+și din $ P \in m_{BC} $ obținem $ {-\dfrac{3}{2}} = {-\dfrac{1}{2}} + b $, adică $ b = {-1} $.
 În fine, $ m_{BC}: y = x - 1 $.
 
 Mai departe, $ m_{AC} $ mediatoarea pe $ AC $. Mai întâi,
 $ AC: y = ax + b $:
 $$
-\begin{matrix}
-    &A \in AC \Rightarrow 1 = a + b \\
-    &C \in AC \Rightarrow -4 = 2a + b,
-\end{matrix}
+\begin{align*}
+    A \in AC &\Rightarrow& 1 &=& a + b \\
+    C \in AC &\Rightarrow& {-4} &=& 2a + b,
+\end{align*}
 $$
-de unde $ -a = 5 $, adică $ a = -5 $ și $ b = 1 - a = 6 $.
-Rezultă $ AC: y = -5x + 6 $ și, dacă $ m_{AC}: y = mx + n $,
+de unde $ -a = 5 $, adică $ a = {-5} $ și $ b = 1 - a = 6 $.
+Rezultă $ AC: y = {-5x} + 6 $ și, dacă $ m_{AC}: y = mx + n $,
 rezultă $ m = \dfrac{1}{5} $. În fine:
 $$
     N \in m_{AC} \Rightarrow -\dfrac{3}{2} = \dfrac{1}{5} \cdot {3}{2} + n \Rightarrow %
-    n = -\dfrac{3}{2} - \dfrac{3}{10} = -\dfrac{9}{5}.
+    n = {-\dfrac{3}{2}} - \dfrac{3}{10} = -\dfrac{9}{5}.
 $$
 adică $ m_{AC}: y = \dfrac{1}{5} x - \dfrac{9}{5} $.
 
 Avem cele două mediatoare, acum să le găsim punctul de intersecție:
 $$
-\begin{matrix}
-    y &= \dfrac{1}{5} x - \dfrac{9}{5} \\
-    y &= x - 1,
-\end{matrix}
+\begin{align*}
+    y &=& \dfrac{1}{5} x - \dfrac{9}{5} \\
+    y &=& x - 1,
+\end{align*}
 $$
-de unde $ 0 = \left( \dfrac{1}{5} - 1 \right)x - \dfrac{9}{5} + 1 \Rightarrow x = -1 $
-și $ y = x - 1 = -2 $.
-Deci $ R (-1, -2) $.
+de unde $ 0 = \left( \dfrac{1}{5} -1 \right) {x} - \dfrac{9}{5} + 1 \Rightarrow x = {-1} $
+și $ y = x - 1 = {-2} $.
+Deci $ R ({-1}, {-2}) $.
 
 Putem verifica, pentru siguranță, că acest punct se găsește și pe mediatoarea
 $ m_{AB} $. Echivalent, verificăm dacă sunt egale distanțele $ AR = BR = CR $
 și ar fi mai simplu așa:
 $$
-\begin{matrix}
-    AR &= \sqrt{ 2^2  + 3^2 } = \sqrt{13} \\
-    BR &= \sqrt{ (-2)^2 + 3^2 } = \sqrt{13} \\
-    CR &= \sqrt{ (3^2 + (-3)^2 } = \sqrt{13}.
-\end{matrix}
+\begin{align*}
+    AR &=& \sqrt{ 2^2  + 3^2 } &=& \sqrt{13} \\
+    BR &=& \sqrt{ ({-2})^2 + 3^2 } &=& \sqrt{13} \\
+    CR &=& \sqrt{ (3^2 + ({-3})^2 } &=& \sqrt{13}.
+\end{align*}
 $$
 
 Reprezentarea, cu ajutorul celor două mediatoare, o găsești în figura de mai jos.
