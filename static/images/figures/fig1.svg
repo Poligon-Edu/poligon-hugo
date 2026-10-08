@@ -3,7 +3,7 @@
 <svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='234.477pt' height='178.976pt' viewBox='0 0 234.477 178.976'>
 <defs>
 <font id='WPWXTB-CrimsonPro-Regular' horiz-adv-x='525'>
-<font-face font-family='WPWXTB-CrimsonPro-Regular' units-per-em='1024' ascent='918' descent='220'/>
+<font-face font-family='Crimson Pro Variable' units-per-em='1024' ascent='918' descent='220'/>
 <glyph unicode='1' horiz-adv-x='337' vert-adv-y='337' d='M215 195Q215 122 216 88Q218 55 220 49L300 36L298 0H59L56 36L135 49Q136 58 137 97Q139 136 139 195V393Q139 420 137 448Q136 476 134 500L51 481L48 522L219 597Q217 568 216 524T215 410V195Z'/>
 </font>
 <font id='ZFHTYS-STIXTwoMath-Regular' horiz-adv-x='0'>
@@ -24,7 +24,7 @@
 </defs>
 <style type='text/css'>
 <![CDATA[text.f0 {font-family:ZFHTYS-STIXTwoMath-Regular;font-size:8.97px}
-text.f1 {font-family:WPWXTB-CrimsonPro-Regular;font-size:9.96px}
+text.f1 {font-family:'Crimson Pro Variable';font-size:9.96px}
 ]]>
 </style>
 <g id='page1'>

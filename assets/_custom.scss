@@ -1,19 +1,7 @@
 // ==========================================
 // 1. FONTS INGESTION
 // ==========================================
-// Crimson Pro (Prose) & Martian Mono (Data) via Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400..800;1,400..800&family=Martian+Mono:wght@400..800&display=swap');
-// Switzer (Editorial Sans) via Fontshare - Includes Light, Regular, Medium, Semibold, Bold, and Extrabold
-@import url('https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,600,700,800&display=swap');
-
-// STIX Two Math, self-hosted (for native MathML)
-@font-face {
-  font-family: 'STIX Two Math';
-  src: url('/fonts/STIXTwoMath-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('./_fonts.scss');
 
 // ==========================================
 // 2. GLOBAL LIGHT THEME TOKENS
@@ -96,7 +84,7 @@ body, html, .book-menu, .book-page, .book-navigation, .book-header {
 }
 
 body, html {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro Variable', serif !important;
 }
 
 button, input {
@@ -107,7 +95,7 @@ button, input {
 // 5. EDUCATIONAL CONTENT AREA (PROSE SERIF)
 // ==========================================
 .markdown, .book-page, article {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro Variable', serif !important;
   font-size: 20px;
   line-height: 1.7;
   color: var(--navy);
@@ -205,7 +193,7 @@ blockquote {
   margin: 1.5rem 0 !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro Variable', serif;
   font-size: 1.2rem !important;
   line-height: 1.3;
   p { font-style: normal !important; }
@@ -226,7 +214,7 @@ blockquote {
   margin: 1.5rem 0 !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Crimson Pro', 'Georgia', 'Times New Roman' !important;
+  font-family: 'Crimson Pro Variable', 'Georgia', 'Times New Roman' !important;
   font-size: 1.2rem !important;
   line-weight: 1.3;
   p { font-style: normal !important; }
@@ -653,7 +641,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   opacity: 0.55;
 }
 .review-text {
-  font-family: 'Crimson Pro', serif !important;
+  font-family: 'Crimson Pro Variable', serif !important;
   font-size: 18px !important;
   line-height: 1.6 !important;
   color: var(--navy) !important;
@@ -919,7 +907,7 @@ p.custom-author-paragraph {
 // ==========================================
 math {
   font-family: 'STIX Two Math', math;
-  font-size: 1.2rem !important;             // tune by eye against Crimson Pro
+  font-size: 1.2rem !important;             // tune by eye against Crimson Pro Variable
 }
 
 math[display="block"] {
