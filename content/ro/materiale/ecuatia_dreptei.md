@@ -54,6 +54,7 @@ chiar are măsura de $90\degree$ sau $180\degree$; faci un calcul rapid și te c
 
 ## Coeficienții și interpretările lor
 
+
 În ecuația unei drepte (sau în expresia unei funcții de gradul întâi)
 întâlnești doi coeficienți: unul se înmulțește cu variabila $x$, iar celălalt,
 se adună la rezultat.
@@ -133,6 +134,11 @@ cel rămas.
 Uită-te la reprezentarea din figura de mai jos, unde dreapta $ y = ax + b $ are $ b = 0 $,
 adică ecuația este doar $ y = ax $ și am reprezentat pentru câteva valori ale lui $ a $.
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 <figure id="fig-dreapta-b-0">
 <img src="/images/figures/fig3.svg" alt="Reprezentarea mai multor drepte de forma y = ax"
 style="width:95%;">
@@ -166,6 +172,11 @@ Rolul lui $ b $ e mai simplu de văzut. Punem $ a = 0 $ și dreapta devine $ y =
 Altfel spus, indiferent de valoarea lui $ x $, punctele de pe dreaptă vor avea același $ y $.
 Câteva reprezentări găsești în figura de mai jos, unde fiecare dreaptă a fost desenată
 prin câte două puncte de pe ea, dar nu le-am mai reprezentat, ca să nu încarc figura.
+
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
 
 <figure id="fig-dreapta-a-0">
 <img src="/images/figures/fig4.svg" alt="Reprezentarea mai multor drepte de forma y = b"
@@ -678,6 +689,11 @@ Reprezentarea e în figura de mai jos și confirmă calculele.
 <figcaption>Reprezentarea grafică pentru soluția exercițiului 1</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 ---
 
 
@@ -723,6 +739,11 @@ O găsești în figura de mai jos.
 style="width:95%">
 <figcaption>Reprezentarea grafică pentru soluția exercițiului 2</figcaption>
 </figure>
+
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
 
 Dreapta dată are panta $ \dfrac{2}{3} $, deci urcă spre dreapta, dar nu foarte abrupt.
 Dreapta calculată are panta $ {-\dfrac{3}{2}} $, deci urcă spre stânga, ceva mai abrupt
@@ -905,6 +926,11 @@ style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 3</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 ---
 
 <span style="color:var(--burgundy); font-size:1.3rem;">
@@ -945,11 +971,16 @@ style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 4</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 ---
 
 <span style="color:var(--burgundy); font-size:1.3rem;">
 5. Ecuația și lungimea înălțimii din $ A $ în $ \Delta ABC $, cu vârfurile în punctele
-$ A(-1, -7) $, $ B(-7, 0) $ și $ C(5, -3) $.
+$ A(-1, 7) $, $ B(-7, 0) $ și $ C(5, -3) $.
 </span>
 
 Problema este echivalentă cu a cere distanță de la punctul $ A $
@@ -1021,6 +1052,11 @@ style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 5</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 ---
 
 <span style="color:var(--burgundy); font-size:1.3rem;">
@@ -1066,6 +1102,11 @@ style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 6</figcaption>
 </figure>
 
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
+
 ---
 
 <span style="color:var(--burgundy); font-size:1.3rem;">
@@ -1107,6 +1148,11 @@ Reprezentarea o găsești în figura de mai jos.
 style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 7</figcaption>
 </figure>
+
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
 
 ---
 
@@ -1178,6 +1224,11 @@ Iată și reprezentarea grafică, în figura de mai jos.
 style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 8</figcaption>
 </figure>
+
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
 
 > Suplimentar, te poți gândi la o metodă prin care să găsești cea mai îndepărtată
 > poziție a punctului $ C $, dar tot astfel încât distanța să nu depășească 10 kilometri?
@@ -1269,6 +1320,11 @@ Reprezentarea, cu ajutorul celor două mediatoare, o găsești în figura de mai
 style="width:95%">
 <figcaption>Reprezentarea grafică pentru exercițiul 9</figcaption>
 </figure>
+
+<span
+style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">
+<b><a href="https://www.geogebra.org/m/nx5t75ds">Accesează versiunea interactivă GeoGebra</a></b>
+</span>
 
 <span
 style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;font-size:1.1rem;letter-spacing:0.01rem;">

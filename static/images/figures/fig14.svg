@@ -46,10 +46,10 @@
 <path d='M50.15036 115.7969C50.15036 114.62969 49.20414 113.68347 48.0369 113.68347C46.86969 113.68347 45.92347 114.62969 45.92347 115.7969C45.92347 116.96414 46.86969 117.91036 48.0369 117.91036C49.20414 117.91036 50.15036 116.96414 50.15036 115.7969Z'/>
 <text class='f0' x='38.427765' y='-99.939001' transform='matrix(.99959 0 0 .99959 0 218.659)'>𝐴</text>
 <path d='M116.06819 25.0885L25.35981 146.02545' stroke='#aa424e' fill='none' stroke-width='.79701' stroke-miterlimit='10'/>
-<text class='f0' x='119.637082' y='-190.814283' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>𝑑</tspan><tspan fill='#aa424e' x='127.288491'>∶</tspan><tspan fill='#aa424e' x='135.673661' y='-196.554638'>4</tspan></text>
-<path d='M135.618 25.61H140.056' stroke='#aa424e' fill='none' stroke-width='.61' stroke-miterlimit='10'/>
-<text class='f0' x='135.673661' y='-185.072927' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>3</tspan><tspan fill='#aa424e' x='141.309973' y='-190.814283'>𝑥</tspan><tspan fill='#aa424e' x='148.405244'>+</tspan><tspan fill='#aa424e' x='158.054843' y='-196.554638'>14</tspan></text>
-<path d='M157.99 25.61H166.867' stroke='#aa424e' fill='none' stroke-width='.61' stroke-miterlimit='10'/>
-<text class='f0' x='160.274754' y='-185.072927' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>3</tspan></text>
+<text class='f0' x='119.637082' y='-190.814283' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>𝑑</tspan><tspan fill='#aa424e' x='127.288491'>∶</tspan><tspan fill='#aa424e' x='134.473459'>𝑦</tspan><tspan fill='#aa424e' x='141.676384'>=</tspan><tspan fill='#aa424e' x='151.825287' y='-196.554638'>4</tspan></text>
+<path d='M151.763 25.61H156.201' stroke='#aa424e' fill='none' stroke-width='.61' stroke-miterlimit='10'/>
+<text class='f0' x='151.825287' y='-185.072927' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>3</tspan><tspan fill='#aa424e' x='157.4616' y='-190.814283'>𝑥</tspan><tspan fill='#aa424e' x='164.556881'>+</tspan><tspan fill='#aa424e' x='174.206469' y='-196.554638'>14</tspan></text>
+<path d='M174.135 25.61H183.012' stroke='#aa424e' fill='none' stroke-width='.61' stroke-miterlimit='10'/>
+<text class='f0' x='176.42638' y='-185.072927' transform='matrix(.99959 0 0 .99959 0 218.659)'><tspan fill='#aa424e'>3</tspan></text>
 </g>
 </svg>
