@@ -4,6 +4,7 @@ folosind [Hugo](https://gohugo.io/), tema [Book](https://book.alxs.dev/docs/gett
 
 ## Instalare și test local
 - instalează `hugo`;
+- instalează și [Dart Sass](https://github.com/sass/dart-sass/releases) — versiunea binară (standalone), astfel încît executabilul `sass` să fie în `PATH` (tema compilează SCSS-ul prin `css.Sass` cu transpilerul `dartsass`; versiunea instalată prin `npm` nu funcționează cu Hugo);
 - clonează repository-ul: `git clone https://github.com/Poligon-Edu/poligon-hugo.git`;
 - din directorul proiectului (`cd poligon-hugo`), lansează `hugo server`;
 - deschide în browser `http://localhost:1313`.

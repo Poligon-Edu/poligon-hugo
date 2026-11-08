@@ -32,7 +32,17 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true # The Book theme utilizes Sass/SCSS, which requires Hugo Extended
+          extended: true
+
+      # Hugo's dartsass transpiler shells out to a `sass` executable, so the
+      # standalone Dart Sass binary must be on PATH (the npm package does not work).
+      - name: Install Dart Sass
+        run: |
+          SASS_VERSION=1.108.1
+          curl -sL "https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/dart-sass-${SASS_VERSION}-linux-x64.tar.gz" -o /tmp/dart-sass.tar.gz
+          tar -xzf /tmp/dart-sass.tar.gz -C /tmp
+          echo "/tmp/dart-sass" >> "$GITHUB_PATH"
+          sass --version
 
       - name: Build with Hugo
         run: |
