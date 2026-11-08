@@ -295,8 +295,15 @@ din Antichitate.
 # Binomul lui Newton (Formula de dezvoltare binomială)
 
 $$
-    (a + b)^n = C_n^0 a^n b^0 + C_n^1 a^{n-1} b^1 + \dots + C_n^{n-1} ab^{n-1} + C_n^n a^0 b^n = \displaystyle\sum_{k = 0}^n C_n^k a^{n-k} b^k.
+    (a + b)^n = C_n^0 a^n b^0 + C_n^1 a^{n-1} b^1 + \dots + C_n^{n-1} ab^{n-1} + C_n^n a^0 b^n.
 $$
+
+Cu simbolul de sumare $ \Sigma $, putem scrie:
+
+$$
+    (a + b)^n = \displaystyle\sum_{k = 0}^n C_n^k a^{n-k} b^k.
+$$
+
 
 {{% /important %}}
 
