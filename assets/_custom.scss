@@ -7,71 +7,141 @@
 // 2. GLOBAL LIGHT THEME TOKENS
 // ==========================================
 :root, html[data-theme="light"] {
-  --ivory: #fffdf0;       // Warm Cream Base
-  --navy: #3b4758;       // Deep Slate text
-  --burgundy: #aa424e;    // Crimson Accent
-  --teal: #008e80;        // Emerald Accent
-  --gray-100: #f7f4e6;    // Soft tinted elements (Code backings)
-  --gray-200: #e8e4d3;    // Muted guidelines
-  --pale-teal: rgba(0, 142, 128, 0.25);
-  --pale-burgundy: rgba(170, 66, 78, 0.25);
-  --pale-navy: rgba(59, 71, 88, 0.25);
+  // ---- Brand tokens (design guide v2: one shade per hue, all AAA on paper) ----
+  --paper: #fffdf0;        // ivory page background
+  --ink: #3b4758;          // navy, primary text (9.23:1 on paper)
+  --burgundy: #923540;     // the single burgundy (7.33:1, AAA)
+  --teal: #005f53;         // the single teal (7.44:1, AAA)
+  --ink-muted: #5b6575;    // captions / muted text (5.77:1, AA)
+  --rule: #d8d5c8;         // hairlines
+  --rule-cool: #c9cdd3;    // cool hairlines
+  --paper-tint: #f7f3e4;   // cards, code backings
+  --wash-burgundy: #f8ecea;
+  --wash-teal: #e7f2f0;
+  --wash-navy: #edeef0;
+
+  // ---- Type tokens ----
+  --font-sans: "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Crimson Pro Variable", "Crimson Pro", "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  // Legacy aliases used throughout this file
+  --ivory: var(--paper);
+  --navy: var(--ink);
+  --gray-100: var(--paper-tint);
+  --gray-200: var(--rule);
+  --pale-teal: var(--wash-teal);
+  --pale-burgundy: var(--wash-burgundy);
+  --pale-navy: var(--wash-navy);
 
   // Map directly into the Hugo Book native variable layer
-  --body-background: var(--ivory);
-  --body-font-color: var(--navy);
-  --menu-background: var(--ivory);
-  --menu-font-color: var(--navy);
-  --color-link: var(--teal);
+  --body-background: var(--paper);
+  --body-font-color: var(--ink);
+  --menu-background: var(--paper);
+  --menu-font-color: var(--ink);
+  --color-link: var(--teal);   // links teal, hover burgundy
 }
 
 // ==========================================
 // 3. DARK THEME OVERRIDES
 // ==========================================
+// Dark role (guide): page deepens to navy-deep, body text ivory,
+// burgundy/teal flip to their dark-surface tints, muted becomes ivory-shade.
 @media (prefers-color-scheme: dark) {
   :root {
-    --ivory: #3b4758;
-    --navy: #fffdf0;
-    --teal: #e56a77;
-    --burgundy: #26bdae;
-    --gray-100: #242b37;
-    --gray-200: #2d3748;
+    --paper: #252e3a;        // --navy-deep, dark page background
+    --ink: #fffdf0;          // ivory body text
+    --burgundy: #f2a2ac;     // --burgundy-soft, 6.89:1 on deep navy
+    --teal: #a8ded5;         // --teal-soft, 9.2:1 on deep navy
+    --ink-muted: #d8d5c8;    // --ivory-shade, captions on navy
+    --rule: #3d4859;         // dark hairline (navy tint)
+    --rule-cool: #3d4859;
+    --paper-tint: #2f3a49;   // dark navy tint, code backings
+    --wash-burgundy: rgba(242, 162, 172, 0.08);
+    --wash-teal: rgba(168, 222, 213, 0.08);
+    --wash-navy: rgba(216, 213, 200, 0.08);
 
-    --body-background: var(--ivory);
-    --body-font-color: var(--navy);
-    --menu-background: var(--ivory);
-    --menu-font-color: var(--navy);
+    // Named dark tokens from the guide
+    --navy-deep: #252e3a;
+    --burgundy-soft: #f2a2ac;
+    --teal-soft: #a8ded5;
+    --ivory-shade: #d8d5c8;
+
+    // Legacy aliases
+    --ivory: var(--paper);
+    --navy: var(--ink);
+    --gray-100: var(--paper-tint);
+    --gray-200: var(--rule);
+    --pale-teal: var(--wash-teal);
+    --pale-burgundy: var(--wash-burgundy);
+    --pale-navy: var(--wash-navy);
+
+    --body-background: var(--paper);
+    --body-font-color: var(--ink);
+    --menu-background: var(--paper);
+    --menu-font-color: var(--ink);
     --color-link: var(--teal);
   }
 }
 
 html[data-theme="dark"] {
-  --ivory: #3b4758;
-  --navy: #fffdf0;
-  --teal: #e56a77;
-  --burgundy: #26bdae;
-  --gray-100: #242b37;
-  --gray-200: #2d3748;
+  --paper: #252e3a;
+  --ink: #fffdf0;
+  --burgundy: #f2a2ac;
+  --teal: #a8ded5;
+  --ink-muted: #d8d5c8;
+  --rule: #3d4859;
+  --rule-cool: #3d4859;
+  --paper-tint: #2f3a49;
+  --wash-burgundy: rgba(242, 162, 172, 0.08);
+  --wash-teal: rgba(168, 222, 213, 0.08);
+  --wash-navy: rgba(216, 213, 200, 0.08);
 
-  --body-background: var(--ivory);
-  --body-font-color: var(--navy);
-  --menu-background: var(--ivory);
-  --menu-font-color: var(--navy);
+  --navy-deep: #252e3a;
+  --burgundy-soft: #f2a2ac;
+  --teal-soft: #a8ded5;
+  --ivory-shade: #d8d5c8;
+
+  --ivory: var(--paper);
+  --navy: var(--ink);
+  --gray-100: var(--paper-tint);
+  --gray-200: var(--rule);
+  --pale-teal: var(--wash-teal);
+  --pale-burgundy: var(--wash-burgundy);
+  --pale-navy: var(--wash-navy);
+
+  --body-background: var(--paper);
+  --body-font-color: var(--ink);
+  --menu-background: var(--paper);
+  --menu-font-color: var(--ink);
   --color-link: var(--teal);
 }
 
 html[data-theme="light"] {
-  --ivory: #fffdf0 !important;
-  --navy: #3b4758 !important;
-  --burgundy: #aa424e !important;
-  --teal: #008e80 !important;
-  --gray-100: #f7f4e6 !important;
-  --gray-200: #e8e4d3 !important;
+  --paper: #fffdf0 !important;
+  --ink: #3b4758 !important;
+  --burgundy: #923540 !important;
+  --teal: #005f53 !important;
+  --ink-muted: #5b6575 !important;
+  --rule: #d8d5c8 !important;
+  --rule-cool: #c9cdd3 !important;
+  --paper-tint: #f7f3e4 !important;
+  --wash-burgundy: #f8ecea !important;
+  --wash-teal: #e7f2f0 !important;
+  --wash-navy: #edeef0 !important;
 
-  --body-background: var(--ivory) !important;
-  --body-font-color: var(--navy) !important;
-  --menu-background: var(--ivory) !important;
-  --menu-font-color: var(--navy) !important;
+  --ivory: var(--paper) !important;
+  --navy: var(--ink) !important;
+  --gray-100: var(--paper-tint) !important;
+  --gray-200: var(--rule) !important;
+  --pale-teal: var(--wash-teal) !important;
+  --pale-burgundy: var(--wash-burgundy) !important;
+  --pale-navy: var(--wash-navy) !important;
+
+  --body-background: var(--paper) !important;
+  --body-font-color: var(--ink) !important;
+  --menu-background: var(--paper) !important;
+  --menu-font-color: var(--ink) !important;
   --color-link: var(--teal) !important;
 }
 
@@ -84,24 +154,30 @@ body, html, .book-menu, .book-page, .book-navigation, .book-header {
 }
 
 body, html {
-  font-family: 'Crimson Pro Variable', serif !important;
+  font-family: var(--font-serif) !important;
 }
 
 button, input {
-  font-family: 'Switzer', sans-serif;
+  font-family: var(--font-sans);
+}
+
+// Guide: 2px teal focus outline with a 2px offset (7.44:1, clears 3:1 non-text)
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
 }
 
 // ==========================================
 // 5. EDUCATIONAL CONTENT AREA (PROSE SERIF)
 // ==========================================
 .markdown, .book-page, article {
-  font-family: 'Crimson Pro Variable', serif !important;
+  font-family: var(--font-serif) !important;
   font-size: 20px;
   line-height: 1.7;
   color: var(--navy);
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Switzer', sans-serif;
+    font-family: var(--font-sans);
     color: var(--navy);
   }
 
@@ -140,7 +216,7 @@ pre {
 }
 
 code, pre, kbd, samp {
-  font-family: 'Martian Mono', monospace !important;
+  font-family: var(--font-mono) !important;
   background-color: var(--gray-100) !important;
   color: var(--navy);
   font-size: 0.9rem !important;
@@ -179,7 +255,7 @@ blockquote {
   padding: 0.3rem 1.3rem !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Switzer', sans-serif;
+  font-family: var(--font-sans);
   font-size: 1.0rem;
   line-height: 1.3;
   p { font-style: normal !important; }
@@ -188,17 +264,17 @@ blockquote {
 .hl-block {
   border-left: 4px solid var(--teal) !important;
   background-color: var(--pale-teal) !important;
-  color: black !important;
+  color: var(--navy) !important;
   padding: 0.85rem 1.15rem !important;
   margin: 1.5rem 0 !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Crimson Pro Variable', serif;
+  font-family: var(--font-serif);
   font-size: 1.2rem !important;
   line-height: 1.3;
   p { font-style: normal !important; }
   h1 {
-    font-family: 'Switzer', 'Inter', 'Arial' !important;
+    font-family: var(--font-sans) !important;
     font-weight: 600 !important;
     font-size: 1.2rem !important;
     line-height: 1.3 !important;
@@ -209,17 +285,17 @@ blockquote {
 .important-block {
   border-left: 4px solid var(--burgundy) !important;
   background-color: var(--pale-burgundy) !important;
-  color: black !important;
+  color: var(--navy) !important;
   padding: 0.85rem 1.15rem !important;
   margin: 1.5rem 0 !important;
   border-radius: 4px !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Crimson Pro Variable', 'Georgia', 'Times New Roman' !important;
+  font-family: var(--font-serif) !important;
   font-size: 1.2rem !important;
   line-weight: 1.3;
   p { font-style: normal !important; }
   h1 {
-    font-family: 'Switzer', 'Inter', 'Arial' !important;
+    font-family: var(--font-sans) !important;
     font-weight: 600 !important;
     font-size: 1.2rem !important;
     line-weight: 1.3 !important;
@@ -231,7 +307,7 @@ blockquote {
 // 8. OPTICALLY BALANCED SIDEBAR NAVIGATION
 // ==========================================
 .book-menu {
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   border-right: 1px solid var(--gray-200);
 
   nav a {
@@ -300,12 +376,12 @@ blockquote {
 .book-menu nav ul li a[href*="gradient"],
 .book-menu nav ul li .flex a[href*="gradient"],
 .book-menu nav a[href*="gradient"] {
-  background: linear-gradient(90deg, #008e80, #aa424e) !important;
+  background: linear-gradient(90deg, var(--teal), var(--burgundy)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;              // Completely evaporates the inherited teal fill
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   font-size: 1.3rem !important;               // Pushes back up to your target impact scale
   letter-spacing: -0.02em !important;
   opacity: 1 !important;
@@ -384,7 +460,7 @@ blockquote {
       content: "Poligon" !important;
       grid-column: 2 !important;
       grid-row: 1 !important;
-      font-family: 'Switzer', sans-serif !important;
+      font-family: var(--font-sans) !important;
       font-size: 1.45rem !important;
       font-weight: 800 !important;               // Switzer Extrabold
       color: var(--navy) !important;
@@ -405,7 +481,7 @@ blockquote {
       content: "EDUCATIONAL" !important;
       grid-column: 2 !important;
       grid-row: 2 !important;
-      font-family: 'Switzer', sans-serif !important;
+      font-family: var(--font-sans) !important;
       font-size: 0.72rem !important;
       font-weight: 400 !important;               // Regular weight for clean legibility
       color: var(--navy) !important;
@@ -437,11 +513,11 @@ blockquote {
   padding: 0.1rem 0.1rem !important;
 
   nav {
-    font-family: 'Switzer', sans-serif;
+    font-family: var(--font-sans);
   }
 
   strong, h5 {
-    font-family: 'Switzer', sans-serif;
+    font-family: var(--font-sans);
     color: var(--navy);
     font-size: 0.9rem !important;
     font-weight: 700 !important;
@@ -544,7 +620,7 @@ blockquote {
 
   .book-toc, #TableOfContents, #TableOfContents
   a {
-    font-family: 'Switzer', sans-serif !important;
+    font-family: var(--font-sans) !important;
     font-size: 1rem !important;
   }
 
@@ -561,7 +637,7 @@ blockquote {
 /* Lightbox Engine */
 .lightbox-overlay {
   position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-  background-color: rgba(23, 28, 36, 0.92); display: flex; align-items: center; justify-content: center;
+  background-color: rgba(37, 46, 58, 0.92); display: flex; align-items: center; justify-content: center;
   z-index: 999999; cursor: zoom-out; opacity: 0; pointer-events: none; transition: opacity 0.25s ease-in-out;
 
   img {
@@ -627,21 +703,21 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   pointer-events: none;
 }
 .review-author {
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   font-size: 1.1rem !important;
   font-weight: 600 !important;
   color: var(--navy) !important;
   line-height: 1.2 !important;
 }
 .review-date {
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   font-size: 0.82rem !important;
   font-weight: 400 !important;
   color: var(--navy) !important;
   opacity: 0.55;
 }
 .review-text {
-  font-family: 'Crimson Pro Variable', serif !important;
+  font-family: var(--font-serif) !important;
   font-size: 18px !important;
   line-height: 1.6 !important;
   color: var(--navy) !important;
@@ -700,7 +776,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
-  font-family: 'Switzer', sans-serif;
+  font-family: var(--font-sans);
   justify-content: center !important;
 }
 .fact-btn {
@@ -806,7 +882,7 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
   border-radius: 4px;
   padding: 1.25rem 1.5rem;
   z-index: 999999;
-  font-family: 'Switzer', sans-serif;
+  font-family: var(--font-sans);
   transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1), transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
   &.cookie-hidden {
     opacity: 0;
@@ -868,13 +944,13 @@ img[src*="#center"] { display: block !important; margin: 1.5rem auto !important;
 
 /* Material Author Meta Blocks */
 p.custom-author-paragraph {
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   font-weight: 600 !important;
   font-size: 1.1rem !important;
   color: var(--navy) !important;
   margin: 1.5rem 0 !important;
   strong {
-    font-family: 'Switzer', sans-serif !important;
+    font-family: var(--font-sans) !important;
     font-weight: 700 !important;
     color: var(--burgundy) !important;
     font-style: normal !important;
@@ -887,7 +963,7 @@ p.custom-author-paragraph {
     }
   }
   code {
-    font-family: 'Martian Mono', monospace !important;
+    font-family: var(--font-mono) !important;
     font-weight: 400 !important;
     color: var(--navy) !important;
     font-size: 0.9rem !important;
@@ -918,7 +994,7 @@ math[display="block"] {
 // 15. UTILITIES (TRUE OPENTYPE SMALL CAPS)
 // ==========================================
 .small-caps-switzer {
-  font-family: 'Switzer', sans-serif !important;
+  font-family: var(--font-sans) !important;
   font-variant-caps: small-caps !important;
   letter-spacing: 0.05em !important;
 }
@@ -942,7 +1018,7 @@ figure img {
 figcaption {
   margin-top: 0.5rem;
   font-size: 1rem;   /* Makes the caption slightly smaller than body text */
-  font-family: 'Switzer' !important;
+  font-family: var(--font-sans) !important;
   font-weight: 200 !important;
   line-height: 1.3;
 }

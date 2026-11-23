@@ -19,7 +19,7 @@
       <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="width: 100%; border-radius: 8px;" />
 
       {{ with $.Params.header_caption }}
-        <figcaption style="text-align: center; margin-top: 0rem; font-size: 0.85rem; color: #555;">
+        <figcaption style="text-align: center; margin-top: 0rem; font-size: 0.85rem; color: var(--ink-muted);">
           {{ . | markdownify }}
         </figcaption>
       {{ end }}
