@@ -85,7 +85,7 @@ Am obținut punctele $ A(1, 4) $ și $ B({-2}, 1) $, prin care trece dreapta că
 Reprezentarea grafică arată ca în figura de mai jos.
 
 <figure id="fig-dreapta-prin-2-puncte">
-<img src="/images/figures/fig1.svg" alt="Dreapta de ecuație y = x + 3" style="width:95%;">
+{{< svgfig src="fig1.svg" alt="Dreapta de ecuație y = x + 3" style="width:95%;" >}}
 <figcaption>Dreapta de ecuație y = x + 3</figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ Putem completa desenul cu ele, iar punctele anterioare, $ A $ și $ B $, devin d
 puncte oarecare, fără vreo importanță anume.
 
 <figure id="fig-dreapta-intersectii-axe">
-<img src="/images/figures/fig2.svg" alt="Dreapta de ecuație y = x + 3 și intersecțiile cu axele" style="width:95%;">
+{{< svgfig src="fig2.svg" alt="Dreapta de ecuație y = x + 3 și intersecțiile cu axele" style="width:95%;" >}}
 <figcaption>Dreapta de ecuație y = x + 3 și intersecțiile cu axele</figcaption>
 </figure>
 
@@ -140,8 +140,7 @@ style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;f
 </span>
 
 <figure id="fig-dreapta-b-0">
-<img src="/images/figures/fig3.svg" alt="Reprezentarea mai multor drepte de forma y = ax"
-style="width:95%;">
+{{< svgfig src="fig3.svg" alt="Reprezentarea mai multor drepte de forma y = ax" style="width:95%;" >}}
 <figcaption>Reprezentarea mai multor drepte de forma y = ax</figcaption>
 </figure>
 
@@ -179,8 +178,7 @@ style="font-family:'Switzer', 'Arial', 'San Francisco', sans-serif;weight: 600;f
 </span>
 
 <figure id="fig-dreapta-a-0">
-<img src="/images/figures/fig4.svg" alt="Reprezentarea mai multor drepte de forma y = b"
-style="width:95%;">
+{{< svgfig src="fig4.svg" alt="Reprezentarea mai multor drepte de forma y = b" style="width:95%;" >}}
 <figcaption>Reprezentarea mai multor drepte de forma y = b</figcaption>
 </figure>
 
@@ -230,7 +228,7 @@ este „prima”, răspunsul e mai degrabă convențional și istoric. *A doua b
 este dreapta de ecuație $ y = {-}x $, care taie celelalte două unghiuri.)
 
 <figure id="fig-prima-bisectoare">
-<img src="/images/figures/fig5.svg" alt="Prima bisectoare" style="width:95%;">
+{{< svgfig src="fig5.svg" alt="Prima bisectoare" style="width:95%;" >}}
 <figcaption>Prima bisectoare, adică dreapta de ecuație y = x</figcaption>
 </figure>
 
@@ -258,7 +256,7 @@ $$
 $$
 
 <figure id="fig-pante-drepte">
-<img src="/images/figures/fig6.svg" alt="Calculul pantelor unor drepte prin triunghiuri dreptunghice" style="width:90%;">
+{{< svgfig src="fig6.svg" alt="Calculul pantelor unor drepte prin triunghiuri dreptunghice" style="width:90%;" >}}
 <figcaption>Calculul pantelor unor drepte cu triunghiuri dreptunghice</figcaption>
 </figure>
 
@@ -311,7 +309,7 @@ astfel încât uneori pot fi obtuze.
 Dacă înțelegi așa panta, anume prin tangenta unui unghi în triunghiul dreptunghic
 unde dreapta este o catetă, e ușor de interpretat și înclinarea dată ca procent,
 cum vezi în semne de circulație.
-<img src="/images/figures/slope_diy.svg" style="display: block; margin: auto; width:50%" />
+{{< svgfig src="slope_diy.svg" alt="Semn de circulație cu pantă de 10% și triunghiul dreptunghic atașat, cu catetele de 100 m și 10 m" style="display: block; margin: auto; width:50%" >}}
 
 O înclinare de 10%, de exemplu, înseamnă că, pentru fiecare 100 de metri
 parcurși pe șoseaua-catetă, ai urcat 10 metri (față de orizontală). În legătură
@@ -356,8 +354,7 @@ cu $ d_1 $ și $ d_2 $, iar asta e tot ce ne interesează.
 Iată, deci, o configurație.
 
 <figure id="fig-drepte-perpendiculare">
-<img src="/images/figures/fig8.svg" alt="Drepte perpendiculare"
-style="width:95%;">
+{{< svgfig src="fig8.svg" alt="Drepte perpendiculare" style="width:95%;" >}}
 <figcaption>Drepte perpendiculare, care se intersectează în origine</figcaption>
 </figure>
 
@@ -456,7 +453,7 @@ de coordonate și să construiești un triunghi dreptunghic în care $ [AB] $ es
 Vezi figura de mai jos.
 
 <figure id="fig-segment-oblic">
-<img src="/images/figures/fig9.svg" alt="Un segment oblic" style="width:95%;">
+{{< svgfig src="fig9.svg" alt="Un segment oblic" style="width:95%;" >}}
 <figcaption>Distanța dintre două puncte oarecare, calculată cu teorema lui Pitagora</figcaption>
 </figure>
 
@@ -528,8 +525,7 @@ dintr-un punct fixat și ai ajuns în orice punct căruia îi știi coordonatele
 Pașii poți să-i vezi în figura de mai jos.
 
 <figure id="fig-pasi-reprezentare">
-<img src="/images/figures/fig10.svg" alt="Pașii pentru reprezentarea grafică a unui punct"
-style="width:95%;">
+{{< svgfig src="fig10.svg" alt="Pașii pentru reprezentarea grafică a unui punct" style="width:95%;" >}}
 <figcaption>Interpretarea coordonatelor unui punct din plan ca pe doi pași prin care
 pornești din origine și ajungi la punctul respectiv</figcaption>
 </figure>
@@ -685,7 +681,7 @@ $ \left( {-\dfrac{5}{4}}, 0 \right) $.
 Reprezentarea e în figura de mai jos și confirmă calculele.
 
 <figure id="fig-ex1">
-<img src="/images/figures/fig11.svg" style="width:95%" alt="Rezolvarea exercițiului 1">
+{{< svgfig src="fig11.svg" alt="Rezolvarea exercițiului 1" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru soluția exercițiului 1</figcaption>
 </figure>
 
@@ -735,8 +731,7 @@ Din nou, ajută să facem o reprezentare grafică, să avem măcar o verificare 
 O găsești în figura de mai jos.
 
 <figure id="fig-ex2">
-<img src="/images/figures/fig12.svg" alt="Reprezentarea pentru exercițiul 2"
-style="width:95%">
+{{< svgfig src="fig12.svg" alt="Reprezentarea pentru exercițiul 2" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru soluția exercițiului 2</figcaption>
 </figure>
 
@@ -921,8 +916,7 @@ $$
 Reprezentarea grafică de mai jos îți arată pașii pe care i-am parcurs.
 
 <figure id="fig-ex-3">
-<img src="/images/figures/fig13.svg" alt="Reprezentarea grafică pentru exercițiul 3"
-style="width:95%">
+{{< svgfig src="fig13.svg" alt="Reprezentarea grafică pentru exercițiul 3" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 3</figcaption>
 </figure>
 
@@ -966,8 +960,7 @@ $$
 Verificarea prin desen este în figura de mai jos.
 
 <figure id="fig-ex4">
-<img src="/images/figures/fig14.svg" alt="Reprezentarea grafică pentru exercițiul 4"
-style="width:95%">
+{{< svgfig src="fig14.svg" alt="Reprezentarea grafică pentru exercițiul 4" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 4</figcaption>
 </figure>
 
@@ -1047,8 +1040,7 @@ Dar am preferat o construcție pas cu pas, care nu folosește formule noi de mem
 Verificarea prin desen, măcar orientativ, în figura de mai jos.
 
 <figure id="fig-ex5">
-<img src="/images/figures/fig15.svg" alt="Reprezentarea grafică pentru exercițiul 5"
-style="width:95%">
+{{< svgfig src="fig15.svg" alt="Reprezentarea grafică pentru exercițiul 5" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 5</figcaption>
 </figure>
 
@@ -1097,8 +1089,7 @@ ceea ce este adevărat, deci punctele sunt coliniare și se află toate pe dreap
 Le poți vedea în figura de mai jos.
 
 <figure id="fig-ex6">
-<img src="/images/figures/fig16.svg" alt="Reprezentarea grafică pentru exercițiul 6"
-style="width:95%">
+{{< svgfig src="fig16.svg" alt="Reprezentarea grafică pentru exercițiul 6" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 6</figcaption>
 </figure>
 
@@ -1144,8 +1135,7 @@ care este adevărat, deci într-adevăr, toate cele trei drepte se intersecteaz�
 Reprezentarea o găsești în figura de mai jos.
 
 <figure id="fig-ex7">
-<img src="/images/figures/fig17.svg" alt="Reprezentarea grafică pentru exercițiul 7"
-style="width:95%">
+{{< svgfig src="fig17.svg" alt="Reprezentarea grafică pentru exercițiul 7" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 7</figcaption>
 </figure>
 
@@ -1220,8 +1210,7 @@ deci este o alegere bună. Rămâne $ C \left( 0, \dfrac{-5}{8} \right) $.
 Iată și reprezentarea grafică, în figura de mai jos.
 
 <figure id="fig-ex8">
-<img src="/images/figures/fig18.svg" alt="Reprezentarea grafică pentru exercițiul 8"
-style="width:95%">
+{{< svgfig src="fig18.svg" alt="Reprezentarea grafică pentru exercițiul 8" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 8</figcaption>
 </figure>
 
@@ -1316,8 +1305,7 @@ $$
 Reprezentarea, cu ajutorul celor două mediatoare, o găsești în figura de mai jos.
 
 <figure id="fig-ex9">
-<img src="/images/figures/fig19.svg" alt="Reprezentarea grafică pentru exercițiul 9"
-style="width:95%">
+{{< svgfig src="fig19.svg" alt="Reprezentarea grafică pentru exercițiul 9" style="width:95%" >}}
 <figcaption>Reprezentarea grafică pentru exercițiul 9</figcaption>
 </figure>
 

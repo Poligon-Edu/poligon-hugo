@@ -645,7 +645,13 @@ blockquote {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6); transform: scale(0.96);
     transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   }
-  &.active { opacity: 1; pointer-events: auto; img { transform: scale(1); } }
+  /* cloned inline SVG figure (svgfig shortcode) — sized via inline style by the lightbox JS */
+  svg.lightbox-svg {
+    border-radius: 6px; background: var(--paper);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6); transform: scale(0.96);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  &.active { opacity: 1; pointer-events: auto; img, svg.lightbox-svg { transform: scale(1); } }
 }
 
 .book-page article .markdown img:not(.book-icon) {
@@ -1000,23 +1006,49 @@ math[display="block"] {
 }
 
 // FIGURE AND CAPTION STYLING
-/* The container holding both the image and the caption */
-figure {
-  margin: 2rem 0;
+/* The container holding both the image and the caption.
+   NOTE: the hugo-book theme ships `.markdown figure { margin: 1rem 0 }` and
+   `.markdown figure figcaption { margin-top: 1rem }`, which beat bare element
+   selectors on specificity — so the `.book-page article .markdown …` variants
+   below are what actually applies on content pages. */
+figure,
+.book-page article .markdown figure {
+  margin: 2.5rem auto;
+  padding: 1.25rem 1.5rem 1rem;
   text-align: center;
 }
 
 /* The image itself inside the figure */
-figure img {
+figure img,
+.book-page article .markdown figure img {
   max-width: 100%;      /* Ensures the image doesn't break mobile screens */
   height: auto;
   border-radius: 6px;   /* Optional: adds rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
 }
 
+/* Inlined SVG figures (svgfig shortcode) — same treatment as <img>;
+   their internal colors use CSS vars, so they follow the light/dark theme.
+   Scoped to svg.pfig (not only figure svg) so standalone figures that are
+   not wrapped in <figure> (e.g. slope_diy) get the same card treatment. */
+figure svg,
+.book-page article .markdown svg.pfig {
+  max-width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in; /* clickable: opens the lightbox */
+}
+html[data-theme="dark"] figure svg,
+html[data-theme="dark"] .book-page article .markdown svg.pfig {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
 /* The caption text */
-figcaption {
-  margin-top: 0.5rem;
+figcaption,
+.book-page article .markdown figcaption {
+  margin-top: 0.85rem;
   font-size: 1rem;   /* Makes the caption slightly smaller than body text */
   font-family: var(--font-sans) !important;
   font-weight: 200 !important;

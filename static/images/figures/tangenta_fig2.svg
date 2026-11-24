@@ -1,0 +1,39 @@
+<svg class='pfig' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='307.424447pt' height='65.994211pt' viewBox='-60.04695 -56.724661 307.424447 65.994211'>
+<style>
+svg.pfig [fill='#3b4758'],svg.pfig [fill="#3b4758"]{fill:var(--ink,#3b4758)}
+svg.pfig [stroke='#3b4758'],svg.pfig [stroke="#3b4758"]{stroke:var(--ink,#3b4758)}
+svg.pfig [fill='#aa424e'],svg.pfig [fill="#aa424e"]{fill:var(--burgundy,#aa424e)}
+svg.pfig [stroke='#aa424e'],svg.pfig [stroke="#aa424e"]{stroke:var(--burgundy,#aa424e)}
+svg.pfig [fill='#008e80'],svg.pfig [fill="#008e80"]{fill:var(--teal,#008e80)}
+svg.pfig [stroke='#008e80'],svg.pfig [stroke="#008e80"]{stroke:var(--teal,#008e80)}
+svg.pfig [fill='#000'],svg.pfig [fill="#000"],svg.pfig [fill='#000000'],svg.pfig [fill="#000000"]{fill:var(--ink,#3b4758)}
+svg.pfig [stroke='#000'],svg.pfig [stroke="#000"],svg.pfig [stroke='#000000'],svg.pfig [stroke="#000000"]{stroke:var(--ink,#3b4758)}
+svg.pfig [fill='#ffffff'],svg.pfig [fill="#ffffff"],svg.pfig [fill='#fff'],svg.pfig [fill="#fff"]{fill:var(--paper,#fffdf0)}
+svg.pfig [stroke='#ffffff'],svg.pfig [stroke="#ffffff"],svg.pfig [stroke='#fff'],svg.pfig [stroke="#fff"]{stroke:var(--paper,#fffdf0)}
+svg.pfig [fill='rgba(170,66,78,0.08)'],svg.pfig [fill="rgba(170,66,78,0.08)"]{fill:var(--wash-burgundy,rgba(170,66,78,0.08))}
+svg.pfig [fill='#808080'],svg.pfig [fill="#808080"]{fill:var(--ink-muted,#808080)}
+svg.pfig [stroke='#808080'],svg.pfig [stroke="#808080"]{stroke:var(--ink-muted,#808080)}
+/* Elements with NO fill attribute default to black (axis labels, arrowheads, dots). Map them to ink so they follow the theme. Stroked shapes keep their explicit fill=none. */
+svg.pfig text:not([fill]){fill:var(--ink,#3b4758)}
+svg.pfig path:not([fill]):not([stroke]),svg.pfig rect:not([fill]):not([stroke]),svg.pfig circle:not([fill]):not([stroke]),svg.pfig ellipse:not([fill]):not([stroke]),svg.pfig polygon:not([fill]):not([stroke]),svg.pfig polyline:not([fill]):not([stroke]){fill:var(--ink,#3b4758)}
+</style>
+<style type='text/css'>
+@font-face{font-family:tangenta_fig2-stix2-mathit;src:url(data:application/x-font-woff2;base64,d09GMgABAAAAAAK4AAoAAAAABIwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAMAqCSIIUCwgAATYCJAMMBCAFglYHIBufA2CuBuyGeEPEMg6d4wgftTXciJt9QhE8vz++OffhmwuziqGQebdvMkPeBDglcWhc3g/iOwkerEQogQ3OLGlPT9M0kMBbmORtaSIHvMANDoEf7H45bMCRZCM+ELz6CSLoWvf/ljv+RQkGtxVGnMqvLQ6orQdMMIw0TxJPLLFANZ0bIzACsAcGaLI4ixuyNDcOK0hn06t/rfqC42aZFFWES+T6fVXZwOE/quo+T+LalSkL+ED/g4QcrWxVo5Ub6AVAiI8bQD5uBATIQImEDYCDAMgBIaaPyY7ee6ff99avI0cD0J0Yi/Wz+Uw8YvtDcugGHmXZfqGcbjZsdZ34j2zho6MObyTX/SDravaaTVaraz6gyYuQBvrKObiSj/Hx2I2LkDnqyo7/GD/wEh83e0ijQNbVrE/C8SQr7b9rlu+U4O6d6rjpfhI/qT6FGC0QS1QkRNZASLY4r2bzClyQEhlyNeDtqW8LTcDdRCdE9ng2LvKzALC4c8RpQzluMiLJ5xjE3V2Bh+KMlkHjLoa5qGUIPKxl+eLX35/5ZraQnY3YuCZGDLg0/MKFAEAgOLEH72RP/QpZDgDgv/8T0v54qJRAcDSc9o8HtWmMax7J0n4gzRaUqv8TyEwHAQG52gGmOhUlV6uuQKFGF0q1Bq+rdSKwFXmV0E1ByHVKQ6FdHUqd+ufVxlv3amUM1FJd/Bm5LK/IrSFhCyXlVtymOyKO0G+eSE9kVOWWV2UXQsk4GjCzUIoBZVGtGJRWqgo5ylXIVYMEq1ApV0bJVKa8uK1YESgiHMJyksciW9xUFTJl+GlqQWWoMuWqZF8ORYZDYwsA) format('woff2');}
+@font-face{font-family:tangenta_fig2-stix2-mathrm;src:url(data:application/x-font-woff2;base64,d09GMgABAAAAAALIAAoAAAAABMAAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAARAqCYIIpCwoAATYCJAMQBCAFglYHIBvMA0Aeg227cRzTyeaV2ExXDo8z/MHT/37tznzxtqJtF0s/4VVPJxTTENVSEGs0SBrxThbrvJ/Xy5dC/FdYaSooqTTJnjtJ600l1h4PPJf7d9fathYHPCZFPQ98cqK99N4RBbS4qZscfuebxsQHkObgNE2zLrAswABf2/z3QHliAUZo6dxGAQNzDwjHYnEWMbCCt7TiQB968i8CLTOVVzdhGHCCccEKrhk5FSQDm0lkYflvGT4S+7FywxCAShbI5MJwWKQAn0/BpCwk245RjF7TaVoRoG2RL/M5wEbtTlBC8g11jeh4qWqxfrl6JRJX8DrsMVcfKClhwZE+95MNLuH5k9MedvtgtHncxJSyic3g5V3bTXD9fI83HNxd/F6wideo4a6uWfLCpt+l/lCm92Lg5gaur4O2jxrUuDquzv4pvfUzpe8lsvdVqGzJIZ9jtVyVjFSN9DK8m181rwrIvlb1WiX3sZANg6rdxFxx1K77XIWcJpL2m43JVcuKg1/sMaVvh9CYSPN5mqrGf3X5aFjOnMzkguZOKkhSWYRpsMKPn5/XzpX7/tmjQOxMMXzI2sWq9y5IDABAgOBttz8QXe3+85lTQGR+FddrAJ8CEBwiQvfQiIVmBqBrh1tAJkDjiEEnTbWtZY8BnIfmYQBEwoJtsYRAc0SKmitWIwgV6GEmqTxR4mql2QriNEdOieYqaF0OpWb9D0QICrhlf13eJqnUIgPtTK3yMu/eE30dvULvQfWJhGsqWZCciQx1TMBfAEIIJEChbIinWJQUJEqqIga0ZQ4vL/62IInykFJly4Lo06HHp/A8S481FiVRAhynGJKgQCIVSH45YkiHCWYAAA==) format('woff2');}
+text.tangenta_fig2-f0 {font-family:tangenta_fig2-stix2-mathit;font-size:9.96264px}
+text.tangenta_fig2-f1 {font-family:tangenta_fig2-stix2-mathrm;font-size:9.96264px}
+</style>
+<g id='tangenta_fig2-page1'>
+<path d='M-59.8477-22.109374H221.6287' stroke='#000' fill='none' stroke-width='.3985'/>
+<path d='M223.62126-22.109374L220.43376-23.70312L221.629076-22.109374L220.43376-20.51562'/>
+<text class='tangenta_fig2-f0' x='25.193747' y='-22.110932' transform='matrix(1 0 0 1 201.9473 2.3462)'>𝑥</text>
+<path d='M25.195312 9.0703V-51.3008' stroke='#000' fill='none' stroke-width='.3985' stroke-miterlimit='10'/>
+<path d='M25.195312-53.29294L23.60156-50.10544L25.195312-51.300748L26.78906-50.10544'/>
+<text class='tangenta_fig2-f0' x='25.193747' y='-22.110932' transform='matrix(1 0 0 1 -8.9495 -29.8217)'>𝑦</text>
+<path d='M-51.3438-9.9961C-51.3438-9.9961-43.0664-2.9453-39.8867-.8945S-31.6094 3.8125-28.4297 4.7891C-25.25 5.7656-20.1523 6.3945-16.9727 6.1367C-13.793 5.8789-8.6953 4.3828-5.5156 2.9336S2.7617-1.8984 5.9414-4.3047C9.1211-6.7109 14.2187-11.4375 17.39844-14.41406C20.57812-17.39062 25.67578-22.691405 28.85547-25.76172C32.03125-28.82812 37.1328-33.8555 40.3086-36.5195C43.4883-39.1836 48.5898-43.1289 51.7656-44.957C54.9453-46.7891 60.043-49.0117 63.2227-49.7148C66.4023-50.418 71.5-50.5625 74.6797-50.0234C77.8594-49.4844 82.957-47.5273 86.1367-45.8359C89.3164-44.1406 94.4141-40.3984 97.5937-37.8242C100.7734-35.2461 105.8711-30.32031 109.0508-27.27734C112.2305-24.23828 117.3281-18.92187 120.5078-15.90234C123.6875-12.88672 128.7847-8.0352 131.9647-5.5273C135.1447-3.0195 140.2417 .582 143.4217 2.1758C146.5977 3.7734 151.6997 5.543 154.8747 5.9688C158.0547 6.3906 163.1527 6.0469 166.3317 5.2344C169.5117 4.418 174.6097 2.0156 177.7887 .0938C180.9687-1.832 186.0667-5.9062 189.2457-8.625C192.4257-11.3477 197.5237-16.4375 200.7027-19.51562C203.8827-22.597655 208.9807-27.88281 212.1597-30.82422C215.3397-33.7695 223.6167-40.7305 223.6167-40.7305' stroke='#aa424e' fill='none' stroke-width='.79701' stroke-miterlimit='10'/>
+<text class='tangenta_fig2-f1' x='25.193747' y='-22.110932' transform='matrix(1 0 0 1 202.1423 -15.2022)'><tspan fill='#aa424e'>sin</tspan></text>
+<text class='tangenta_fig2-f0' x='39.367205' y='-22.110932' transform='matrix(1 0 0 1 202.1423 -15.2022)'><tspan fill='#aa424e'>𝑥</tspan></text>
+<path d='M27.30859-22.109374C27.30859-23.27734 26.35937-24.22266 25.195312-24.22266C24.02734-24.22266 23.08203-23.27734 23.08203-22.109374C23.08203-20.94531 24.02734-19.99609 25.195312-19.99609C26.35937-19.99609 27.30859-20.94531 27.30859-22.109374Z'/>
+<path d='M116.3594-22.109374C116.3594-23.27734 115.4141-24.22266 114.2461-24.22266C113.082-24.22266 112.1328-23.27734 112.1328-22.109374C112.1328-20.94531 113.082-19.99609 114.2461-19.99609C115.4141-19.99609 116.3594-20.94531 116.3594-22.109374Z'/>
+</g>
+</svg>

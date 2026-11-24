@@ -8,46 +8,88 @@
 document.addEventListener("DOMContentLoaded", function () {
   const lightbox = document.getElementById("global-lightbox");
   const lightboxImg = document.getElementById("lightbox-target-img");
-  
+
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    document.body.style.overflow = ""; // Restores standard page scrolling
+    setTimeout(() => {
+      lightboxImg.src = ""; // Clear image cache after fade-out
+      lightboxImg.style.display = "";
+      // Remove any cloned SVG figure
+      const clone = lightbox.querySelector("svg.lightbox-svg");
+      if (clone) clone.remove();
+    }, 300);
+  }
+
   // FIX: Scans strictly inside your main markdown text body, ignoring outer layout frames
   const contentImages = document.querySelectorAll(".markdown img");
-  
+
   contentImages.forEach(img => {
     // FIX & ESCAPE HATCH: Completely ignore UI icons, headers, profiles, and logos
     if (
-      img.classList.contains("no-lightbox") || 
-      img.closest(".book-header") || 
-      img.closest(".sidebar-profile-box") || 
+      img.classList.contains("no-lightbox") ||
+      img.closest(".book-header") ||
+      img.closest(".sidebar-profile-box") ||
       img.closest(".book-brand")
     ) {
       return;
     }
-    
+
     // Change cursor to indicate clickability
     img.style.cursor = "zoom-in";
-    
+
     // Open on Click
     img.addEventListener("click", function () {
       lightboxImg.src = this.src;
       lightboxImg.alt = this.alt;
+      lightboxImg.style.display = "";
       lightbox.classList.add("active");
       document.body.style.overflow = "hidden"; // Prevents background page scrolling
     });
   });
-  
-  // Close on clicking anywhere on the dark overlay
-  lightbox.addEventListener("click", function () {
-    lightbox.classList.remove("active");
-    document.body.style.overflow = ""; // Restores standard page scrolling
-    setTimeout(() => { lightboxImg.src = ""; }, 300); // Clear image cache after fade-out
+
+  // Inline SVG figures (svgfig shortcode): clicking clones the live <svg> node into
+  // the overlay, so its internal CSS vars keep following the current theme.
+  // Selector is `.markdown svg.pfig` (not only `figure svg`) so standalone
+  // figures not wrapped in <figure> (e.g. slope_diy) also open the lightbox.
+  const contentSvgs = document.querySelectorAll(".markdown svg.pfig");
+
+  contentSvgs.forEach(svg => {
+    svg.style.cursor = "zoom-in";
+
+    svg.addEventListener("click", function () {
+      const old = lightbox.querySelector("svg.lightbox-svg");
+      if (old) old.remove();
+
+      const clone = this.cloneNode(true);
+      clone.classList.add("lightbox-svg");
+      // Enlarge to fill the overlay while preserving the aspect ratio (viewBox)
+      const vb = (this.getAttribute("viewBox") || "").trim().split(/[\s,]+/).map(Number);
+      if (vb.length === 4 && vb[2] > 0 && vb[3] > 0) {
+        const ratio = vb[2] / vb[3]; // width / height
+        clone.style.width = "min(92vw, " + (88 * ratio).toFixed(2) + "vh)";
+        clone.style.height = "auto";
+      } else {
+        clone.style.width = "auto";
+        clone.style.height = "auto";
+      }
+      clone.style.maxWidth = "92vw";
+      clone.style.maxHeight = "88vh";
+
+      lightbox.appendChild(clone);
+      lightboxImg.style.display = "none"; // Hide the <img> slot while an SVG is shown
+      lightbox.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
   });
+
+  // Close on clicking anywhere on the dark overlay
+  lightbox.addEventListener("click", closeLightbox);
 
   // Close on hitting the Physical 'Escape' Key
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && lightbox.classList.contains("active")) {
-      lightbox.classList.remove("active");
-      document.body.style.overflow = "";
-      setTimeout(() => { lightboxImg.src = ""; }, 300);
+      closeLightbox();
     }
   });
 });

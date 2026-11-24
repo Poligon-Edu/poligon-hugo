@@ -1,0 +1,11 @@
+{{- /* Inline an SVG figure from static/images/figures so its CSS variables
+       follow the site theme (light/dark). Usage:
+       {{< svgfig src="fig1.svg" alt="..." style="width:95%" >}} */ -}}
+{{- $src := .Get "src" -}}
+{{- $svg := readFile (path.Join "static" "images" "figures" $src) -}}
+{{- $svg = replaceRE `(?s)^\s*<\?xml[^>]*\?>\s*` "" $svg -}}
+{{- $style := printf "max-width:100%%;height:auto;%s" (.Get "style") -}}
+{{- $attrs := printf ` style=%q` $style -}}
+{{- with .Get "alt" }}{{ $attrs = printf `%s role="img" aria-label=%q` $attrs . }}{{ end -}}
+{{- $svg = replaceRE `<svg\b` (printf `<svg%s` $attrs) $svg -}}
+{{- $svg | safeHTML -}}

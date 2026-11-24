@@ -325,7 +325,7 @@ O să ți-l arăt, mai întâi, în figura de mai jos, apoi îți explic cum
 îl poți alcătui și folosi.
 
 <figure id="fig-pascal">
-<img src="/images/figures/pascal_triangle.svg" alt="Triunghiul lui Pascal, primele 8 linii" style="width:70%;">
+{{< svgfig src="pascal_triangle.svg" alt="Triunghiul lui Pascal, primele 8 linii" style="width:70%;" >}}
 <figcaption>Triunghiul lui Pascal, primele 8 linii</figcaption>
 </figure>
 
